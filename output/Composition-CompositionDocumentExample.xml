@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="CompositionDocumentExample"/>
+  <meta>
+    <profile value="https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrComposition"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="CompositionDocumentExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;CompositionDocumentExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-CdrComposition.html">Cabecera Para Documento Clínicos</a></p></div><p><b>identifier</b>: id: 6fc2e782-fd56-415e-bc85-f6dcd2194ace</p><p><b>status</b>: final</p><p><b>type</b>: Registros médicos <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#11503-0 &quot;Medical records&quot;)</span></p><p><b>date</b>: 2022-07-07 12:00:00-0400</p><p><b>author</b>: <a href="Bundle-ExampleTransaction.html#urn-uuid-03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50">urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50: MARIA MAGDALENA JUNGJOHANN (OFFICIAL)</a></p><p><b>title</b>: Registro Clínico Electronico (Signos Vitales)</p><h3>Attesters</h3><table class="grid"><tr><td>-</td><td><b>Mode</b></td><td><b>Party</b></td></tr><tr><td>*</td><td>professional</td><td><a href="Bundle-ExampleTransaction.html#urn-uuid-03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50">urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50: MARIA MAGDALENA JUNGJOHANN (OFFICIAL)</a></td></tr></table><p><b>custodian</b>: <a href="Bundle-ExampleTransaction.html#urn-uuid-30561296-f509-40d1-878a-1d4f9e71365d">urn:uuid:30561296-f509-40d1-878a-1d4f9e71365d: HOSPITAL DR. HERNAN HENRIQUEZ ARAVENA (TEMUCO)</a></p></div>
+  </text>
+  <identifier>
+    <value value="6fc2e782-fd56-415e-bc85-f6dcd2194ace"/>
+  </identifier>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="11503-0"/>
+      <display value="Medical records"/>
+    </coding>
+    <text value="Registros médicos"/>
+  </type>
+  <subject>
+    <reference value="urn:uuid:56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"/>
+  </subject>
+  <date value="2022-07-07T12:00:00-04:00"/>
+  <author>
+    <reference value="urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50"/>
+    <display value="MARIA MAGDALENA JUNGJOHANN (OFFICIAL)"/>
+  </author>
+  <title value="Registro Clínico Electronico (Signos Vitales)"/>
+  <attester>
+    <mode value="professional"/>
+    <party>
+      <reference value="urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50"/>
+      <display value="MARIA MAGDALENA JUNGJOHANN (OFFICIAL)"/>
+    </party>
+  </attester>
+  <custodian>
+    <reference value="urn:uuid:30561296-f509-40d1-878a-1d4f9e71365d"/>
+    <display value="HOSPITAL DR. HERNAN HENRIQUEZ ARAVENA (TEMUCO)"/>
+  </custodian>
+  <section>
+    <title value="Signos Vitales"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="8716-3"/>
+        <display value="Vital signs"/>
+      </coding>
+      <text value="Signos Vitales"/>
+    </code>
+    <entry>
+      <reference value="urn:uuid:30561296-f509-40d1-878a-1d42432ffd0a"/>
+      <display value="67.6 kg (Details: UCUM code kg = 'kg')"/>
+    </entry>
+    <entry>
+      <reference value="urn:uuid:84f42b61-d690-45e6-87f8-0672432ffd0a"/>
+      <display value="165 CMS (Details: UCUM code cm = 'cm')"/>
+    </entry>
+    <entry>
+      <reference value="urn:uuid:13d97bbc-7a58-49e9-bf12-4add450b605a"/>
+      <display value="24.6 kg/m2 (Details: UCUM code kg/m2 = 'kg/m2')"/>
+    </entry>
+    <entry>
+      <reference value="urn:uuid:0b06f501-5465-4b31-b106-56f73cc0ef99"/>
+      <display value="Normal (Escala Nutricional Para Adultos#Normal)"/>
+    </entry>
+    <entry>
+      <reference value="urn:uuid:df1a8537-56a2-4aec-aa6c-f6f537e874e7"/>
+      <display value="29.3 wk (Details: UCUM code wk = 'wk')"/>
+    </entry>
+    <entry>
+      <reference value="urn:uuid:432b12d6-5a42-47ca-8024-495309843029"/>
+      <display value="31 (Details: UCUM code cm = 'cm')"/>
+    </entry>
+    <entry>
+      <reference value="urn:uuid:4bb12bcf-44f1-4af0-9deb-5688de0f0230"/>
+      <display value="155 /min (Details: UCUM code /min = '/min')"/>
+    </entry>
+    <entry>
+      <reference value="urn:uuid:0549e5ba-54da-4dc8-8217-73f4ab458787"/>
+      <display value="+ (Resultados de un Movimiento Fetal#+)"/>
+    </entry>
+  </section>
+</Composition>

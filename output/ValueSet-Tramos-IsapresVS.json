@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "Tramos-IsapresVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-Tramos-FONASA.html\"><code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Tramos-FONASA</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-AseguradoraCS.html\"><code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/AseguradoraCS</code></a></li></ul></div>"
+  },
+  "url" : "https://www.ssasur.cl/fhir/ig/ASV/ValueSet/Tramos-IsapresVS",
+  "version" : "0.5.3",
+  "name" : "TramosOIsapresVS",
+  "title" : "Tramos de FONASA o Isapre",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-12-01T14:22:43-03:00",
+  "publisher" : "Servicio de Salud Araucania Sur",
+  "contact" : [{
+    "name" : "Servicio de Salud Araucania Sur",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.araucaniasur.cl/"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloam@redsalud.gob.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Tramos utilizados por fonasa o Isapre del paciente",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Tramos-FONASA"
+    },
+    {
+      "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/AseguradoraCS"
+    }]
+  }
+}

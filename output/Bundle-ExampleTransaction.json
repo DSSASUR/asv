@@ -1,0 +1,1581 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "ExampleTransaction",
+  "meta" : {
+    "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTransactionPublicacion"]
+  },
+  "identifier" : {
+    "value" : "6fc2e782-fd56-415e-bc85-f6dcdwrewerwe"
+  },
+  "type" : "transaction",
+  "timestamp" : "2022-07-07T12:00:00-04:00",
+  "entry" : [{
+    "fullUrl" : "urn:uuid:4745debb-35e6-42f5-8094-65f9b47dcc94",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "4745debb-35e6-42f5-8094-65f9b47dcc94",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrComposition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"4745debb-35e6-42f5-8094-65f9b47dcc94\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;4745debb-35e6-42f5-8094-65f9b47dcc94&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrComposition.html\">Cabecera Para Documento Clínicos</a></p></div><p><b>identifier</b>: id: 6fc2e782-fd56-415e-bc85-f6dcd2194ace</p><p><b>status</b>: final</p><p><b>type</b>: Registros médicos <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#11503-0 &quot;Medical records&quot;)</span></p><p><b>date</b>: 2022-07-07 12:00:00-0400</p><p><b>author</b>: <a href=\"#Practitioner_03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50\">See above (Practitioner/03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50)</a></p><p><b>title</b>: Registro Clínico Electronico (Signos Vitales)</p><h3>Attesters</h3><table class=\"grid\"><tr><td>-</td><td><b>Mode</b></td><td><b>Party</b></td></tr><tr><td>*</td><td>professional</td><td><a href=\"#Practitioner_03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50\">See above (Practitioner/03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50: MARIA MAGDALENA JUNGJOHANN (OFFICIAL))</a></td></tr></table><p><b>custodian</b>: <a href=\"#Organization_30561296-f509-40d1-878a-1d4f9e71365d\">See above (Organization/30561296-f509-40d1-878a-1d4f9e71365d: HOSPITAL DR. HERNAN HENRIQUEZ ARAVENA (TEMUCO))</a></p></div>"
+      },
+      "identifier" : {
+        "value" : "6fc2e782-fd56-415e-bc85-f6dcd2194ace"
+      },
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "11503-0",
+          "display" : "Medical records"
+        }],
+        "text" : "Registros médicos"
+      },
+      "subject" : {
+        "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+      },
+      "date" : "2022-07-07T12:00:00-04:00",
+      "author" : [{
+        "reference" : "Practitioner/03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50"
+      }],
+      "title" : "Registro Clínico Electronico (Signos Vitales)",
+      "attester" : [{
+        "mode" : "professional",
+        "party" : {
+          "reference" : "Practitioner/03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50",
+          "display" : "MARIA MAGDALENA JUNGJOHANN (OFFICIAL)"
+        }
+      }],
+      "custodian" : {
+        "reference" : "Organization/30561296-f509-40d1-878a-1d4f9e71365d",
+        "display" : "HOSPITAL DR. HERNAN HENRIQUEZ ARAVENA (TEMUCO)"
+      },
+      "section" : [{
+        "title" : "Signos Vitales",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "8716-3",
+            "display" : "Vital signs"
+          }],
+          "text" : "Signos Vitales"
+        },
+        "entry" : [{
+          "reference" : "Observation/30561296-f509-40d1-878a-1d42432ffd0a",
+          "display" : "67.6 kg (Details: UCUM code kg = 'kg')"
+        },
+        {
+          "reference" : "Observation/84f42b61-d690-45e6-87f8-0672432ffd0a",
+          "display" : "165 CMS (Details: UCUM code cm = 'cm')"
+        },
+        {
+          "reference" : "Observation/13d97bbc-7a58-49e9-bf12-4add450b605a",
+          "display" : "24.6 kg/m2 (Details: UCUM code kg/m2 = 'kg/m2')"
+        },
+        {
+          "reference" : "Observation/0b06f501-5465-4b31-b106-56f73cc0ef99",
+          "display" : "Normal (Escala Nutricional Para Adultos#Normal)"
+        },
+        {
+          "reference" : "Observation/df1a8537-56a2-4aec-aa6c-f6f537e874e7",
+          "display" : "29.3 wk (Details: UCUM code wk = 'wk')"
+        },
+        {
+          "reference" : "Observation/432b12d6-5a42-47ca-8024-495309843029",
+          "display" : "31 CMS (Details: UCUM code cm = 'cm')"
+        },
+        {
+          "reference" : "Observation/4bb12bcf-44f1-4af0-9deb-5688de0f0230",
+          "display" : "155 /min (Details: UCUM code /min = '/min')"
+        },
+        {
+          "reference" : "Observation/0549e5ba-54da-4dc8-8217-73f4ab458787",
+          "display" : "+ (Resultados de un Movimiento Fetal#+)"
+        }]
+      }]
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Composition/4745debb-35e6-42f5-8094-65f9b47dcc94"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:56851b4b-9867-4b72-9a2c-3a1c8c1cbddf",
+    "resource" : {
+      "resourceType" : "Patient",
+      "id" : "56851b4b-9867-4b72-9a2c-3a1c8c1cbddf",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrPatient"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"56851b4b-9867-4b72-9a2c-3a1c8c1cbddf\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;56851b4b-9867-4b72-9a2c-3a1c8c1cbddf&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrPatient.html\">Paciente Servicio de Salud Araucania Sur</a></p></div><p><b>Codigo de Identificación de países</b>: Chile <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#152)</span></p><p><b>Identidad de Género</b>: Femenino <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-GenderIdentityCs.html\">Identidad de Género</a>#02)</span></p><blockquote><p><b>Previsión del Paciente</b></p><p><b>value</b>: FONASA (Details: https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Sistema-Prevision code 01 = 'FONASA', stated as 'FONASA')</p><p><b>value</b>: Tramo B (Details: https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Tramos-FONASA code B = 'Tramo B', stated as 'Tramo B')</p></blockquote><p><b>Pueblo Originario</b>: NINGUNO <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-Pueblos-PueblosOriginariosCS.html\">Codificación de Pueblos Originarios</a>#96)</span></p><p><b>Nivel Instrucción</b>: MEDIA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-Nivel-InstruccionCS.html\">Nivel de Instrucción</a>#03)</span></p><p><b>Ocupación</b>: DUEÑA DE CASA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-Ocupacion-PatientCS.html\">Ocupación</a>#414)</span></p><p><b>identifier</b>: id: 123412 (use: OFFICIAL), id: 6434332 (use: SECONDARY), Chile: 19142323-5 (use: USUAL)</p><p><b>name</b>: Victoria Esperanza Martinez (OFFICIAL)</p><p><b>telecom</b>: ph: 56978841639, <a href=\"mailto:VCMAR@MAIL.COM\">VCMAR@MAIL.COM</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1996-11-11</p><p><b>address</b>: CALLE M Depto.: NO, LA JUNTA null null null (HOME)</p><p><b>maritalStatus</b>: SOLTERO(A) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-EstadoCivilCS.html\">Estado Civil</a>#01)</span></p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Extension</b></td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td/><td>Emergency Contact <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html\">contactRole2</a>#C)</span></td><td>Victoria Esperanza Martinez (OFFICIAL)</td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "urn:iso:std:iso:3166",
+            "code" : "152",
+            "display" : "Chile"
+          }]
+        }
+      },
+      {
+        "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/IdentidadDeGenero",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/GenderIdentityCs",
+            "code" : "02",
+            "display" : "Femenino"
+          }]
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "prevision",
+          "valueCoding" : {
+            "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Sistema-Prevision",
+            "code" : "01",
+            "display" : "FONASA"
+          }
+        },
+        {
+          "url" : "tramoisapre",
+          "valueCoding" : {
+            "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Tramos-FONASA",
+            "code" : "B",
+            "display" : "Tramo B"
+          }
+        }],
+        "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/Prevision"
+      },
+      {
+        "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/PuebloOriginario",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Pueblos-PueblosOriginariosCS",
+            "code" : "96",
+            "display" : "NINGUNO"
+          }]
+        }
+      },
+      {
+        "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/NivelInstruccion",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Nivel-InstruccionCS",
+            "code" : "03",
+            "display" : "MEDIA"
+          }]
+        }
+      },
+      {
+        "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/Ocupacion",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Ocupacion-PatientCS",
+            "code" : "414",
+            "display" : "DUEÑA DE CASA"
+          }]
+        }
+      }],
+      "identifier" : [{
+        "use" : "official",
+        "system" : "http://ssasur.cl/BDUP",
+        "value" : "123412"
+      },
+      {
+        "use" : "secondary",
+        "value" : "6434332",
+        "assigner" : {
+          "reference" : "Organization/30561296-f509-40d1-878a-1d4f9e71365d"
+        }
+      },
+      {
+        "use" : "usual",
+        "type" : {
+          "extension" : [{
+            "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "urn:iso:std:iso:3166",
+                "code" : "152",
+                "display" : "Chile"
+              }]
+            }
+          }],
+          "coding" : [{
+            "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodigoDNI",
+            "code" : "NNCHL",
+            "display" : "Chile"
+          }]
+        },
+        "system" : "https://api.registrocivil.cl/rut",
+        "value" : "19142323-5"
+      }],
+      "name" : [{
+        "use" : "official",
+        "family" : "Martinez",
+        "_family" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+            "valueString" : "Morales"
+          }]
+        },
+        "given" : ["Victoria",
+        "Esperanza"]
+      }],
+      "telecom" : [{
+        "system" : "phone",
+        "value" : "56978841639"
+      },
+      {
+        "system" : "email",
+        "value" : "VCMAR@MAIL.COM"
+      }],
+      "gender" : "female",
+      "birthDate" : "1996-11-11",
+      "address" : [{
+        "use" : "home",
+        "line" : ["CALLE M Depto.: NO, LA JUNTA"],
+        "_city" : {
+          "extension" : [{
+            "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ComunasCl",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodComunasCL",
+                "code" : "09117"
+              }]
+            }
+          }]
+        },
+        "_district" : {
+          "extension" : [{
+            "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ProvinciasCl",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodProvinciasCL",
+                "code" : "091"
+              }]
+            }
+          }]
+        },
+        "_state" : {
+          "extension" : [{
+            "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/RegionesCl",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodRegionCL",
+                "code" : "09"
+              }]
+            }
+          }]
+        },
+        "_country" : {
+          "extension" : [{
+            "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "urn:iso:std:iso:3166",
+                "code" : "152",
+                "display" : "Chile"
+              }]
+            }
+          }]
+        }
+      }],
+      "maritalStatus" : {
+        "coding" : [{
+          "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EstadoCivilCS",
+          "code" : "01",
+          "display" : "SOLTERO(A)"
+        }]
+      },
+      "contact" : [{
+        "extension" : [{
+          "extension" : [{
+            "url" : "tutId",
+            "valueIdentifier" : {
+              "type" : {
+                "coding" : [{
+                  "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodigoDNI",
+                  "code" : "NNCHL",
+                  "display" : "Chile"
+                }]
+              },
+              "system" : "https://api.registrocivil.cl/rut",
+              "value" : "19142323-5"
+            }
+          },
+          {
+            "url" : "docProc",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "urn:iso:std:iso:3166",
+                "code" : "152",
+                "display" : "Chile"
+              }]
+            }
+          }],
+          "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/IdContacto"
+        }],
+        "relationship" : [{
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code" : "C",
+            "display" : "Emergency Contact"
+          }]
+        }],
+        "name" : {
+          "use" : "official",
+          "family" : "Martinez",
+          "_family" : {
+            "extension" : [{
+              "url" : "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+              "valueString" : "Morales"
+            }]
+          },
+          "given" : ["Victoria",
+          "Esperanza"]
+        }
+      }]
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:30561296-f509-40d1-878a-1d42432ffd0a",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "30561296-f509-40d1-878a-1d42432ffd0a",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrPeso"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"30561296-f509-40d1-878a-1d42432ffd0a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;30561296-f509-40d1-878a-1d42432ffd0a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrPeso.html\">Peso</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: PESO <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#3141-9 &quot;Body weight Measured&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_56851b4b-9867-4b72-9a2c-3a1c8c1cbddf\">See above (Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf)</a></p><p><b>effective</b>: 2022-07-07 12:00:00-0400</p><p><b>value</b>: 67.6 kg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code kg = 'kg')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "3141-9",
+          "display" : "Body weight Measured"
+        }],
+        "text" : "PESO"
+      },
+      "subject" : {
+        "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+      },
+      "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+      "valueQuantity" : {
+        "value" : 67.6,
+        "unit" : "kg",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "kg"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/30561296-f509-40d1-878a-1d42432ffd0a"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:84f42b61-d690-45e6-87f8-0672432ffd0a",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "84f42b61-d690-45e6-87f8-0672432ffd0a",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTalla"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"84f42b61-d690-45e6-87f8-0672432ffd0a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;84f42b61-d690-45e6-87f8-0672432ffd0a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrTalla.html\">Talla</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: TALLA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8304-8 &quot;Body height special circumstances&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_56851b4b-9867-4b72-9a2c-3a1c8c1cbddf\">See above (Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf)</a></p><p><b>effective</b>: 2022-07-07 12:00:00-0400</p><p><b>value</b>: 165 CMS<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code cm = 'cm')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "8304-8",
+          "display" : "Body height special circumstances"
+        }],
+        "text" : "TALLA"
+      },
+      "subject" : {
+        "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+      },
+      "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+      "valueQuantity" : {
+        "value" : 165,
+        "unit" : "CMS",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "cm"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/84f42b61-d690-45e6-87f8-0672432ffd0a"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:13d97bbc-7a58-49e9-bf12-4add450b605a",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "13d97bbc-7a58-49e9-bf12-4add450b605a",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrIMC"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"13d97bbc-7a58-49e9-bf12-4add450b605a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;13d97bbc-7a58-49e9-bf12-4add450b605a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrIMC.html\">Indice de Masa Corporal</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: INDICE DE MASA CORPORAL <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#39156-5 &quot;Body mass index (BMI) [Ratio]&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_56851b4b-9867-4b72-9a2c-3a1c8c1cbddf\">See above (Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf)</a></p><p><b>effective</b>: 2022-07-07 12:00:00-0400</p><p><b>value</b>: 24.6 kg/m2<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code kg/m2 = 'kg/m2')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "39156-5",
+          "display" : "Body mass index (BMI) [Ratio]"
+        }],
+        "text" : "INDICE DE MASA CORPORAL"
+      },
+      "subject" : {
+        "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+      },
+      "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+      "valueQuantity" : {
+        "value" : 24.6,
+        "unit" : "kg/m2",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "kg/m2"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/13d97bbc-7a58-49e9-bf12-4add450b605a"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:0b06f501-5465-4b31-b106-56f73cc0ef99",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "0b06f501-5465-4b31-b106-56f73cc0ef99",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrEstadoNutricional"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"0b06f501-5465-4b31-b106-56f73cc0ef99\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;0b06f501-5465-4b31-b106-56f73cc0ef99&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrEstadoNutricional.html\">Estado Nutricional</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: DIAGNOSTICO NUTRICIONAL ADULTO <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#75305-3 &quot;Nutrition status&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_56851b4b-9867-4b72-9a2c-3a1c8c1cbddf\">See above (Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf)</a></p><p><b>effective</b>: 2022-07-07 12:00:00-0400</p><p><b>value</b>: Normal <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-EscalaNutricionalAdulto.html\">Escala Nutricional para Adultos</a>#Normal)</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "75305-3",
+          "display" : "Nutrition status"
+        }],
+        "text" : "DIAGNOSTICO NUTRICIONAL ADULTO"
+      },
+      "subject" : {
+        "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+      },
+      "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalAdulto",
+          "code" : "Normal",
+          "display" : "Normal"
+        }]
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/0b06f501-5465-4b31-b106-56f73cc0ef99"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:df1a8537-56a2-4aec-aa6c-f6f537e874e7",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "df1a8537-56a2-4aec-aa6c-f6f537e874e7",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrSemanasECO"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"df1a8537-56a2-4aec-aa6c-f6f537e874e7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;df1a8537-56a2-4aec-aa6c-f6f537e874e7&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrSemanasECO.html\">Edad Gestacional en Semanas</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: SEMANAS ECO <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#49051-6 &quot;Gestational age in weeks&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_56851b4b-9867-4b72-9a2c-3a1c8c1cbddf\">See above (Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf)</a></p><p><b>effective</b>: 2022-07-07 12:00:00-0400</p><p><b>value</b>: 29.3 wk<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code wk = 'wk')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "49051-6",
+          "display" : "Gestational age in weeks"
+        }],
+        "text" : "SEMANAS ECO"
+      },
+      "subject" : {
+        "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+      },
+      "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+      "valueQuantity" : {
+        "value" : 29.3,
+        "unit" : "wk",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "wk"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/df1a8537-56a2-4aec-aa6c-f6f537e874e7"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:432b12d6-5a42-47ca-8024-495309843029",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "432b12d6-5a42-47ca-8024-495309843029",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrAlturaUterina"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"432b12d6-5a42-47ca-8024-495309843029\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;432b12d6-5a42-47ca-8024-495309843029&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrAlturaUterina.html\">Altura Uterina</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: ALTURA UTERINA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#11881-0 &quot;Uterus Fundal height Tape measure&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_56851b4b-9867-4b72-9a2c-3a1c8c1cbddf\">See above (Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf)</a></p><p><b>effective</b>: 2022-07-07 12:00:00-0400</p><p><b>value</b>: 31 CMS<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code cm = 'cm')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "11881-0",
+          "display" : "Uterus Fundal height Tape measure"
+        }],
+        "text" : "ALTURA UTERINA"
+      },
+      "subject" : {
+        "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+      },
+      "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+      "valueQuantity" : {
+        "value" : 31,
+        "unit" : "CMS",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "cm"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/432b12d6-5a42-47ca-8024-495309843029"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:4bb12bcf-44f1-4af0-9deb-5688de0f0230",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "4bb12bcf-44f1-4af0-9deb-5688de0f0230",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrRitmoCardiacoFetal"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"4bb12bcf-44f1-4af0-9deb-5688de0f0230\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;4bb12bcf-44f1-4af0-9deb-5688de0f0230&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrRitmoCardiacoFetal.html\">Ritmo Cardíaco Fetal</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: LATIDOS CARDIO - FETALES <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55283-6 &quot;Fetal Heart rate&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_56851b4b-9867-4b72-9a2c-3a1c8c1cbddf\">See above (Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf)</a></p><p><b>effective</b>: 2022-07-07 12:00:00-0400</p><p><b>value</b>: 155 pp/min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55283-6",
+          "display" : "Fetal Heart rate"
+        }],
+        "text" : "LATIDOS CARDIO - FETALES"
+      },
+      "subject" : {
+        "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+      },
+      "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+      "valueQuantity" : {
+        "value" : 155,
+        "unit" : "pp/min",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/4bb12bcf-44f1-4af0-9deb-5688de0f0230"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:0549e5ba-54da-4dc8-8217-73f4ab458787",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "0549e5ba-54da-4dc8-8217-73f4ab458787",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrMovimientoFetal"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"0549e5ba-54da-4dc8-8217-73f4ab458787\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;0549e5ba-54da-4dc8-8217-73f4ab458787&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrMovimientoFetal.html\">Movimiento Fetal</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: MF <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#57088-7 &quot;Fetal Movement - Reported&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_56851b4b-9867-4b72-9a2c-3a1c8c1cbddf\">See above (Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf)</a></p><p><b>effective</b>: 2022-07-07 12:00:00-0400</p><p><b>value</b>: + <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-EscalaMovimientoFetalCS.html\">Resultados de un Movimiento Fetal</a>#+)</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "57088-7",
+          "display" : "Fetal Movement - Reported"
+        }],
+        "text" : "MF"
+      },
+      "subject" : {
+        "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+      },
+      "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaMovimientoFetalCS",
+          "code" : "+"
+        }]
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/0549e5ba-54da-4dc8-8217-73f4ab458787"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50",
+    "resource" : {
+      "resourceType" : "Practitioner",
+      "id" : "03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrPractitioner"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrPractitioner.html\">Prestador de Salud</a></p></div><p><b>identifier</b>: id: 19797094-4 (use: OFFICIAL), id: 692550 (use: SECONDARY)</p><p><b>active</b>: true</p><p><b>name</b>: MARIA MAGDALENA JUNGJOHANN (OFFICIAL)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1998-01-05</p><h3>Qualifications</h3><table class=\"grid\"><tr><td>-</td><td><b>Identifier</b></td><td><b>Code</b></td></tr><tr><td>*</td><td>id: cert</td><td>Certificado(s) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-TitulosProfesionalesPrestadoresCS.html\">Titulos Profesionales Prestadores</a>#05 &quot;Matronas(es)&quot;)</span></td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://api.registrocivil.cl/rut",
+        "value" : "19797094-4"
+      },
+      {
+        "use" : "secondary",
+        "system" : "https://rnpi.superdesalud.gob.cl/",
+        "value" : "692550"
+      }],
+      "active" : true,
+      "name" : [{
+        "use" : "official",
+        "family" : "JUNGJOHANN",
+        "_family" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+            "valueString" : "SILVA"
+          }]
+        },
+        "given" : ["MARIA",
+        "MAGDALENA"]
+      }],
+      "gender" : "female",
+      "birthDate" : "1998-01-05",
+      "qualification" : [{
+        "identifier" : [{
+          "value" : "cert"
+        }],
+        "code" : {
+          "coding" : [{
+            "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/TitulosProfesionalesPrestadoresCS",
+            "code" : "05",
+            "display" : "Matronas(es)"
+          }],
+          "text" : "Certificado(s)"
+        }
+      }]
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Practitioner/03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:30561296-f509-40d1-878a-1d4f9e71365d",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "30561296-f509-40d1-878a-1d4f9e71365d",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrOrganizationHosp"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"30561296-f509-40d1-878a-1d4f9e71365d\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;30561296-f509-40d1-878a-1d4f9e71365d&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrOrganizationHosp.html\">Recinto de Salud Araucania Sur</a></p></div><p><b>identifier</b>: id: 121109 (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>name</b>: HOSPITAL DR. HERNAN HENRIQUEZ ARAVENA (TEMUCO)</p><p><b>alias</b>: TEMUCO HOSP.</p><p><b>address</b>: Bilbao S/N 09117 09 152 (WORK)</p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "http://ssasur.cl/CodigoHospital",
+        "value" : "121109"
+      }],
+      "active" : true,
+      "name" : "HOSPITAL DR. HERNAN HENRIQUEZ ARAVENA (TEMUCO)",
+      "alias" : ["TEMUCO HOSP."],
+      "address" : [{
+        "use" : "work",
+        "line" : ["Bilbao S/N"],
+        "city" : "09117",
+        "district" : "091",
+        "state" : "09",
+        "country" : "152"
+      }]
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Organization/30561296-f509-40d1-878a-1d4f9e71365d"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:8bae75f7-319a-46ca-87b3-15906ec267a7",
+    "resource" : {
+      "resourceType" : "Bundle",
+      "id" : "8bae75f7-319a-46ca-87b3-15906ec267a7",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrDocument"]
+      },
+      "identifier" : {
+        "system" : "http://api.ssasur.cl/signosvitales",
+        "value" : "6fc2e782-fd56-415e-bc85-f6dcd2194ace"
+      },
+      "type" : "document",
+      "timestamp" : "2022-07-07T12:00:00-04:00",
+      "entry" : [{
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Composition/4745debb-35e6-42f5-8094-65f9b47dcc94",
+        "resource" : {
+          "resourceType" : "Composition",
+          "id" : "4745debb-35e6-42f5-8094-65f9b47dcc94",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrComposition"]
+          },
+          "identifier" : {
+            "value" : "6fc2e782-fd56-415e-bc85-f6dcd2194ace"
+          },
+          "status" : "final",
+          "type" : {
+            "coding" : [{
+              "system" : "http://loinc.org",
+              "code" : "11503-0",
+              "display" : "Medical records"
+            }],
+            "text" : "Registros médicos"
+          },
+          "subject" : {
+            "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+          },
+          "date" : "2022-07-07T12:00:00-04:00",
+          "author" : [{
+            "reference" : "Practitioner/03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50"
+          }],
+          "title" : "Registro Clínico Electronico (Signos Vitales)",
+          "attester" : [{
+            "mode" : "professional",
+            "party" : {
+              "reference" : "Practitioner/03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50",
+              "display" : "MARIA MAGDALENA JUNGJOHANN (OFFICIAL)"
+            }
+          }],
+          "custodian" : {
+            "reference" : "Organization/30561296-f509-40d1-878a-1d4f9e71365d",
+            "display" : "HOSPITAL DR. HERNAN HENRIQUEZ ARAVENA (TEMUCO)"
+          },
+          "section" : [{
+            "title" : "Signos Vitales",
+            "code" : {
+              "coding" : [{
+                "system" : "http://loinc.org",
+                "code" : "8716-3",
+                "display" : "Vital signs"
+              }],
+              "text" : "Signos Vitales"
+            },
+            "entry" : [{
+              "reference" : "Observation/30561296-f509-40d1-878a-1d42432ffd0a",
+              "display" : "67.6 kg (Details: UCUM code kg = 'kg')"
+            },
+            {
+              "reference" : "Observation/84f42b61-d690-45e6-87f8-0672432ffd0a",
+              "display" : "165 CMS (Details: UCUM code cm = 'cm')"
+            },
+            {
+              "reference" : "Observation/13d97bbc-7a58-49e9-bf12-4add450b605a",
+              "display" : "24.6 kg/m2 (Details: UCUM code kg/m2 = 'kg/m2')"
+            },
+            {
+              "reference" : "Observation/0b06f501-5465-4b31-b106-56f73cc0ef99",
+              "display" : "Normal (Escala Nutricional Para Adultos#Normal)"
+            },
+            {
+              "reference" : "Observation/df1a8537-56a2-4aec-aa6c-f6f537e874e7",
+              "display" : "29.3 wk (Details: UCUM code wk = 'wk')"
+            },
+            {
+              "reference" : "Observation/432b12d6-5a42-47ca-8024-495309843029",
+              "display" : "31 CMS (Details: UCUM code cm = 'cm')"
+            },
+            {
+              "reference" : "Observation/4bb12bcf-44f1-4af0-9deb-5688de0f0230",
+              "display" : "155 /min (Details: UCUM code /min = '/min')"
+            },
+            {
+              "reference" : "Observation/0549e5ba-54da-4dc8-8217-73f4ab458787",
+              "display" : "+ (Resultados de un Movimiento Fetal#+)"
+            }]
+          }]
+        }
+      },
+      {
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf",
+        "resource" : {
+          "resourceType" : "Patient",
+          "id" : "56851b4b-9867-4b72-9a2c-3a1c8c1cbddf",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrPatient"]
+          },
+          "extension" : [{
+            "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "urn:iso:std:iso:3166",
+                "code" : "152",
+                "display" : "Chile"
+              }]
+            }
+          },
+          {
+            "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/IdentidadDeGenero",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/GenderIdentityCs",
+                "code" : "02",
+                "display" : "Femenino"
+              }]
+            }
+          },
+          {
+            "extension" : [{
+              "url" : "prevision",
+              "valueCoding" : {
+                "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Sistema-Prevision",
+                "code" : "01",
+                "display" : "FONASA"
+              }
+            },
+            {
+              "url" : "tramoisapre",
+              "valueCoding" : {
+                "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Tramos-FONASA",
+                "code" : "B",
+                "display" : "Tramo B"
+              }
+            }],
+            "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/Prevision"
+          },
+          {
+            "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/PuebloOriginario",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Pueblos-PueblosOriginariosCS",
+                "code" : "96",
+                "display" : "NINGUNO"
+              }]
+            }
+          },
+          {
+            "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/NivelInstruccion",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Nivel-InstruccionCS",
+                "code" : "03",
+                "display" : "MEDIA"
+              }]
+            }
+          },
+          {
+            "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/Ocupacion",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Ocupacion-PatientCS",
+                "code" : "414",
+                "display" : "DUEÑA DE CASA"
+              }]
+            }
+          }],
+          "identifier" : [{
+            "use" : "official",
+            "system" : "http://ssasur.cl/BDUP",
+            "value" : "123412"
+          },
+          {
+            "use" : "secondary",
+            "value" : "6434332",
+            "assigner" : {
+              "reference" : "Organization/30561296-f509-40d1-878a-1d4f9e71365d"
+            }
+          },
+          {
+            "use" : "usual",
+            "type" : {
+              "extension" : [{
+                "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises",
+                "valueCodeableConcept" : {
+                  "coding" : [{
+                    "system" : "urn:iso:std:iso:3166",
+                    "code" : "152",
+                    "display" : "Chile"
+                  }]
+                }
+              }],
+              "coding" : [{
+                "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodigoDNI",
+                "code" : "NNCHL",
+                "display" : "Chile"
+              }]
+            },
+            "system" : "https://api.registrocivil.cl/rut",
+            "value" : "19142323-5"
+          }],
+          "name" : [{
+            "use" : "official",
+            "family" : "Martinez",
+            "_family" : {
+              "extension" : [{
+                "url" : "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                "valueString" : "Morales"
+              }]
+            },
+            "given" : ["Victoria",
+            "Esperanza"]
+          }],
+          "telecom" : [{
+            "system" : "phone",
+            "value" : "56978841639"
+          },
+          {
+            "system" : "email",
+            "value" : "VCMAR@MAIL.COM"
+          }],
+          "gender" : "female",
+          "birthDate" : "1996-11-11",
+          "address" : [{
+            "use" : "home",
+            "line" : ["CALLE M Depto.: NO, LA JUNTA"],
+            "_city" : {
+              "extension" : [{
+                "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ComunasCl",
+                "valueCodeableConcept" : {
+                  "coding" : [{
+                    "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodComunasCL",
+                    "code" : "09117"
+                  }]
+                }
+              }]
+            },
+            "_district" : {
+              "extension" : [{
+                "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ProvinciasCl",
+                "valueCodeableConcept" : {
+                  "coding" : [{
+                    "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodProvinciasCL",
+                    "code" : "091"
+                  }]
+                }
+              }]
+            },
+            "_state" : {
+              "extension" : [{
+                "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/RegionesCl",
+                "valueCodeableConcept" : {
+                  "coding" : [{
+                    "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodRegionCL",
+                    "code" : "09"
+                  }]
+                }
+              }]
+            },
+            "_country" : {
+              "extension" : [{
+                "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises",
+                "valueCodeableConcept" : {
+                  "coding" : [{
+                    "system" : "urn:iso:std:iso:3166",
+                    "code" : "152",
+                    "display" : "Chile"
+                  }]
+                }
+              }]
+            }
+          }],
+          "maritalStatus" : {
+            "coding" : [{
+              "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EstadoCivilCS",
+              "code" : "01",
+              "display" : "SOLTERO(A)"
+            }]
+          },
+          "contact" : [{
+            "extension" : [{
+              "extension" : [{
+                "url" : "tutId",
+                "valueIdentifier" : {
+                  "type" : {
+                    "coding" : [{
+                      "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodigoDNI",
+                      "code" : "NNCHL",
+                      "display" : "Chile"
+                    }]
+                  },
+                  "system" : "https://api.registrocivil.cl/rut",
+                  "value" : "19142323-5"
+                }
+              },
+              {
+                "url" : "docProc",
+                "valueCodeableConcept" : {
+                  "coding" : [{
+                    "system" : "urn:iso:std:iso:3166",
+                    "code" : "152",
+                    "display" : "Chile"
+                  }]
+                }
+              }],
+              "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/IdContacto"
+            }],
+            "relationship" : [{
+              "coding" : [{
+                "system" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+                "code" : "C",
+                "display" : "Emergency Contact"
+              }]
+            }],
+            "name" : {
+              "use" : "official",
+              "family" : "Martinez",
+              "_family" : {
+                "extension" : [{
+                  "url" : "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                  "valueString" : "Morales"
+                }]
+              },
+              "given" : ["Victoria",
+              "Esperanza"]
+            }
+          }]
+        }
+      },
+      {
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Practitioner/03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50",
+        "resource" : {
+          "resourceType" : "Practitioner",
+          "id" : "03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrPractitioner"]
+          },
+          "identifier" : [{
+            "use" : "official",
+            "system" : "https://api.registrocivil.cl/rut",
+            "value" : "19797094-4"
+          },
+          {
+            "use" : "secondary",
+            "system" : "https://rnpi.superdesalud.gob.cl/",
+            "value" : "692550"
+          }],
+          "active" : true,
+          "name" : [{
+            "use" : "official",
+            "family" : "JUNGJOHANN",
+            "_family" : {
+              "extension" : [{
+                "url" : "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                "valueString" : "SILVA"
+              }]
+            },
+            "given" : ["MARIA",
+            "MAGDALENA"]
+          }],
+          "gender" : "female",
+          "birthDate" : "1998-01-05",
+          "qualification" : [{
+            "identifier" : [{
+              "value" : "cert"
+            }],
+            "code" : {
+              "coding" : [{
+                "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/TitulosProfesionalesPrestadoresCS",
+                "code" : "05",
+                "display" : "Matronas(es)"
+              }],
+              "text" : "Certificado(s)"
+            }
+          }]
+        }
+      },
+      {
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Organization/30561296-f509-40d1-878a-1d4f9e71365d",
+        "resource" : {
+          "resourceType" : "Organization",
+          "id" : "30561296-f509-40d1-878a-1d4f9e71365d",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrOrganizationHosp"]
+          },
+          "identifier" : [{
+            "use" : "official",
+            "system" : "http://ssasur.cl/CodigoHospital",
+            "value" : "121109"
+          }],
+          "active" : true,
+          "name" : "HOSPITAL DR. HERNAN HENRIQUEZ ARAVENA (TEMUCO)",
+          "alias" : ["TEMUCO HOSP."],
+          "address" : [{
+            "use" : "work",
+            "line" : ["Bilbao S/N"],
+            "city" : "09117",
+            "district" : "091",
+            "state" : "09",
+            "country" : "152"
+          }]
+        }
+      },
+      {
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Observation/30561296-f509-40d1-878a-1d42432ffd0a",
+        "resource" : {
+          "resourceType" : "Observation",
+          "id" : "30561296-f509-40d1-878a-1d42432ffd0a",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrPeso"]
+          },
+          "status" : "final",
+          "category" : [{
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code" : "vital-signs"
+            }]
+          }],
+          "code" : {
+            "coding" : [{
+              "system" : "http://loinc.org",
+              "code" : "3141-9",
+              "display" : "Body weight Measured"
+            }],
+            "text" : "PESO"
+          },
+          "subject" : {
+            "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+          },
+          "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+          "valueQuantity" : {
+            "value" : 67.6,
+            "unit" : "kg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "kg"
+          }
+        }
+      },
+      {
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Observation/84f42b61-d690-45e6-87f8-0672432ffd0a",
+        "resource" : {
+          "resourceType" : "Observation",
+          "id" : "84f42b61-d690-45e6-87f8-0672432ffd0a",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTalla"]
+          },
+          "status" : "final",
+          "category" : [{
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code" : "vital-signs"
+            }]
+          }],
+          "code" : {
+            "coding" : [{
+              "system" : "http://loinc.org",
+              "code" : "8304-8",
+              "display" : "Body height special circumstances"
+            }],
+            "text" : "TALLA"
+          },
+          "subject" : {
+            "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+          },
+          "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+          "valueQuantity" : {
+            "value" : 165,
+            "unit" : "CMS",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "cm"
+          }
+        }
+      },
+      {
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Observation/13d97bbc-7a58-49e9-bf12-4add450b605a",
+        "resource" : {
+          "resourceType" : "Observation",
+          "id" : "13d97bbc-7a58-49e9-bf12-4add450b605a",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrIMC"]
+          },
+          "status" : "final",
+          "category" : [{
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code" : "vital-signs"
+            }]
+          }],
+          "code" : {
+            "coding" : [{
+              "system" : "http://loinc.org",
+              "code" : "39156-5",
+              "display" : "Body mass index (BMI) [Ratio]"
+            }],
+            "text" : "INDICE DE MASA CORPORAL"
+          },
+          "subject" : {
+            "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+          },
+          "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+          "valueQuantity" : {
+            "value" : 24.6,
+            "unit" : "kg/m2",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "kg/m2"
+          }
+        }
+      },
+      {
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Observation/0b06f501-5465-4b31-b106-56f73cc0ef99",
+        "resource" : {
+          "resourceType" : "Observation",
+          "id" : "0b06f501-5465-4b31-b106-56f73cc0ef99",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrEstadoNutricional"]
+          },
+          "status" : "final",
+          "category" : [{
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code" : "vital-signs"
+            }]
+          }],
+          "code" : {
+            "coding" : [{
+              "system" : "http://loinc.org",
+              "code" : "75305-3",
+              "display" : "Nutrition status"
+            }],
+            "text" : "DIAGNOSTICO NUTRICIONAL ADULTO"
+          },
+          "subject" : {
+            "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+          },
+          "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+          "valueCodeableConcept" : {
+            "coding" : [{
+              "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalAdulto",
+              "code" : "Normal",
+              "display" : "Normal"
+            }]
+          }
+        }
+      },
+      {
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Observation/df1a8537-56a2-4aec-aa6c-f6f537e874e7",
+        "resource" : {
+          "resourceType" : "Observation",
+          "id" : "df1a8537-56a2-4aec-aa6c-f6f537e874e7",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrSemanasECO"]
+          },
+          "status" : "final",
+          "category" : [{
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code" : "vital-signs"
+            }]
+          }],
+          "code" : {
+            "coding" : [{
+              "system" : "http://loinc.org",
+              "code" : "49051-6",
+              "display" : "Gestational age in weeks"
+            }],
+            "text" : "SEMANAS ECO"
+          },
+          "subject" : {
+            "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+          },
+          "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+          "valueQuantity" : {
+            "value" : 29.3,
+            "unit" : "wk",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "wk"
+          }
+        }
+      },
+      {
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Observation/432b12d6-5a42-47ca-8024-495309843029",
+        "resource" : {
+          "resourceType" : "Observation",
+          "id" : "432b12d6-5a42-47ca-8024-495309843029",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrAlturaUterina"]
+          },
+          "status" : "final",
+          "category" : [{
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code" : "vital-signs"
+            }]
+          }],
+          "code" : {
+            "coding" : [{
+              "system" : "http://loinc.org",
+              "code" : "11881-0",
+              "display" : "Uterus Fundal height Tape measure"
+            }],
+            "text" : "ALTURA UTERINA"
+          },
+          "subject" : {
+            "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+          },
+          "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+          "valueQuantity" : {
+            "value" : 31,
+            "unit" : "CMS",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "cm"
+          }
+        }
+      },
+      {
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Observation/4bb12bcf-44f1-4af0-9deb-5688de0f0230",
+        "resource" : {
+          "resourceType" : "Observation",
+          "id" : "4bb12bcf-44f1-4af0-9deb-5688de0f0230",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrRitmoCardiacoFetal"]
+          },
+          "status" : "final",
+          "category" : [{
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code" : "vital-signs"
+            }]
+          }],
+          "code" : {
+            "coding" : [{
+              "system" : "http://loinc.org",
+              "code" : "55283-6",
+              "display" : "Fetal Heart rate"
+            }],
+            "text" : "LATIDOS CARDIO - FETALES"
+          },
+          "subject" : {
+            "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+          },
+          "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+          "valueQuantity" : {
+            "value" : 155,
+            "unit" : "pp/min",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "/min"
+          }
+        }
+      },
+      {
+        "fullUrl" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Observation/0549e5ba-54da-4dc8-8217-73f4ab458787",
+        "resource" : {
+          "resourceType" : "Observation",
+          "id" : "0549e5ba-54da-4dc8-8217-73f4ab458787",
+          "meta" : {
+            "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrMovimientoFetal"]
+          },
+          "status" : "final",
+          "category" : [{
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code" : "vital-signs"
+            }]
+          }],
+          "code" : {
+            "coding" : [{
+              "system" : "http://loinc.org",
+              "code" : "57088-7",
+              "display" : "Fetal Movement - Reported"
+            }],
+            "text" : "MF"
+          },
+          "subject" : {
+            "reference" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+          },
+          "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+          "valueCodeableConcept" : {
+            "coding" : [{
+              "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaMovimientoFetalCS",
+              "code" : "+"
+            }]
+          }
+        }
+      }],
+      "signature" : {
+        "type" : [{
+          "system" : "urn:iso-astm:E1762-95:2013",
+          "code" : "1.2.840.10065.1.12.1.5",
+          "display" : "Verification Signature"
+        }],
+        "when" : "2022-11-23T14:31:22.903+00:00",
+        "who" : {
+          "reference" : "https://cdr-api.ssasur.cl/fhir/prod1/baseR4/Practitioner/03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50",
+          "display" : "MARIA MAGDALENA JUNGJOHANN (OFFICIAL)"
+        },
+        "sigFormat" : "application/jose",
+        "data" : "QmVhcmVyIEJxdGdUb25BN0VSTmVlcFc3ZDgyNXJqeXZCUkpnNk5R"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Bundle/8bae75f7-319a-46ca-87b3-15906ec267a7"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:0200f382-701a-4de5-a823-1c44d8d60a4a",
+    "resource" : {
+      "resourceType" : "Provenance",
+      "id" : "0200f382-701a-4de5-a823-1c44d8d60a4a",
+      "meta" : {
+        "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrProvenance"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Provenance</b><a name=\"0200f382-701a-4de5-a823-1c44d8d60a4a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Provenance &quot;0200f382-701a-4de5-a823-1c44d8d60a4a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrProvenance.html\">Firma Digital</a></p></div><p><b>target</b>: </p><ul><li><a href=\"#Composition_4745debb-35e6-42f5-8094-65f9b47dcc94\">See above (urn:uuid:4745debb-35e6-42f5-8094-65f9b47dcc94)</a></li><li><a href=\"#Observation_30561296-f509-40d1-878a-1d42432ffd0a\">See above (urn:uuid:30561296-f509-40d1-878a-1d42432ffd0a)</a></li><li><a href=\"#Observation_84f42b61-d690-45e6-87f8-0672432ffd0a\">See above (urn:uuid:84f42b61-d690-45e6-87f8-0672432ffd0a)</a></li><li><a href=\"#Observation_13d97bbc-7a58-49e9-bf12-4add450b605a\">See above (urn:uuid:13d97bbc-7a58-49e9-bf12-4add450b605a)</a></li><li><a href=\"#Observation_0b06f501-5465-4b31-b106-56f73cc0ef99\">See above (urn:uuid:0b06f501-5465-4b31-b106-56f73cc0ef99)</a></li><li><a href=\"#Observation_df1a8537-56a2-4aec-aa6c-f6f537e874e7\">See above (urn:uuid:df1a8537-56a2-4aec-aa6c-f6f537e874e7)</a></li><li><a href=\"#Observation_432b12d6-5a42-47ca-8024-495309843029\">See above (urn:uuid:432b12d6-5a42-47ca-8024-495309843029)</a></li><li><a href=\"#Observation_4bb12bcf-44f1-4af0-9deb-5688de0f0230\">See above (urn:uuid:4bb12bcf-44f1-4af0-9deb-5688de0f0230)</a></li><li><a href=\"#Observation_0549e5ba-54da-4dc8-8217-73f4ab458787\">See above (urn:uuid:0549e5ba-54da-4dc8-8217-73f4ab458787)</a></li><li><a href=\"#Bundle_8bae75f7-319a-46ca-87b3-15906ec267a7\">See above (urn:uuid:8bae75f7-319a-46ca-87b3-15906ec267a7)</a></li></ul><p><b>recorded</b>: 23-11-2022 11:31:22</p><p><b>activity</b>: create <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-DataOperation.html\">DataOperation</a>#CREATE)</span></p><h3>Agents</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Who</b></td></tr><tr><td>*</td><td>attester <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-provenance-participant-type.html\">Provenance participant type</a>#attester)</span></td><td><a href=\"#Practitioner_03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50\">See above (urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50: MARIA MAGDALENA JUNGJOHANN (OFFICIAL))</a></td></tr></table><h3>Signatures</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>When</b></td><td><b>Who</b></td><td><b>SigFormat</b></td><td><b>Data</b></td></tr><tr><td>*</td><td>Verification Signature (Details: urn:iso-astm:E1762-95:2013 code 1.2.840.10065.1.12.1.5 = 'Verification Signature', stated as 'Verification Signature')</td><td>23-11-2022 11:31:22</td><td><a href=\"#Practitioner_03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50\">See above (urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50: MARIA MAGDALENA JUNGJOHANN (OFFICIAL))</a></td><td>application/jose</td><td>QmVhcmVyIEJxdGdUb25BN0VSTmVlcFc3ZDgyNXJqeXZCUkpnNk5R</td></tr></table></div>"
+      },
+      "target" : [{
+        "reference" : "urn:uuid:4745debb-35e6-42f5-8094-65f9b47dcc94"
+      },
+      {
+        "reference" : "urn:uuid:30561296-f509-40d1-878a-1d42432ffd0a"
+      },
+      {
+        "reference" : "urn:uuid:84f42b61-d690-45e6-87f8-0672432ffd0a"
+      },
+      {
+        "reference" : "urn:uuid:13d97bbc-7a58-49e9-bf12-4add450b605a"
+      },
+      {
+        "reference" : "urn:uuid:0b06f501-5465-4b31-b106-56f73cc0ef99"
+      },
+      {
+        "reference" : "urn:uuid:df1a8537-56a2-4aec-aa6c-f6f537e874e7"
+      },
+      {
+        "reference" : "urn:uuid:432b12d6-5a42-47ca-8024-495309843029"
+      },
+      {
+        "reference" : "urn:uuid:4bb12bcf-44f1-4af0-9deb-5688de0f0230"
+      },
+      {
+        "reference" : "urn:uuid:0549e5ba-54da-4dc8-8217-73f4ab458787"
+      },
+      {
+        "reference" : "urn:uuid:8bae75f7-319a-46ca-87b3-15906ec267a7"
+      }],
+      "recorded" : "2022-11-23T14:31:22.900+00:00",
+      "activity" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+          "code" : "CREATE",
+          "display" : "create"
+        }]
+      },
+      "agent" : [{
+        "type" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+            "code" : "attester",
+            "display" : "attester"
+          }]
+        },
+        "who" : {
+          "reference" : "urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50",
+          "display" : "MARIA MAGDALENA JUNGJOHANN (OFFICIAL)"
+        }
+      }],
+      "signature" : [{
+        "type" : [{
+          "system" : "urn:iso-astm:E1762-95:2013",
+          "code" : "1.2.840.10065.1.12.1.5",
+          "display" : "Verification Signature"
+        }],
+        "when" : "2022-11-23T14:31:22.903+00:00",
+        "who" : {
+          "reference" : "urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50",
+          "display" : "MARIA MAGDALENA JUNGJOHANN (OFFICIAL)"
+        },
+        "sigFormat" : "application/jose",
+        "data" : "QmVhcmVyIEJxdGdUb25BN0VSTmVlcFc3ZDgyNXJqeXZCUkpnNk5R"
+      }]
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Provenance/0200f382-701a-4de5-a823-1c44d8d60a4a"
+    }
+  }]
+}

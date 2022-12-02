@@ -1,0 +1,113 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ssasur.cl/fhir/ig/ASV/Composition/CompositionDocumentExample> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CompositionDocumentExample"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrComposition";
+       fhir:index 0;
+       fhir:link <https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrComposition>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"CompositionDocumentExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;CompositionDocumentExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrComposition.html\">Cabecera Para Documento Clínicos</a></p></div><p><b>identifier</b>: id: 6fc2e782-fd56-415e-bc85-f6dcd2194ace</p><p><b>status</b>: final</p><p><b>type</b>: Registros médicos <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#11503-0 &quot;Medical records&quot;)</span></p><p><b>date</b>: 2022-07-07 12:00:00-0400</p><p><b>author</b>: <a href=\"Bundle-ExampleTransaction.html#urn-uuid-03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50\">urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50: MARIA MAGDALENA JUNGJOHANN (OFFICIAL)</a></p><p><b>title</b>: Registro Clínico Electronico (Signos Vitales)</p><h3>Attesters</h3><table class=\"grid\"><tr><td>-</td><td><b>Mode</b></td><td><b>Party</b></td></tr><tr><td>*</td><td>professional</td><td><a href=\"Bundle-ExampleTransaction.html#urn-uuid-03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50\">urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50: MARIA MAGDALENA JUNGJOHANN (OFFICIAL)</a></td></tr></table><p><b>custodian</b>: <a href=\"Bundle-ExampleTransaction.html#urn-uuid-30561296-f509-40d1-878a-1d4f9e71365d\">urn:uuid:30561296-f509-40d1-878a-1d4f9e71365d: HOSPITAL DR. HERNAN HENRIQUEZ ARAVENA (TEMUCO)</a></p></div>"
+  ]; # 
+  fhir:Composition.identifier [
+     fhir:Identifier.value [ fhir:value "6fc2e782-fd56-415e-bc85-f6dcd2194ace" ]
+  ]; # 
+  fhir:Composition.status [ fhir:value "final"]; # 
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:11503-0;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "11503-0" ];
+       fhir:Coding.display [ fhir:value "Medical records" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Registros médicos" ]
+  ]; # 
+  fhir:Composition.subject [
+     fhir:Reference.reference [ fhir:value "urn:uuid:56851b4b-9867-4b72-9a2c-3a1c8c1cbddf" ]
+  ]; # 
+  fhir:Composition.date [ fhir:value "2022-07-07T12:00:00-04:00"^^xsd:dateTime]; # 
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:Reference.reference [ fhir:value "urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50" ];
+     fhir:Reference.display [ fhir:value "MARIA MAGDALENA JUNGJOHANN (OFFICIAL)" ]
+  ]; # 
+  fhir:Composition.title [ fhir:value "Registro Clínico Electronico (Signos Vitales)"]; # 
+  fhir:Composition.attester [
+     fhir:index 0;
+     fhir:Composition.attester.mode [ fhir:value "professional" ];
+     fhir:Composition.attester.party [
+       fhir:Reference.reference [ fhir:value "urn:uuid:03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50" ];
+       fhir:Reference.display [ fhir:value "MARIA MAGDALENA JUNGJOHANN (OFFICIAL)" ]
+     ]
+  ]; # 
+  fhir:Composition.custodian [
+     fhir:Reference.reference [ fhir:value "urn:uuid:30561296-f509-40d1-878a-1d4f9e71365d" ];
+     fhir:Reference.display [ fhir:value "HOSPITAL DR. HERNAN HENRIQUEZ ARAVENA (TEMUCO)" ]
+  ]; # 
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Signos Vitales" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:8716-3;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "8716-3" ];
+         fhir:Coding.display [ fhir:value "Vital signs" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "Signos Vitales" ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:Reference.reference [ fhir:value "urn:uuid:30561296-f509-40d1-878a-1d42432ffd0a" ];
+       fhir:Reference.display [ fhir:value "67.6 kg (Details: UCUM code kg = 'kg')" ]
+     ], [
+       fhir:index 1;
+       fhir:Reference.reference [ fhir:value "urn:uuid:84f42b61-d690-45e6-87f8-0672432ffd0a" ];
+       fhir:Reference.display [ fhir:value "165 CMS (Details: UCUM code cm = 'cm')" ]
+     ], [
+       fhir:index 2;
+       fhir:Reference.reference [ fhir:value "urn:uuid:13d97bbc-7a58-49e9-bf12-4add450b605a" ];
+       fhir:Reference.display [ fhir:value "24.6 kg/m2 (Details: UCUM code kg/m2 = 'kg/m2')" ]
+     ], [
+       fhir:index 3;
+       fhir:Reference.reference [ fhir:value "urn:uuid:0b06f501-5465-4b31-b106-56f73cc0ef99" ];
+       fhir:Reference.display [ fhir:value "Normal (Escala Nutricional Para Adultos#Normal)" ]
+     ], [
+       fhir:index 4;
+       fhir:Reference.reference [ fhir:value "urn:uuid:df1a8537-56a2-4aec-aa6c-f6f537e874e7" ];
+       fhir:Reference.display [ fhir:value "29.3 wk (Details: UCUM code wk = 'wk')" ]
+     ], [
+       fhir:index 5;
+       fhir:Reference.reference [ fhir:value "urn:uuid:432b12d6-5a42-47ca-8024-495309843029" ];
+       fhir:Reference.display [ fhir:value "31 (Details: UCUM code cm = 'cm')" ]
+     ], [
+       fhir:index 6;
+       fhir:Reference.reference [ fhir:value "urn:uuid:4bb12bcf-44f1-4af0-9deb-5688de0f0230" ];
+       fhir:Reference.display [ fhir:value "155 /min (Details: UCUM code /min = '/min')" ]
+     ], [
+       fhir:index 7;
+       fhir:Reference.reference [ fhir:value "urn:uuid:0549e5ba-54da-4dc8-8217-73f4ab458787" ];
+       fhir:Reference.display [ fhir:value "+ (Resultados de un Movimiento Fetal#+)" ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.ssasur.cl/fhir/ig/ASV/Composition/CompositionDocumentExample.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

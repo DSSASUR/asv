@@ -1,0 +1,35 @@
+{
+  "resourceType" : "Observation",
+  "id" : "PesoAlturaInfantilExample",
+  "meta" : {
+    "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrPesoAlturaInfantil"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"PesoAlturaInfantilExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;PesoAlturaInfantilExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CdrPesoAlturaInfantil.html\">Diagnóstico Nutricional Infantil Peso/Altura</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: DIAGNOSTICO INFANTIL PESO/ALTURA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1153600001 &quot;Weight for height z-score (observable entity)&quot;)</span></p><p><b>subject</b>: <a href=\"Bundle-ExampleTransaction.html#urn-uuid-56851b4b-9867-4b72-9a2c-3a1c8c1cbddf\">urn:uuid:56851b4b-9867-4b72-9a2c-3a1c8c1cbddf</a></p><p><b>effective</b>: 2022-07-07 12:00:00-0400</p><p><b>value</b>: -1 {Zscore}<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {Zscore} = '{Zscore}')</span></p></div>"
+  },
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "vital-signs"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1153600001",
+      "display" : "Weight for height z-score (observable entity)"
+    }],
+    "text" : "DIAGNOSTICO INFANTIL PESO/ALTURA"
+  },
+  "subject" : {
+    "reference" : "urn:uuid:56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+  },
+  "effectiveDateTime" : "2022-07-07T12:00:00-04:00",
+  "valueQuantity" : {
+    "value" : -1,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "{Zscore}"
+  }
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="GenderIdentityCs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/GenderIdentityCs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">01<a name="GenderIdentityCs-01"> </a></td><td>Masculino</td></tr><tr><td style="white-space:nowrap">02<a name="GenderIdentityCs-02"> </a></td><td>Femenino</td></tr><tr><td style="white-space:nowrap">31<a name="GenderIdentityCs-31"> </a></td><td>Trans Masculino</td></tr><tr><td style="white-space:nowrap">32<a name="GenderIdentityCs-32"> </a></td><td>Trans Femenino</td></tr></table></div>
+  </text>
+  <url value="https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/GenderIdentityCs"/>
+  <version value="0.5.3"/>
+  <name value="GenderIdentityCs"/>
+  <title value="Identidad de Género"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2022-12-01T14:22:43-03:00"/>
+  <publisher value="Servicio de Salud Araucania Sur"/>
+  <contact>
+    <name value="Servicio de Salud Araucania Sur"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.araucaniasur.cl/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Franco Ulloa"/>
+    <telecom>
+      <system value="email"/>
+      <value value="franco.ulloam@redsalud.gob.cl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Genero con el cual se identifica el paciente"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="01"/>
+    <display value="Masculino"/>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Femenino"/>
+  </concept>
+  <concept>
+    <code value="31"/>
+    <display value="Trans Masculino"/>
+  </concept>
+  <concept>
+    <code value="32"/>
+    <display value="Trans Femenino"/>
+  </concept>
+</CodeSystem>

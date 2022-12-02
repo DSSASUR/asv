@@ -1,0 +1,94 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Nivel-InstruccionCS> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Nivel-InstruccionCS"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Nivel-InstruccionCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"Nivel-InstruccionCS-01\"> </a></td><td>PREBÁSICA</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"Nivel-InstruccionCS-02\"> </a></td><td>BÁSICA</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"Nivel-InstruccionCS-03\"> </a></td><td>MEDIA</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"Nivel-InstruccionCS-04\"> </a></td><td>TÉCNICO DE NIVEL SUPERIOR</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"Nivel-InstruccionCS-05\"> </a></td><td>PROFESIONAL UNIVERSITARIO</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"Nivel-InstruccionCS-06\"> </a></td><td>SIN INSTRUCCIÓN</td></tr><tr><td style=\"white-space:nowrap\">97<a name=\"Nivel-InstruccionCS-97\"> </a></td><td>NO RECUERDA</td></tr><tr><td style=\"white-space:nowrap\">98<a name=\"Nivel-InstruccionCS-98\"> </a></td><td>NO RESPONDE</td></tr></table></div>"
+  ]; # 
+  fhir:CodeSystem.url [ fhir:value "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Nivel-InstruccionCS"]; # 
+  fhir:CodeSystem.version [ fhir:value "0.5.3"]; # 
+  fhir:CodeSystem.name [ fhir:value "NivelInstruccionCS"]; # 
+  fhir:CodeSystem.title [ fhir:value "Nivel de Instrucción"]; # 
+  fhir:CodeSystem.status [ fhir:value "active"]; # 
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean]; # 
+  fhir:CodeSystem.date [ fhir:value "2022-12-01T14:22:43-03:00"^^xsd:dateTime]; # 
+  fhir:CodeSystem.publisher [ fhir:value "Servicio de Salud Araucania Sur"]; # 
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Servicio de Salud Araucania Sur" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.araucaniasur.cl/" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Franco Ulloa" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "franco.ulloam@redsalud.gob.cl" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ]; # 
+  fhir:CodeSystem.description [ fhir:value "Codificación del nivel de instrucción del paciente"]; # 
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "CL" ];
+       fhir:Coding.display [ fhir:value "Chile" ]
+     ]
+  ]; # 
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean]; # 
+  fhir:CodeSystem.content [ fhir:value "complete"]; # 
+  fhir:CodeSystem.count [ fhir:value "8"^^xsd:nonNegativeInteger]; # 
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "01" ];
+     fhir:CodeSystem.concept.display [ fhir:value "PREBÁSICA" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "02" ];
+     fhir:CodeSystem.concept.display [ fhir:value "BÁSICA" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "03" ];
+     fhir:CodeSystem.concept.display [ fhir:value "MEDIA" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "04" ];
+     fhir:CodeSystem.concept.display [ fhir:value "TÉCNICO DE NIVEL SUPERIOR" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "05" ];
+     fhir:CodeSystem.concept.display [ fhir:value "PROFESIONAL UNIVERSITARIO" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "06" ];
+     fhir:CodeSystem.concept.display [ fhir:value "SIN INSTRUCCIÓN" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "97" ];
+     fhir:CodeSystem.concept.display [ fhir:value "NO RECUERDA" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "98" ];
+     fhir:CodeSystem.concept.display [ fhir:value "NO RESPONDE" ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Nivel-InstruccionCS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

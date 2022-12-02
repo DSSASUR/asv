@@ -1,0 +1,44 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "Ocupacion-PatientVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-Ocupacion-PatientCS.html\"><code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Ocupacion-PatientCS</code></a></li></ul></div>"
+  },
+  "url" : "https://www.ssasur.cl/fhir/ig/ASV/ValueSet/Ocupacion-PatientVS",
+  "version" : "0.5.3",
+  "name" : "OcupacionVS",
+  "title" : "Ocupación",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-12-01T14:22:43-03:00",
+  "publisher" : "Servicio de Salud Araucania Sur",
+  "contact" : [{
+    "name" : "Servicio de Salud Araucania Sur",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.araucaniasur.cl/"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloam@redsalud.gob.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Codificación de la ocupación que puede tener el paciente",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Ocupacion-PatientCS"
+    }]
+  }
+}

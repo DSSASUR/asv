@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SignosVitalesSsasur"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="http://hl7.org/fhir/R4/valueset-observation-vitalsignresult.html">http://hl7.org/fhir/ValueSet/observation-vitalsignresult</a></li><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/8480-6/">8480-6</a></td><td>Sistólica intravascular</td></tr><tr><td><a href="https://loinc.org/8462-4/">8462-4</a></td><td>Diastólica intravascular</td></tr><tr><td><a href="https://loinc.org/8867-4/">8867-4</a></td><td>Ritmo cardiaco</td></tr><tr><td><a href="https://loinc.org/9279-1/">9279-1</a></td><td>Respiraciones</td></tr><tr><td><a href="https://loinc.org/8328-7/">8328-7</a></td><td>Temperatura corporal axilar</td></tr><tr><td><a href="https://loinc.org/8332-9/">8332-9</a></td><td>Temperatura corporal recto</td></tr><tr><td><a href="https://loinc.org/8331-1/">8331-1</a></td><td>Temperatura corporal boca</td></tr><tr><td><a href="https://loinc.org/20564-1/">20564-1</a></td><td>Saturación de oxígeno</td></tr><tr><td><a href="https://loinc.org/2339-0/">2339-0</a></td><td>Glucosa</td></tr><tr><td><a href="https://loinc.org/80316-3/">80316-3</a></td><td>Escala de dolor</td></tr><tr><td><a href="https://loinc.org/9269-2/">9269-2</a></td><td>Puntaje de coma de Glasgow</td></tr><tr><td><a href="https://loinc.org/75305-3/">75305-3</a></td><td>Estado Nutricional</td></tr><tr><td><a href="https://loinc.org/3141-9/">3141-9</a></td><td>Peso Corporal</td></tr><tr><td><a href="https://loinc.org/8304-8/">8304-8</a></td><td>Talla Corporal</td></tr><tr><td><a href="https://loinc.org/8287-5/">8287-5</a></td><td>Circunferencia occipital-frontal</td></tr><tr><td><a href="https://loinc.org/56086-2/">56086-2</a></td><td>Circunferencia Abdomen</td></tr><tr><td><a href="https://loinc.org/39156-5/">39156-5</a></td><td>Índice de masa corporal</td></tr><tr><td><a href="https://loinc.org/11881-0/">11881-0</a></td><td>Altura del fondo uterino</td></tr><tr><td><a href="https://loinc.org/55283-6/">55283-6</a></td><td>Ritmo cardiaco fetal</td></tr><tr><td><a href="https://loinc.org/8280-0/">8280-0</a></td><td>Circunferencia en el ombligo</td></tr><tr><td><a href="https://loinc.org/11779-6/">11779-6</a></td><td>estimado a partir del último período menstrual</td></tr><tr><td><a href="https://loinc.org/49051-6/">49051-6</a></td><td>Edad gestacional en W</td></tr><tr><td><a href="https://loinc.org/57088-7/">57088-7</a></td><td>Movimiento Feto Informado</td></tr></table></li><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/1153604005">1153604005</a></td><td>Puntaje Z de altura corporal para la edad</td></tr><tr><td><a href="http://snomed.info/id/1153593003">1153593003</a></td><td>Puntaje z de peso para la edad</td></tr><tr><td><a href="http://snomed.info/id/1153600001">1153600001</a></td><td>Puntaje z de peso para la altura</td></tr><tr><td><a href="http://snomed.info/id/248217000">248217000</a></td><td>Estado de conciencia y alerta (entidad observable)</td></tr><tr><td><a href="http://snomed.info/id/224977004">224977004</a></td><td>Sensación de tristeza</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://www.ssasur.cl/fhir/ig/ASV/ValueSet/SignosVitalesSsasur"/>
+  <version value="0.5.3"/>
+  <name value="SignosVitales"/>
+  <title value="Signos Vitales"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2022-12-01T14:22:43-03:00"/>
+  <publisher value="Servicio de Salud Araucania Sur"/>
+  <contact>
+    <name value="Servicio de Salud Araucania Sur"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.araucaniasur.cl/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Franco Ulloa"/>
+    <telecom>
+      <system value="email"/>
+      <value value="franco.ulloam@redsalud.gob.cl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Signos vitales tomados del pacientes"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+  <compose>
+    <include>
+      <valueSet value="http://hl7.org/fhir/ValueSet/observation-vitalsignresult"/>
+    </include>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="8480-6"/>
+        <display value="Sistólica intravascular"/>
+      </concept>
+      <concept>
+        <code value="8462-4"/>
+        <display value="Diastólica intravascular"/>
+      </concept>
+      <concept>
+        <code value="8867-4"/>
+        <display value="Ritmo cardiaco"/>
+      </concept>
+      <concept>
+        <code value="9279-1"/>
+        <display value="Respiraciones"/>
+      </concept>
+      <concept>
+        <code value="8328-7"/>
+        <display value="Temperatura corporal axilar"/>
+      </concept>
+      <concept>
+        <code value="8332-9"/>
+        <display value="Temperatura corporal recto"/>
+      </concept>
+      <concept>
+        <code value="8331-1"/>
+        <display value="Temperatura corporal boca"/>
+      </concept>
+      <concept>
+        <code value="20564-1"/>
+        <display value="Saturación de oxígeno"/>
+      </concept>
+      <concept>
+        <code value="2339-0"/>
+        <display value="Glucosa"/>
+      </concept>
+      <concept>
+        <code value="80316-3"/>
+        <display value="Escala de dolor"/>
+      </concept>
+      <concept>
+        <code value="9269-2"/>
+        <display value="Puntaje de coma de Glasgow"/>
+      </concept>
+      <concept>
+        <code value="75305-3"/>
+        <display value="Estado Nutricional"/>
+      </concept>
+      <concept>
+        <code value="3141-9"/>
+        <display value="Peso Corporal"/>
+      </concept>
+      <concept>
+        <code value="8304-8"/>
+        <display value="Talla Corporal"/>
+      </concept>
+      <concept>
+        <code value="8287-5"/>
+        <display value="Circunferencia occipital-frontal"/>
+      </concept>
+      <concept>
+        <code value="56086-2"/>
+        <display value="Circunferencia Abdomen"/>
+      </concept>
+      <concept>
+        <code value="39156-5"/>
+        <display value="Índice de masa corporal"/>
+      </concept>
+      <concept>
+        <code value="11881-0"/>
+        <display value="Altura del fondo uterino"/>
+      </concept>
+      <concept>
+        <code value="55283-6"/>
+        <display value="Ritmo cardiaco fetal"/>
+      </concept>
+      <concept>
+        <code value="8280-0"/>
+        <display value="Circunferencia en el ombligo"/>
+      </concept>
+      <concept>
+        <code value="11779-6"/>
+        <display value="estimado a partir del último período menstrual"/>
+      </concept>
+      <concept>
+        <code value="49051-6"/>
+        <display value="Edad gestacional en W"/>
+      </concept>
+      <concept>
+        <code value="57088-7"/>
+        <display value="Movimiento Feto Informado"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="1153604005"/>
+        <display value="Puntaje Z de altura corporal para la edad"/>
+      </concept>
+      <concept>
+        <code value="1153593003"/>
+        <display value="Puntaje z de peso para la edad"/>
+      </concept>
+      <concept>
+        <code value="1153600001"/>
+        <display value="Puntaje z de peso para la altura"/>
+      </concept>
+      <concept>
+        <code value="248217000"/>
+        <display value="Estado de conciencia y alerta (entidad observable)"/>
+      </concept>
+      <concept>
+        <code value="224977004"/>
+        <display value="Sensación de tristeza"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,19 @@
+@startuml
+
+SSASUR->Repositorio: GET Bundle/id
+
+alt Accept: appliaction/json
+
+SSASUR <-Repositorio: Documento en JSON
+
+else Accept: text/html
+
+SSASUR <-Repositorio: Documento gráfico en HTML
+
+else Accept: appliaction/pdf
+
+SSASUR <-Repositorio: Documento gráfico en PDF
+
+end header
+
+@enduml

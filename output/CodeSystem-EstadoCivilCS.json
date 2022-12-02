@@ -1,0 +1,70 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "EstadoCivilCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EstadoCivilCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"EstadoCivilCS-01\"> </a></td><td>SOLTERO(A)</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"EstadoCivilCS-02\"> </a></td><td>CASADO(A)</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"EstadoCivilCS-03\"> </a></td><td>VIUDO(A)</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"EstadoCivilCS-04\"> </a></td><td>SEPARADO(A)</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"EstadoCivilCS-05\"> </a></td><td>CONVIVIENTE</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"EstadoCivilCS-06\"> </a></td><td>DIVORCIADO(A)</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"EstadoCivilCS-09\"> </a></td><td>DESCONOCIDO</td></tr></table></div>"
+  },
+  "url" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EstadoCivilCS",
+  "version" : "0.5.3",
+  "name" : "EstadoCivilCS",
+  "title" : "Estado Civil",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-12-01T14:22:43-03:00",
+  "publisher" : "Servicio de Salud Araucania Sur",
+  "contact" : [{
+    "name" : "Servicio de Salud Araucania Sur",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.araucaniasur.cl/"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloam@redsalud.gob.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Definie el estado civil que se encuentra la persona, según la normativa local de Chile",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "01",
+    "display" : "SOLTERO(A)"
+  },
+  {
+    "code" : "02",
+    "display" : "CASADO(A)"
+  },
+  {
+    "code" : "03",
+    "display" : "VIUDO(A)"
+  },
+  {
+    "code" : "04",
+    "display" : "SEPARADO(A)"
+  },
+  {
+    "code" : "05",
+    "display" : "CONVIVIENTE"
+  },
+  {
+    "code" : "06",
+    "display" : "DIVORCIADO(A)"
+  },
+  {
+    "code" : "09",
+    "display" : "DESCONOCIDO"
+  }]
+}

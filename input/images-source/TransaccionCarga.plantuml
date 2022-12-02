@@ -1,0 +1,21 @@
+@startuml
+loop NoObservacionesVeces
+  
+  SSASUR -> SSASUR: Signo Vitales
+  activate SSASUR
+  deactivate SSASUR
+end
+
+SSASUR -> SSASUR: Composition
+SSASUR -> SSASUR: Bundle(Document)
+activate SSASUR
+deactivate SSASUR    
+SSASUR -> Repositorio: POST (Bundle Transaction de Publicación)
+activate SSASUR
+activate Repositorio
+Repositorio -> Repositorio: Validacion y firma de los recursos documento
+SSASUR <-- Repositorio: ServerResponse
+deactivate SSASUR 
+deactivate Repositorio 
+
+@enduml

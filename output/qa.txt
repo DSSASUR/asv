@@ -1,0 +1,227 @@
+﻿AlmacenamientoSignosVitales : Validation Results
+=========================================
+
+err = 0, warn = 5, info = 1
+IG Publisher Version: 1.2.22
+Generated Thu Dec 01 14:26:14 CLST 2022. FHIR version 4.0.1 for hl7.fhir.cl.corecl.ssasur.asv#0.5.3 (canonical = https://www.ssasur.cl/fhir/ig/ASV)
+ Build Errors : 0 / 5 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Bundle-Documento : 0 / 0 / 25
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Bundle-ExampleRecuperacion : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Bundle-ExampleRecuperacionBase : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Bundle-ExampleTransaction : 0 / 0 / 53
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-AseguradoraCS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EscalaConcienciaCS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EscalaMovimientoFetalCS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EscalaNutricionalAdulto : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EscalaNutricionalEstandar : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EscalaNutricionalPediatrica : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EstadoCivilCS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-GenderIdentityCs : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-Nivel-InstruccionCS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-Ocupacion-PatientCS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-Pueblos-PueblosOriginariosCS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-Sistema-Prevision : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-TitulosProfesionalesPrestadoresCS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-Tramos-FONASA : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Composition-CompositionDocumentExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.corecl.ssasur.asv : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-AlturaEdadInfantilExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-AlturaUterinaExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-CircunferenciaAbdominalExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-CircunferenciaCinturaExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-CircunferenciaCraneanaExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-EscalaDolorExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-EscalaGlasgowExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-EstadoConcienciaExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-EstadoDistresExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-EstadoNutricionalExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-GlicemiaExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-IMCExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-MovimientoFetalExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-PesoAlturaInfantilExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-PesoEdadInfantilExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-PesoExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-PrensionSanguineaExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-RespiracionesExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-RitmoCardiacaExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-RitmoCardiacoFetalExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-SaturacionOxigenoExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-SemanasECOExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-SemanasFURExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-SignosVitalesExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-TallaExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-TemperaturaCorporalAxilarExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-TemperaturaCorporalBucalExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-TemperaturaCorporalRectalExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Organization-OrganizationHospital : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Patient-PatientExample : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Practitioner-Profesional : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Provenance-EjemploFirma : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrAlturaEdadInfantil : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrAlturaUterina : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrCircunferenciaAbdominal : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrCircunferenciaCintura : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrCircunferenciaCraneana : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrComposition : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrDocument : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrEscalaDolor : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrEscalaGlasgow : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrEstadoConciencia : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrEstadoDistres : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrEstadoNutricional : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrFrecuenciaCardiaca : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrGlicemia : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrIMC : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrMovimientoFetal : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrOrganizationHosp : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPatient : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPeso : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPesoAlturaInfantil : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPesoEdadInfantil : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPractitioner : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPrensionSanguinea : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrProvenance : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrRespiraciones : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrRitmoCardiacoFetal : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrSaturacionOxigeno : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrSemanasECO : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrSemanasFUR : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrSignosVitales : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTalla : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalAxilar : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalBucal : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalRectal : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTransactionPublicacion : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTransactionRecuperacion : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-IdentidadDeGenero : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-NivelInstruccion : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-Ocupacion : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-Prevision : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-PuebloOriginario : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-EscalaConcienciaVS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-EscalaMovimientoFetalVS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-EscalaNutricionales : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-EstadoCivilVS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-GenderIdentityVS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-Nivel-InstruccionVS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-Ocupacion-PatientVS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-Pueblos-PueblosOriginariosVS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-ResultadosSiNo : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-SignosVitalesSsasur : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-Sistema-PrevisionVS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-TitulosProfesionalesPrestadoresVS : 0 / 0 / 1
+ C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-Tramos-IsapresVS : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.dependency[1].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+INFORMATION: ImplementationGuide.dependency[1].url: The correct canonical URL for this dependency is https://hl7chile.cl/fhir/ig/corecl/ImplementationGuide/hl7.fhir.cl.corecl
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\Bundle-Documento.json ==
+== fsh-generated\resources\Bundle-ExampleRecuperacion.json ==
+== fsh-generated\resources\Bundle-ExampleRecuperacionBase.json ==
+== fsh-generated\resources\Bundle-ExampleTransaction.json ==
+== fsh-generated\resources\CodeSystem-AseguradoraCS.json ==
+== fsh-generated\resources\CodeSystem-EscalaConcienciaCS.json ==
+== fsh-generated\resources\CodeSystem-EscalaMovimientoFetalCS.json ==
+== fsh-generated\resources\CodeSystem-EscalaNutricionalAdulto.json ==
+== fsh-generated\resources\CodeSystem-EscalaNutricionalEstandar.json ==
+== fsh-generated\resources\CodeSystem-EscalaNutricionalPediatrica.json ==
+== fsh-generated\resources\CodeSystem-EstadoCivilCS.json ==
+== fsh-generated\resources\CodeSystem-GenderIdentityCs.json ==
+== fsh-generated\resources\CodeSystem-Nivel-InstruccionCS.json ==
+== fsh-generated\resources\CodeSystem-Ocupacion-PatientCS.json ==
+== fsh-generated\resources\CodeSystem-Pueblos-PueblosOriginariosCS.json ==
+== fsh-generated\resources\CodeSystem-Sistema-Prevision.json ==
+== fsh-generated\resources\CodeSystem-TitulosProfesionalesPrestadoresCS.json ==
+== fsh-generated\resources\CodeSystem-Tramos-FONASA.json ==
+== fsh-generated\resources\Composition-CompositionDocumentExample.json ==
+== fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.corecl.ssasur.asv.json ==
+== fsh-generated\resources\Observation-AlturaEdadInfantilExample.json ==
+== fsh-generated\resources\Observation-AlturaUterinaExample.json ==
+== fsh-generated\resources\Observation-CircunferenciaAbdominalExample.json ==
+== fsh-generated\resources\Observation-CircunferenciaCinturaExample.json ==
+== fsh-generated\resources\Observation-CircunferenciaCraneanaExample.json ==
+== fsh-generated\resources\Observation-EscalaDolorExample.json ==
+== fsh-generated\resources\Observation-EscalaGlasgowExample.json ==
+== fsh-generated\resources\Observation-EstadoConcienciaExample.json ==
+== fsh-generated\resources\Observation-EstadoDistresExample.json ==
+== fsh-generated\resources\Observation-EstadoNutricionalExample.json ==
+== fsh-generated\resources\Observation-GlicemiaExample.json ==
+== fsh-generated\resources\Observation-IMCExample.json ==
+== fsh-generated\resources\Observation-MovimientoFetalExample.json ==
+== fsh-generated\resources\Observation-PesoAlturaInfantilExample.json ==
+== fsh-generated\resources\Observation-PesoEdadInfantilExample.json ==
+== fsh-generated\resources\Observation-PesoExample.json ==
+== fsh-generated\resources\Observation-PrensionSanguineaExample.json ==
+== fsh-generated\resources\Observation-RespiracionesExample.json ==
+== fsh-generated\resources\Observation-RitmoCardiacaExample.json ==
+== fsh-generated\resources\Observation-RitmoCardiacoFetalExample.json ==
+== fsh-generated\resources\Observation-SaturacionOxigenoExample.json ==
+== fsh-generated\resources\Observation-SemanasECOExample.json ==
+== fsh-generated\resources\Observation-SemanasFURExample.json ==
+== fsh-generated\resources\Observation-SignosVitalesExample.json ==
+== fsh-generated\resources\Observation-TallaExample.json ==
+== fsh-generated\resources\Observation-TemperaturaCorporalAxilarExample.json ==
+== fsh-generated\resources\Observation-TemperaturaCorporalBucalExample.json ==
+== fsh-generated\resources\Observation-TemperaturaCorporalRectalExample.json ==
+== fsh-generated\resources\Organization-OrganizationHospital.json ==
+== fsh-generated\resources\Patient-PatientExample.json ==
+== fsh-generated\resources\Practitioner-Profesional.json ==
+== fsh-generated\resources\Provenance-EjemploFirma.json ==
+== fsh-generated\resources\StructureDefinition-CdrAlturaEdadInfantil.json ==
+== fsh-generated\resources\StructureDefinition-CdrAlturaUterina.json ==
+== fsh-generated\resources\StructureDefinition-CdrCircunferenciaAbdominal.json ==
+== fsh-generated\resources\StructureDefinition-CdrCircunferenciaCintura.json ==
+== fsh-generated\resources\StructureDefinition-CdrCircunferenciaCraneana.json ==
+== fsh-generated\resources\StructureDefinition-CdrComposition.json ==
+== fsh-generated\resources\StructureDefinition-CdrDocument.json ==
+== fsh-generated\resources\StructureDefinition-CdrEscalaDolor.json ==
+== fsh-generated\resources\StructureDefinition-CdrEscalaGlasgow.json ==
+== fsh-generated\resources\StructureDefinition-CdrEstadoConciencia.json ==
+== fsh-generated\resources\StructureDefinition-CdrEstadoDistres.json ==
+== fsh-generated\resources\StructureDefinition-CdrEstadoNutricional.json ==
+== fsh-generated\resources\StructureDefinition-CdrFrecuenciaCardiaca.json ==
+== fsh-generated\resources\StructureDefinition-CdrGlicemia.json ==
+== fsh-generated\resources\StructureDefinition-CdrIMC.json ==
+== fsh-generated\resources\StructureDefinition-CdrMovimientoFetal.json ==
+== fsh-generated\resources\StructureDefinition-CdrOrganizationHosp.json ==
+== fsh-generated\resources\StructureDefinition-CdrPatient.json ==
+== fsh-generated\resources\StructureDefinition-CdrPeso.json ==
+== fsh-generated\resources\StructureDefinition-CdrPesoAlturaInfantil.json ==
+== fsh-generated\resources\StructureDefinition-CdrPesoEdadInfantil.json ==
+== fsh-generated\resources\StructureDefinition-CdrPractitioner.json ==
+== fsh-generated\resources\StructureDefinition-CdrPrensionSanguinea.json ==
+== fsh-generated\resources\StructureDefinition-CdrProvenance.json ==
+== fsh-generated\resources\StructureDefinition-CdrRespiraciones.json ==
+== fsh-generated\resources\StructureDefinition-CdrRitmoCardiacoFetal.json ==
+== fsh-generated\resources\StructureDefinition-CdrSaturacionOxigeno.json ==
+== fsh-generated\resources\StructureDefinition-CdrSemanasECO.json ==
+== fsh-generated\resources\StructureDefinition-CdrSemanasFUR.json ==
+== fsh-generated\resources\StructureDefinition-CdrSignosVitales.json ==
+== fsh-generated\resources\StructureDefinition-CdrTalla.json ==
+== fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalAxilar.json ==
+== fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalBucal.json ==
+== fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalRectal.json ==
+== fsh-generated\resources\StructureDefinition-CdrTransactionPublicacion.json ==
+== fsh-generated\resources\StructureDefinition-CdrTransactionRecuperacion.json ==
+== fsh-generated\resources\StructureDefinition-IdentidadDeGenero.json ==
+== fsh-generated\resources\StructureDefinition-NivelInstruccion.json ==
+== fsh-generated\resources\StructureDefinition-Ocupacion.json ==
+== fsh-generated\resources\StructureDefinition-Prevision.json ==
+== fsh-generated\resources\StructureDefinition-PuebloOriginario.json ==
+== fsh-generated\resources\ValueSet-EscalaConcienciaVS.json ==
+== fsh-generated\resources\ValueSet-EscalaMovimientoFetalVS.json ==
+== fsh-generated\resources\ValueSet-EscalaNutricionales.json ==
+== fsh-generated\resources\ValueSet-EstadoCivilVS.json ==
+== fsh-generated\resources\ValueSet-GenderIdentityVS.json ==
+== fsh-generated\resources\ValueSet-Nivel-InstruccionVS.json ==
+== fsh-generated\resources\ValueSet-Ocupacion-PatientVS.json ==
+== fsh-generated\resources\ValueSet-Pueblos-PueblosOriginariosVS.json ==
+== fsh-generated\resources\ValueSet-ResultadosSiNo.json ==
+== fsh-generated\resources\ValueSet-SignosVitalesSsasur.json ==
+== fsh-generated\resources\ValueSet-Sistema-PrevisionVS.json ==
+== fsh-generated\resources\ValueSet-TitulosProfesionalesPrestadoresVS.json ==
+== fsh-generated\resources\ValueSet-Tramos-IsapresVS.json ==

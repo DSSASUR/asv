@@ -1,0 +1,103 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ssasur.cl/fhir/ig/ASV/Bundle/ExampleRecuperacion> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ExampleRecuperacion"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTransactionRecuperacion";
+       fhir:index 0;
+       fhir:link <https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTransactionRecuperacion>
+     ]
+  ]; # 
+  fhir:Bundle.identifier [
+     fhir:Identifier.value [ fhir:value "6fc2e782-fd56-415e-bc85-f6dcdwrewerwe" ]
+  ]; # 
+  fhir:Bundle.type [ fhir:value "transaction"]; # 
+  fhir:Bundle.timestamp [ fhir:value "2022-07-07T12:00:01-04:00"^^xsd:dateTime]; # 
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Composition/4745debb-35e6-42f5-8094-65f9b47dcc94" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Practitioner/03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Organization/30561296-f509-40d1-878a-1d4f9e71365d" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Observation/30561296-f509-40d1-878a-1d42432ffd0a" ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Observation/84f42b61-d690-45e6-87f8-0672432ffd0a" ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Observation/13d97bbc-7a58-49e9-bf12-4add450b605a" ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Observation/0b06f501-5465-4b31-b106-56f73cc0ef99" ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Observation/df1a8537-56a2-4aec-aa6c-f6f537e874e7" ]
+     ]
+  ], [
+     fhir:index 9;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Observation/432b12d6-5a42-47ca-8024-495309843029" ]
+     ]
+  ], [
+     fhir:index 10;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Observation/4bb12bcf-44f1-4af0-9deb-5688de0f0230" ]
+     ]
+  ], [
+     fhir:index 11;
+     fhir:Bundle.entry.request [
+       fhir:Bundle.entry.request.method [ fhir:value "GET" ];
+       fhir:Bundle.entry.request.url [ fhir:value "Observation/0549e5ba-54da-4dc8-8217-73f4ab458787" ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.ssasur.cl/fhir/ig/ASV/Bundle/ExampleRecuperacion.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

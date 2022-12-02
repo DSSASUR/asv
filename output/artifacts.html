@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <title>HL7.FHIR.CL.CORECL.SSASUR.ASV\Artifacts Summary - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="http://hl7.org/fhir" />
+
+    <link href="fhir.css" rel="stylesheet" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet" />
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet" />
+    <link href="assets/css/pygments-manni.css" rel="stylesheet" />
+    <link href="assets/css/jquery-ui.css" rel="stylesheet" />
+    <link href="assets/css/prism.css" rel="stylesheet" /> <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/ssasur.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js">
+    </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png" />
+    <link rel="shortcut icon" href="assets/ico/favicon.svg" />
+</head>
+
+<!-- JORGE MANSILLA -->
+<!-- Google tag (gtag.js) -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDP1SHWXWT"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-KDP1SHWXWT');
+</script> -->
+
+
+
+
+
+<body onload="document.body.style.opacity='1'">
+    
+    <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">
+        h2 {
+            --heading-prefix:"7"
+        }
+        
+        h3,
+        h4,
+        h5,
+        h6 {
+            --heading-prefix:"7.0"
+        }
+    </style>
+    <div id="segment-header" class="segment">
+        <!-- segment-header -->
+        <div class="container">
+            <!-- container -->
+            <!-- Placeholder for child template header declarations -->
+
+<div id="project-nav">
+    <a id="logo-ssas" no-external="true" href="https://www.araucaniasur.cl/">
+        <img height="100" alt="Visitar Servicio de Salud Araucanía Sur" src="assets/images/logo-ssas.png" />
+    </a>
+</div>
+<div id="family-nav">
+    <a id="logo-fhir-200" no-external="true" href="https://hl7.org/fhir/"><img height="55" alt="Visitar HL7 FHIR Internacional" src="assets/images/logo-fhir-200.png" /> </a>
+</div> 
+
+<!--
+<div id="hl7-search">
+  <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+</div>
+--> 
+            <div id="ig-status" >
+                <p ><span style="font-size:12pt;font-weight:bold">Almacenamiento de Signos Vitales</span>
+                    <br/>
+                    <span style="display:inline-block">0.5.3 - ci-build
+
+
+
+  <span title="Chile">CL</span>  
+                    </span>
+                </p>
+            </div>
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">
+        <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">
+            <!-- container -->
+            <!-- HEADER CONTENT -->
+
+            <nav class="navbar navbar-inverse">
+                <!--status-bar-->
+                <div class="container">
+                    <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+                    <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+                    <div class="nav-collapse collapse navbar-inverse-collapse">
+                        <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="CasosdeUso.html">Casos de Usos</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artefactos
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="Perfiles.html">Perfiles</a>
+      </li>
+      <li>
+        <a href="Extensiones.html">Extensiones</a>
+      </li>
+      <li>
+        <a href="Terminologias.html">Terminologías</a>
+      </li>
+      <li>
+        <a href="Ejemplos.html">Ejemplos</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Perfiles Base
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="StructureDefinition-CdrPatient.html">Paciente</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrPractitioner.html">Prestador</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrOrganizationHosp.html">Recinto Prestador</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrComposition.html">Cabecera</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrDocument.html">Documento</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrSignosVitales.html">Observaciones de Signos Vitales</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrProvenance.html">Firma</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Signos Vitales
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="StructureDefinition-CdrAlturaEdadInfantil.html">Diagnóstico Nutricional Infantil Altura/Edad</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrAlturaUterina.html">Altura Uterina</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrCircunferenciaAbdominal.html">Circunferencia Abdominal</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrCircunferenciaCintura.html">Circunferencia Cintura</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrCircunferenciaCraneana.html">Circunferencia Craneana</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrEscalaDolor.html">Escala de Dolor</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrEscalaGlasgow.html">Escala Glasgow</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrEstadoConciencia.html">Estado de Conciencia</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrEstadoDistres.html">Estado de Distres</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrEstadoNutricional.html">Estado Nutricional</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrFrecuenciaCardiaca.html">Frecuencia Cardiaca</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrGlicemia.html">Glicemia en Sangre</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrIMC.html">Indice de Masa Corporal</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrMovimientoFetal.html">Movimiento Fetal</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrPeso.html">Peso</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrPesoAlturaInfantil.html">Diagnóstico Nutricional Infantil Peso/Altura</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrPesoEdadInfantil.html">Diagnóstico Nutricional Infantil Peso/Edad</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrPrensionSanguinea.html">Presión Sanguínea</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrRespiraciones.html">Frecuencia Respiratoria</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrRitmoCardiacoFetal.html">Ritmo Cardíaco Fetal</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrSaturacionOxigeno.html">Saturación Oxígeno</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrSemanasECO.html">Edad Gestacional en Semanas</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrSemanasFUR.html">Estimado del Último Período</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrTalla.html">Talla</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrTemperaturaCorporalAxilar.html">Temperatura Corporal Axilar</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrTemperaturaCorporalBucal.html">Temperatura Corporal Bucal</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrTemperaturaCorporalRectal.html">Temperatura Corporal Rectal</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Transacciones
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="StructureDefinition-CdrTransactionPublicacion.html">Publicar</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-CdrTransactionRecuperacion.html">Recuperación</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+                    </div>
+                    <!-- /.nav-collapse -->
+                </div>
+                <!-- /.container -->
+            </nav>
+            <!-- /.navbar -->
+            <!-- /HEADER CONTENT -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /segment-navbar -->
+    <!--status-bar-->
+    
+    <div id="segment-breadcrumb" class="segment">
+        <!-- segment-breadcrumb -->
+        <div class="container">
+            <!-- container -->
+            <ul class="breadcrumb">
+                <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li> 
+            </ul>
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">
+        <!-- segment-content -->
+        <div class="container">
+            <!-- container -->
+            <div class="row">
+                <div class="inner-wrapper">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Almacenamiento de Signos Vitales - Local Development build (v0.5.3). See the <a href="https://www.ssasur.cl/fhir/ig/ASV/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten--><div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrAlturaEdadInfantil.html"
+                     title="StructureDefinition/CdrAlturaEdadInfantil">Diagnóstico Nutricional Infantil Altura/Edad</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del estado de nutrición de un paciente pediátrico según su altura y su edad.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrAlturaUterina.html"
+                     title="StructureDefinition/CdrAlturaUterina">Altura Uterina</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la altura uterina del paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrCircunferenciaAbdominal.html"
+                     title="StructureDefinition/CdrCircunferenciaAbdominal">Circunferencia Abdominal</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la circunferencia abdominal de los pacientes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrCircunferenciaCintura.html"
+                     title="StructureDefinition/CdrCircunferenciaCintura">Circunferencia Cintura</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la circunferencia cintura de los pacientes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrCircunferenciaCraneana.html"
+                     title="StructureDefinition/CdrCircunferenciaCraneana">Circunferencia Craneana</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la circunferencia creanana de los pacientes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrComposition.html"
+                     title="StructureDefinition/CdrComposition">Cabecera Para Documento Clínicos</a>
+               </td>
+               <td>
+<p>Documento clínico que almacena la información de la toma de signos vitales y optras observaciones</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrDocument.html"
+                     title="StructureDefinition/CdrDocument">Bundle Para Documento Clínico</a>
+               </td>
+               <td>
+<p>Documento en el cual se almacena los signos vitales del paciente previo o durante su consulta.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrEscalaDolor.html"
+                     title="StructureDefinition/CdrEscalaDolor">Escala de Dolor</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la escala del dolor observable de un paciente en específico.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrEscalaGlasgow.html"
+                     title="StructureDefinition/CdrEscalaGlasgow">Escala Glasgow</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del estado de conciencia de un paciente en coma.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrEstadoConciencia.html"
+                     title="StructureDefinition/CdrEstadoConciencia">Estado de Conciencia</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del estado de conciencia en que llego el paciente a la consulta.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrEstadoDistres.html"
+                     title="StructureDefinition/CdrEstadoDistres">Estado de Distrés</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del estado de distrés en que llego el paciente al recinto.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrEstadoNutricional.html"
+                     title="StructureDefinition/CdrEstadoNutricional">Estado Nutricional</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del estado nutricional de un paciente, dado los resultados de sus examenes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrFrecuenciaCardiaca.html"
+                     title="StructureDefinition/CdrFrecuenciaCardiaca">Frecuencia Cardiaca</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la frecuencia cardiaca de los pacientes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrGlicemia.html"
+                     title="StructureDefinition/CdrGlicemia">Glicemia en Sangre</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la glicemia en sangre de los pacientes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrIMC.html"
+                     title="StructureDefinition/CdrIMC">Indice de Masa Corporal</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del indice de masa corporal de los pacientes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrMovimientoFetal.html"
+                     title="StructureDefinition/CdrMovimientoFetal">Movimiento Fetal</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del movimiento de un feto</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrOrganizationHosp.html"
+                     title="StructureDefinition/CdrOrganizationHosp">Recinto de Salud Araucania Sur</a>
+               </td>
+               <td>
+<p>Recinto que entrega prestaciones de salud.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrPatient.html"
+                     title="StructureDefinition/CdrPatient">Paciente Servicio de Salud Araucania Sur</a>
+               </td>
+               <td>
+<p>Este recurso paciente utiliza la información mínima requerida según la guía core y el servicio de salud Araucanía sur</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrPeso.html"
+                     title="StructureDefinition/CdrPeso">Peso</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del peso de los pacientes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrPesoAlturaInfantil.html"
+                     title="StructureDefinition/CdrPesoAlturaInfantil">Diagnóstico Nutricional Infantil Peso/Altura</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del estado de nutrición de un paciente pediátrico según su peso y su altura.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrPesoEdadInfantil.html"
+                     title="StructureDefinition/CdrPesoEdadInfantil">Diagnóstico Nutricional Infantil Peso/Edad</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del estado de nutrición de un paciente pediátrico según su peso y su edad.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrPractitioner.html"
+                     title="StructureDefinition/CdrPractitioner">Prestador de Salud</a>
+               </td>
+               <td>
+<p>Este recurso nace del proyecto de laboratorio del servicio de salud Araucanía sur y la guía core de HL7 Chile.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrPrensionSanguinea.html"
+                     title="StructureDefinition/CdrPrensionSanguinea">Presión Sanguínea</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la presión sanguinea de los pacientes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrProvenance.html"
+                     title="StructureDefinition/CdrProvenance">Firma Digital</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la firma de los documentos de signos vitales.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrRespiraciones.html"
+                     title="StructureDefinition/CdrRespiraciones">Frecuencia Respiratoria</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la frecuencia respiratoria de los pacientes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrRitmoCardiacoFetal.html"
+                     title="StructureDefinition/CdrRitmoCardiacoFetal">Ritmo Cardíaco Fetal</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del ritmo cardíaco del feto.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrSaturacionOxigeno.html"
+                     title="StructureDefinition/CdrSaturacionOxigeno">Saturación Oxígeno</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la saturación oxígeno de los pacientes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrSemanasECO.html"
+                     title="StructureDefinition/CdrSemanasECO">Edad Gestacional en Semanas</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del estimado de semanas de un feto.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrSemanasFUR.html"
+                     title="StructureDefinition/CdrSemanasFUR">Estimado del Último Período</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del estimado del último periodo del paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrSignosVitales.html"
+                     title="StructureDefinition/CdrSignosVitales">Signos Vitales de Salud Araucanía Sur</a>
+               </td>
+               <td>
+<p>Este recurso permite mostrar la información de los signos vitales LOINC de los pacientes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrTalla.html"
+                     title="StructureDefinition/CdrTalla">Talla</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información del talla de los pacientes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrTemperaturaCorporalAxilar.html"
+                     title="StructureDefinition/CdrTemperaturaCorporalAxilar">Temperatura Corporal Axilar</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la temperatura corporal de los pacientes tomada desde la zona axilar.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrTemperaturaCorporalBucal.html"
+                     title="StructureDefinition/CdrTemperaturaCorporalBucal">Temperatura Corporal Bucal</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la temperatura corporal de los pacientes tomada desde la boca.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrTemperaturaCorporalRectal.html"
+                     title="StructureDefinition/CdrTemperaturaCorporalRectal">Temperatura Corporal Rectal</a>
+               </td>
+               <td>
+<p>Este recurso permite guardar la información de la temperatura corporal de los pacientes tomada desde la zona rectal.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrTransactionPublicacion.html"
+                     title="StructureDefinition/CdrTransactionPublicacion">Transacción De Recursos (Publicación)</a>
+               </td>
+               <td>
+<p>Este recurso permite realizar transacciones con el servidor. Todos los fullURL creadas por este recurso deben ser urn:uidd</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CdrTransactionRecuperacion.html"
+                     title="StructureDefinition/CdrTransactionRecuperacion">Transacción De Recursos(Recuparación)</a>
+               </td>
+               <td>
+<p>Este recursos permite realizar transacciones con el servidor para recuperar todos los recursos necesarios para crear el documento.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Structures: Extension Definitions </h3>
+   <p>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-IdentidadDeGenero.html"
+                     title="StructureDefinition/IdentidadDeGenero">Identidad de Género</a>
+               </td>
+               <td>
+<p>Extensión para incluir la identidad de género del paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NivelInstruccion.html"
+                     title="StructureDefinition/NivelInstruccion">Nivel Instrucción</a>
+               </td>
+               <td>
+<p>Nivel educacional en la que se encuentra el paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Ocupacion.html"
+                     title="StructureDefinition/Ocupacion">Ocupación</a>
+               </td>
+               <td>
+<p>Ocupación del paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Prevision.html"
+                     title="StructureDefinition/Prevision">Previsión del Paciente</a>
+               </td>
+               <td>
+<p>Sistema de previsión de salud utilizado por el paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PuebloOriginario.html"
+                     title="StructureDefinition/PuebloOriginario">Pueblo Originario</a>
+               </td>
+               <td>
+<p>Pueblo originario al cual pertenece la persona.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-EscalaConcienciaVS.html"
+                     title="ValueSet/EscalaConcienciaVS">Estado de Cociencia</a>
+               </td>
+               <td>
+<p>Posiles resultados del estado de conciencia en que se encuentra un paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-EscalaMovimientoFetalVS.html"
+                     title="ValueSet/EscalaMovimientoFetalVS">Resultados de un Movimiento Fetal</a>
+               </td>
+               <td>
+<p>Resultados de un movimiento fetal</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-EscalaNutricionales.html"
+                     title="ValueSet/EscalaNutricionales">Escalas Nutricionales</a>
+               </td>
+               <td>
+<p>Las distintas escalas nutricionales utilizadas dentro de los sistemas del servicio de salud</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-EstadoCivilVS.html" title="ValueSet/EstadoCivilVS">Estado Civil</a>
+               </td>
+               <td>
+<p>Definie el estado civil que se encuentra la persona, según la normativa local de Chile</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-GenderIdentityVS.html" title="ValueSet/GenderIdentityVS">Identidad de Género</a>
+               </td>
+               <td>
+<p>Genero con el cual se identifica el paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-Nivel-InstruccionVS.html"
+                     title="ValueSet/Nivel-InstruccionVS">Nivel de Instrucción</a>
+               </td>
+               <td>
+<p>Codificación del nivel de instrucción del paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-Ocupacion-PatientVS.html"
+                     title="ValueSet/Ocupacion-PatientVS">Ocupación</a>
+               </td>
+               <td>
+<p>Codificación de la ocupación que puede tener el paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-Pueblos-PueblosOriginariosVS.html"
+                     title="ValueSet/Pueblos-PueblosOriginariosVS">Codificación de Pueblos Originarios</a>
+               </td>
+               <td>
+<p>Codificación de los pueblos originarios</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-ResultadosSiNo.html" title="ValueSet/ResultadosSiNo">Resultados Si y No</a>
+               </td>
+               <td>
+<p>Resultado para respuestas afirmativas o negativas</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-SignosVitalesSsasur.html"
+                     title="ValueSet/SignosVitalesSsasur">Signos Vitales</a>
+               </td>
+               <td>
+<p>Signos vitales tomados del pacientes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-Sistema-PrevisionVS.html"
+                     title="ValueSet/Sistema-PrevisionVS">Sistema de Previsión</a>
+               </td>
+               <td>
+<p>Códificación de los sistemas de previsión utilizados para financiar la salud de los pacientes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-TitulosProfesionalesPrestadoresVS.html"
+                     title="ValueSet/TitulosProfesionalesPrestadoresVS">Titulos Profesionales Prestadores</a>
+               </td>
+               <td>
+<p>Este code system de los títulos profesionales de lo prestadores de salud del decreto exento 643</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-Tramos-IsapresVS.html" title="ValueSet/Tramos-IsapresVS">Tramos de FONASA o Isapre</a>
+               </td>
+               <td>
+<p>Tramos utilizados por fonasa o Isapre del paciente</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-AseguradoraCS.html" title="CodeSystem/AseguradoraCS">Aseguradora Particular del Paciente</a>
+               </td>
+               <td>
+<p>Aseguradora particular utiliza el paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-EscalaConcienciaCS.html"
+                     title="CodeSystem/EscalaConcienciaCS">Estado de Cociencia</a>
+               </td>
+               <td>
+<p>Posiles resultados del estado de conciencia en que se encuentra un paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-EscalaMovimientoFetalCS.html"
+                     title="CodeSystem/EscalaMovimientoFetalCS">Resultados de un Movimiento Fetal</a>
+               </td>
+               <td>
+<p>Resultados de un movimiento fetal</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-EscalaNutricionalAdulto.html"
+                     title="CodeSystem/EscalaNutricionalAdulto">Escala Nutricional para Adultos</a>
+               </td>
+               <td>
+<p>Escala nutricional de un paciente adulto</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-EscalaNutricionalEstandar.html"
+                     title="CodeSystem/EscalaNutricionalEstandar">Escala Nutricional</a>
+               </td>
+               <td>
+<p>Escala estandar de nutrición para un paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-EscalaNutricionalPediatrica.html"
+                     title="CodeSystem/EscalaNutricionalPediatrica">Escala Nutricional para Pediátricos</a>
+               </td>
+               <td>
+<p>Escala nutricional de un paciente pediatrico</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-EstadoCivilCS.html" title="CodeSystem/EstadoCivilCS">Estado Civil</a>
+               </td>
+               <td>
+<p>Definie el estado civil que se encuentra la persona, según la normativa local de Chile</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-GenderIdentityCs.html"
+                     title="CodeSystem/GenderIdentityCs">Identidad de Género</a>
+               </td>
+               <td>
+<p>Genero con el cual se identifica el paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-Nivel-InstruccionCS.html"
+                     title="CodeSystem/Nivel-InstruccionCS">Nivel de Instrucción</a>
+               </td>
+               <td>
+<p>Codificación del nivel de instrucción del paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-Ocupacion-PatientCS.html"
+                     title="CodeSystem/Ocupacion-PatientCS">Ocupación</a>
+               </td>
+               <td>
+<p>Codificación de la ocupación que puede tener el paciente, dado la terminología</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-Pueblos-PueblosOriginariosCS.html"
+                     title="CodeSystem/Pueblos-PueblosOriginariosCS">Codificación de Pueblos Originarios</a>
+               </td>
+               <td>
+<p>Codificación de los pueblos originarios</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-Sistema-Prevision.html"
+                     title="CodeSystem/Sistema-Prevision">Sistema de Previsión</a>
+               </td>
+               <td>
+<p>Códificación de los sistemas de previsión utilizados para financiar la salud de los pacientes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-TitulosProfesionalesPrestadoresCS.html"
+                     title="CodeSystem/TitulosProfesionalesPrestadoresCS">Titulos Profesionales Prestadores</a>
+               </td>
+               <td>
+<p>Este code system de los títulos profesionales de lo prestadores de salud del decreto exento 643</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-Tramos-FONASA.html" title="CodeSystem/Tramos-FONASA">Tramos de FONASA</a>
+               </td>
+               <td>
+<p>Tramos utilizados por fonasa</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-AlturaEdadInfantilExample.html"
+                     title="Observation/AlturaEdadInfantilExample">Diagnóstico Nutricional Infantil Altura/Edad</a>
+               </td>
+               <td>
+<p>Ejemplo de un resultado de un analisis de la altura por edad de un niño</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-AlturaUterinaExample.html"
+                     title="Observation/AlturaUterinaExample">Altura Fondo Uterino</a>
+               </td>
+               <td>
+<p>Ejemplo de Altura Uterina, en el caso de tomas de signos vitales para embarazadas.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-CircunferenciaAbdominalExample.html"
+                     title="Observation/CircunferenciaAbdominalExample">Circunferencia Abdominal</a>
+               </td>
+               <td>
+<p>Ejemplo de un recurso almacenando la información de la circunferencia abdominal.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-CircunferenciaCinturaExample.html"
+                     title="Observation/CircunferenciaCinturaExample">Circunferencia Cintura</a>
+               </td>
+               <td>
+<p>Ejemplo de un recurso almacenando la información de la circunferencia en la cintura.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-CircunferenciaCraneanaExample.html"
+                     title="Observation/CircunferenciaCraneanaExample">Circunferencia Craneana</a>
+               </td>
+               <td>
+<p>Ejemplo de un recurso almacenando la información de la circunferencia craneana.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-CompositionDocumentExample.html"
+                     title="Composition/CompositionDocumentExample">Cabecera del Documento</a>
+               </td>
+               <td>
+<p>Ejemplo de un composition para crear un documento</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Documento.html" title="Bundle/Documento">Documento de Signos Vitales</a>
+               </td>
+               <td>
+<p>Ejemplo de un documento</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Provenance-EjemploFirma.html" title="Provenance/EjemploFirma">Firma Digital</a>
+               </td>
+               <td>
+<p>Firma de un recurso composition y las observaciones para identificar la persona responsable de su creación.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EscalaDolorExample.html"
+                     title="Observation/EscalaDolorExample">Escala de Dolor</a>
+               </td>
+               <td>
+<p>Ejemplo de la escala de dolor que describe el paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EscalaGlasgowExample.html"
+                     title="Observation/EscalaGlasgowExample">Escala Glasgow</a>
+               </td>
+               <td>
+<p>Ejmplo de un recurso de la escala de Glasgow para un paciente en coma.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EstadoConcienciaExample.html"
+                     title="Observation/EstadoConcienciaExample">Estado de Conciencia</a>
+               </td>
+               <td>
+<p>Ejemplo del estado de conciencia con el cual llega el paciente a urgencia en este caso.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EstadoDistresExample.html"
+                     title="Observation/EstadoDistresExample">Estado de Distres</a>
+               </td>
+               <td>
+<p>Ejemplo del estado de distres por el cual llega el paciente a urguencia</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EstadoNutricionalExample.html"
+                     title="Observation/EstadoNutricionalExample">Estado Nutricional</a>
+               </td>
+               <td>
+<p>Ejemplo del estado de nutricional de un paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-ExampleRecuperacion.html"
+                     title="Bundle/ExampleRecuperacion">Recuperación de Recursos</a>
+               </td>
+               <td>
+<p>Ejemplo para recuperar los recursos necesarios en el momento de crear un documento</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-ExampleRecuperacionBase.html"
+                     title="Bundle/ExampleRecuperacionBase">Recuperación de Recursos Base</a>
+               </td>
+               <td>
+<p>Estos son los recursos bases necesarios para crear un documento, que se deberian encontrar dentro del servido FHIR.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-ExampleTransaction.html" title="Bundle/ExampleTransaction">Publicación de Recursos</a>
+               </td>
+               <td>
+<p>Ejemplo de una transacción de los recursos enviados a un servidor para crear un documento posteriormente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-GlicemiaExample.html"
+                     title="Observation/GlicemiaExample">Glicemia en Sangre</a>
+               </td>
+               <td>
+<p>Ejemplo del nivel de glicemia de un paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-IMCExample.html" title="Observation/IMCExample">Indice de Masa Corporal</a>
+               </td>
+               <td>
+<p>Ejemplo del nivel de IMC de un paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-MovimientoFetalExample.html"
+                     title="Observation/MovimientoFetalExample">Movimiento Fetal</a>
+               </td>
+               <td>
+<p>Ejemplo del moviemiento fetal que se presenta dentro de una paciente embarazada</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-OrganizationHospital.html"
+                     title="Organization/OrganizationHospital">Hospital ejemplo</a>
+               </td>
+               <td>
+<p>Ejemplo del uso del CdrOrganization con un identificador de hospital.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-PatientExample.html" title="Patient/PatientExample">Paciente de Ejemplo</a>
+               </td>
+               <td>
+<p>Paciente de Prueba.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-PesoAlturaInfantilExample.html"
+                     title="Observation/PesoAlturaInfantilExample">Diagnóstico Nutricional Infantil Peso/Altura</a>
+               </td>
+               <td>
+<p>Ejemplo de un resultado de un analisis del peso por altura de un niño.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-PesoEdadInfantilExample.html"
+                     title="Observation/PesoEdadInfantilExample">Diagnóstico Nutricional Infantil Peso/Edad</a>
+               </td>
+               <td>
+<p>Ejemplo de un resultado de un analisis del peso por edad de un niño.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-PesoExample.html" title="Observation/PesoExample">Peso</a>
+               </td>
+               <td>
+<p>Ejemplo del peso de un paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-PrensionSanguineaExample.html"
+                     title="Observation/PrensionSanguineaExample">Presión Sanguínea</a>
+               </td>
+               <td>
+<p>Ejemplo de la presión sanguinea de un paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Practitioner-Profesional.html" title="Practitioner/Profesional">Profesional</a>
+               </td>
+               <td>
+<p>Profesional del servicio de salud araucania sur.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-RespiracionesExample.html"
+                     title="Observation/RespiracionesExample">Frecuencia Respiratoria</a>
+               </td>
+               <td>
+<p>Ejemplo de las respiraciones por minuto que puede presentar el paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-RitmoCardiacaExample.html"
+                     title="Observation/RitmoCardiacaExample">Frecuencia Cardiaca</a>
+               </td>
+               <td>
+<p>Ejemplo de la frecuencia cardiaca de un paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-RitmoCardiacoFetalExample.html"
+                     title="Observation/RitmoCardiacoFetalExample">Ritmo Cardíaco Fetal</a>
+               </td>
+               <td>
+<p>Ejemplo del ritmo cardiaco de un fento dentro del vientre materno.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-SaturacionOxigenoExample.html"
+                     title="Observation/SaturacionOxigenoExample">Saturación Oxígeno</a>
+               </td>
+               <td>
+<p>Ejemplo de la saturación de oxigeno en un paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-SemanasECOExample.html"
+                     title="Observation/SemanasECOExample">Edad Gestacional en Semanas</a>
+               </td>
+               <td>
+<p>Ejemplo de la semana gestacional de una paciente embarazada.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-SemanasFURExample.html"
+                     title="Observation/SemanasFURExample">Estimado del Último Período</a>
+               </td>
+               <td>
+<p>Ejemplo del estimado del ultimo periodo de una paciente con sospecha de embarazo</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-SignosVitalesExample.html"
+                     title="Observation/SignosVitalesExample">Signo Vital Error</a>
+               </td>
+               <td>
+<p>Ejemplo de un Signo vital tomado por error.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-TallaExample.html" title="Observation/TallaExample">Talla</a>
+               </td>
+               <td>
+<p>Ejemplo de la altura en un paciente.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-TemperaturaCorporalAxilarExample.html"
+                     title="Observation/TemperaturaCorporalAxilarExample">Temperatura Corporal Axilar</a>
+               </td>
+               <td>
+<p>Ejemplo de la temperatura corporal de un paciente tomado desde la zonan axilar.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-TemperaturaCorporalBucalExample.html"
+                     title="Observation/TemperaturaCorporalBucalExample">Temperatura Corporal Bucal</a>
+               </td>
+               <td>
+<p>Ejemplo de la temperatura corporal de un paciente tomado desde la zona bucal.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-TemperaturaCorporalRectalExample.html"
+                     title="Observation/TemperaturaCorporalRectalExample">Temperatura Corporal Rectal</a>
+               </td>
+               <td>
+<p>Ejemplo de la temperatura corporal de un paciente tomado desde la zona rectal.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.araucaniasur.cl/">Servicio de Salud Araucania Sur</a>.  Package hl7.fhir.cl.corecl.ssasur.asv#0.5.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 1, 2022 14:22-0300">2022-12-01</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+             Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">Reporte QA</a> |
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://www.ssasur.cl/fhir/ig/ASV/history.html">Historial de versiones</a></a>
+<!-- <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="history.html">Historial de versiones</a></a> -->
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,324 @@
+{
+  "package": "hl7.fhir.cl.corecl.ssasur.asv",
+  "version": "0.5.3",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "CL",
+  "extensions": [
+    {
+      "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/IdentidadDeGenero",
+      "title": "Identidad de Género",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/NivelInstruccion",
+      "title": "Nivel Instrucción",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string"
+      ]
+    },
+    {
+      "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/Ocupacion",
+      "title": "Ocupación",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string"
+      ]
+    },
+    {
+      "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/Prevision",
+      "title": "Previsión del Paciente",
+      "types": [
+        "Coding",
+        "Coding",
+        "Coding",
+        "Coding",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/PuebloOriginario",
+      "title": "Pueblo Originario",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string"
+      ]
+    }
+  ],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrRespiraciones",
+        "title": "Frecuencia Respiratoria"
+      },
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrRitmoCardiacoFetal",
+        "title": "Ritmo Cardíaco Fetal"
+      },
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrSaturacionOxigeno",
+        "title": "Saturación Oxígeno"
+      },
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrSemanasECO",
+        "title": "Edad Gestacional en Semanas"
+      },
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrSemanasFUR",
+        "title": "Estimado del Último Período"
+      },
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrSignosVitales",
+        "title": "Signos Vitales de Salud Araucanía Sur"
+      },
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTalla",
+        "title": "Talla"
+      },
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTemperaturaCorporalAxilar",
+        "title": "Temperatura Corporal Axilar"
+      },
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTemperaturaCorporalBucal",
+        "title": "Temperatura Corporal Bucal"
+      },
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTemperaturaCorporalRectal",
+        "title": "Temperatura Corporal Rectal"
+      }
+    ],
+    "Composition": [
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrComposition",
+        "title": "Cabecera Para Documento Clínicos"
+      }
+    ],
+    "Bundle": [
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTransactionPublicacion",
+        "title": "Transacción De Recursos (Publicación)"
+      },
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTransactionRecuperacion",
+        "title": "Transacción De Recursos(Recuparación)"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrOrganizationHosp",
+        "title": "Recinto de Salud Araucania Sur"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrPatient",
+        "title": "Paciente Servicio de Salud Araucania Sur"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrPractitioner",
+        "title": "Prestador de Salud"
+      }
+    ],
+    "Provenance": [
+      {
+        "url": "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrProvenance",
+        "title": "Firma Digital"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber": [
+      "Composition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family": [
+      "Bundle.entry.resource.contact.name.family",
+      "Bundle.entry.resource.entry.resource.contact.name.family",
+      "Bundle.entry.resource.entry.resource.name.family",
+      "Bundle.entry.resource.name.family",
+      "Patient.contact.name.family",
+      "Patient.name.family",
+      "Practitioner.name.family"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises": [
+      "Bundle.entry.resource",
+      "Bundle.entry.resource.address.country",
+      "Bundle.entry.resource.entry.resource",
+      "Bundle.entry.resource.entry.resource.address.country",
+      "Bundle.entry.resource.entry.resource.identifier.type",
+      "Bundle.entry.resource.identifier.type",
+      "Patient",
+      "Patient.address.country",
+      "Patient.identifier.type",
+      "Practitioner.address.country"
+    ],
+    "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ComunasCl": [
+      "Bundle.entry.resource.address.city",
+      "Bundle.entry.resource.entry.resource.address.city",
+      "Patient.address.city",
+      "Practitioner.address.city"
+    ],
+    "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/IdContacto": [
+      "Bundle.entry.resource.contact",
+      "Bundle.entry.resource.entry.resource.contact",
+      "Patient.contact"
+    ],
+    "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ProvinciasCl": [
+      "Bundle.entry.resource.address.district",
+      "Bundle.entry.resource.entry.resource.address.district",
+      "Patient.address.district",
+      "Practitioner.address.district"
+    ],
+    "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/RegionesCl": [
+      "Bundle.entry.resource.address.state",
+      "Bundle.entry.resource.entry.resource.address.state",
+      "Patient.address.state",
+      "Practitioner.address.state"
+    ],
+    "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/IdentidadDeGenero": [
+      "Bundle.entry.resource",
+      "Bundle.entry.resource.entry.resource",
+      "Patient"
+    ],
+    "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/NivelInstruccion": [
+      "Bundle.entry.resource",
+      "Bundle.entry.resource.entry.resource",
+      "Patient"
+    ],
+    "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/Ocupacion": [
+      "Bundle.entry.resource",
+      "Bundle.entry.resource.entry.resource",
+      "Patient"
+    ],
+    "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/Prevision": [
+      "Bundle.entry.resource",
+      "Bundle.entry.resource.entry.resource",
+      "Patient"
+    ],
+    "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/PuebloOriginario": [
+      "Bundle.entry.resource",
+      "Bundle.entry.resource.entry.resource",
+      "Patient"
+    ]
+  }
+}

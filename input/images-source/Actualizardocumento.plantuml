@@ -1,0 +1,15 @@
+@startuml
+SSASUR -> Repositorio: POST (Bundle Transaction Recuperacion)
+activate SSASUR
+activate Repositorio
+Repositorio -> Repositorio: Busqueda
+SSASUR <-- Repositorio: Recursos Solicitados
+activate SSASUR
+SSASUR -> SSASUR: Actualizar Recursos Necesarios, Versión del Documento y Bundle(Document)
+SSASUR -> SSASUR: Actualizar Bundle Document
+SSASUR -> Repositorio: POST (Bundle Transaction)
+Repositorio -> Repositorio: Validacion
+SSASUR <-- Repositorio: Server Response
+deactivate Repositorio
+deactivate SSASUR
+@enduml

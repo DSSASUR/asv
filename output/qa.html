@@ -1,0 +1,1480 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = errors = 0, warn = 5, info = 1, 0 -->
+<head>
+  <title>AlmacenamientoSignosVitales : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+    span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    span.toggle  { font-size: 10px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+    function toggle(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Validation Information') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Validation Information';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Validation Information';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for AlmacenamientoSignosVitales</h1>
+ <p>Generated Thu Dec 01 14:26:14 CLST 2022, FHIR version 4.0.1 for hl7.fhir.cl.corecl.ssasur.asv#0.5.3 (canonical = <a href="https://www.ssasur.cl/fhir/ig/ASV">https://www.ssasur.cl/fhir/ig/ASV</a> (<a href="https://www.ssasur.cl/fhir/ig/ASV/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.22</span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.cl.corecl.ssasur.asv, Canonical = https://www.ssasur.cl/fhir/ig/ASV</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Publication Request:</td><td><ul><li><span title="Invalid HTTP response 404 from https://www.ssasur.cl/fhir/ig/ASV/package-list.json?nocache=1669915574140 (Not Found) (content in C:\Users\Minsal\AppData\Local\Temp\fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
+<li>This IG has never been published, so the version should start with '0.' or include a patch version e.g. '-ballot' <img src="icon-warning.png" height="16px" width="16px"/></li>
+<li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
+</ul>
+</td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR42u3XsQ0AQAgCQHdl/xn8jxvYWB3JlTR0VJLa+OltBwAAYP6EEQAAgCsPVYVAgIJrA/sAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.cl.corecl.ssasur.asv</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.5.3</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://www.ssasur.cl/fhir/ig/ASV</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR42u3XsQ0AQAgCQHdl/xn8jxvYWB3JlTR0VJLa+OltBwAAYP6EEQAAgCsPVYVAgIJrA/sAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.0.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/5.0.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR42u3QwQkAMAwDsezq/WdIO4XJQwa9DTdJpulv258AAMANIgAAADUPYAVAgAJ//usAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.cl.corecl</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.7.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Illegal Version">V</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://hl7chile.cl/fhir/ig/corecl</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://build.fhir.org/ig/HL7Chile/CL-Core/</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Matched to latest patch release</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR42u3QwQkAMAwDsezq/WdIO4XJQwa9DTdJpulv258AAMANIgAAADUPYAVAgAJ//usAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.0.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/5.0.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">see above</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAI0lEQVR42u3QIQEAAAACIL/6/4MvTAQOkLYBAAB4kAAAANwMad9AqkRjgNAAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.ips</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.0.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Outdated Release">O</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/uv/ips</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/uv/ips/STU1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Latest Release is 1.1.0</td></tr>
+</table><para>Templates: hl7chile#0.1.0 -&gt; fhir.base.template#current</para></div></td></tr>
+ <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
+ <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
+ <tr><td>HTA Analysis:</td><td><a href="qa-hta.html">All OK</a></td></tr>
+ <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://www.ssasur.cl/fhir/ig/ASV (Problem #1 with package-list.json at https://www.ssasur.cl/fhir/ig/ASV: Invalid HTTP response 404 from https://www.ssasur.cl/fhir/ig/ASV/package-list.json?nocache=1669915361453 (Not Found) (content in C:\Users\Minsal\AppData\Local\Temp\fhir-http-2.log))</td></tr>
+ <tr><td>IPA Comparison:</td><td> n/a</td></tr>
+ <tr><td>Summary:</td><td> errors = 0, warn = 5, info = 1, broken links = 0</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>5</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Bundle-Documento"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Bundle-Documento</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Bundle-ExampleRecuperacion"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Bundle-ExampleRecuperacion</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Bundle-ExampleRecuperacionBase"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Bundle-ExampleRecuperacionBase</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Bundle-ExampleTransaction"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Bundle-ExampleTransaction</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-AseguradoraCS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-AseguradoraCS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EscalaConcienciaCS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EscalaConcienciaCS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EscalaMovimientoFetalCS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EscalaMovimientoFetalCS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EscalaNutricionalAdulto"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EscalaNutricionalAdulto</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EscalaNutricionalEstandar"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EscalaNutricionalEstandar</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EscalaNutricionalPediatrica"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EscalaNutricionalPediatrica</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EstadoCivilCS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-EstadoCivilCS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-GenderIdentityCs"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-GenderIdentityCs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-Nivel-InstruccionCS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-Nivel-InstruccionCS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-Ocupacion-PatientCS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-Ocupacion-PatientCS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-Pueblos-PueblosOriginariosCS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-Pueblos-PueblosOriginariosCS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-Sistema-Prevision"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-Sistema-Prevision</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-TitulosProfesionalesPrestadoresCS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-TitulosProfesionalesPrestadoresCS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-Tramos-FONASA"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\CodeSystem-Tramos-FONASA</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Composition-CompositionDocumentExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Composition-CompositionDocumentExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ImplementationGuide-hl7.fhir.cl.corecl.ssasur.asv"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.corecl.ssasur.asv</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-AlturaEdadInfantilExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-AlturaEdadInfantilExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-AlturaUterinaExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-AlturaUterinaExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-CircunferenciaAbdominalExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-CircunferenciaAbdominalExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-CircunferenciaCinturaExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-CircunferenciaCinturaExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-CircunferenciaCraneanaExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-CircunferenciaCraneanaExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-EscalaDolorExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-EscalaDolorExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-EscalaGlasgowExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-EscalaGlasgowExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-EstadoConcienciaExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-EstadoConcienciaExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-EstadoDistresExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-EstadoDistresExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-EstadoNutricionalExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-EstadoNutricionalExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-GlicemiaExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-GlicemiaExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-IMCExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-IMCExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-MovimientoFetalExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-MovimientoFetalExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-PesoAlturaInfantilExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-PesoAlturaInfantilExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-PesoEdadInfantilExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-PesoEdadInfantilExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-PesoExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-PesoExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-PrensionSanguineaExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-PrensionSanguineaExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-RespiracionesExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-RespiracionesExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-RitmoCardiacaExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-RitmoCardiacaExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-RitmoCardiacoFetalExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-RitmoCardiacoFetalExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-SaturacionOxigenoExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-SaturacionOxigenoExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-SemanasECOExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-SemanasECOExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-SemanasFURExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-SemanasFURExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-SignosVitalesExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-SignosVitalesExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-TallaExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-TallaExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-TemperaturaCorporalAxilarExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-TemperaturaCorporalAxilarExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-TemperaturaCorporalBucalExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-TemperaturaCorporalBucalExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-TemperaturaCorporalRectalExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Observation-TemperaturaCorporalRectalExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Organization-OrganizationHospital"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Organization-OrganizationHospital</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Patient-PatientExample"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Patient-PatientExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Practitioner-Profesional"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Practitioner-Profesional</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Provenance-EjemploFirma"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\Provenance-EjemploFirma</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrAlturaEdadInfantil"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrAlturaEdadInfantil</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrAlturaUterina"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrAlturaUterina</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrCircunferenciaAbdominal"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrCircunferenciaAbdominal</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrCircunferenciaCintura"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrCircunferenciaCintura</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrCircunferenciaCraneana"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrCircunferenciaCraneana</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrComposition"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrComposition</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrDocument"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrDocument</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrEscalaDolor"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrEscalaDolor</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrEscalaGlasgow"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrEscalaGlasgow</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrEstadoConciencia"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrEstadoConciencia</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrEstadoDistres"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrEstadoDistres</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrEstadoNutricional"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrEstadoNutricional</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrFrecuenciaCardiaca"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrFrecuenciaCardiaca</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrGlicemia"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrGlicemia</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrIMC"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrIMC</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrMovimientoFetal"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrMovimientoFetal</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrOrganizationHosp"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrOrganizationHosp</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPatient"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPatient</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPeso"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPeso</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPesoAlturaInfantil"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPesoAlturaInfantil</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPesoEdadInfantil"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPesoEdadInfantil</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPractitioner"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPractitioner</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPrensionSanguinea"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrPrensionSanguinea</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrProvenance"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrProvenance</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrRespiraciones"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrRespiraciones</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrRitmoCardiacoFetal"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrRitmoCardiacoFetal</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrSaturacionOxigeno"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrSaturacionOxigeno</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrSemanasECO"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrSemanasECO</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrSemanasFUR"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrSemanasFUR</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrSignosVitales"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrSignosVitales</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTalla"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTalla</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTemperaturaCorporalAxilar"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalAxilar</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTemperaturaCorporalBucal"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalBucal</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTemperaturaCorporalRectal"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalRectal</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTransactionPublicacion"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTransactionPublicacion</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTransactionRecuperacion"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-CdrTransactionRecuperacion</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-IdentidadDeGenero"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-IdentidadDeGenero</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-NivelInstruccion"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-NivelInstruccion</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-Ocupacion"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-Ocupacion</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-Prevision"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-Prevision</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-PuebloOriginario"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\StructureDefinition-PuebloOriginario</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-EscalaConcienciaVS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-EscalaConcienciaVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-EscalaMovimientoFetalVS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-EscalaMovimientoFetalVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-EscalaNutricionales"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-EscalaNutricionales</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-EstadoCivilVS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-EstadoCivilVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-GenderIdentityVS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-GenderIdentityVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-Nivel-InstruccionVS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-Nivel-InstruccionVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-Ocupacion-PatientVS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-Ocupacion-PatientVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-Pueblos-PueblosOriginariosVS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-Pueblos-PueblosOriginariosVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-ResultadosSiNo"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-ResultadosSiNo</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-SignosVitalesSsasur"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-SignosVitalesSsasur</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-Sistema-PrevisionVS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-Sistema-PrevisionVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-TitulosProfesionalesPrestadoresVS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-TitulosProfesionalesPrestadoresVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-Tramos-IsapresVS"><b>C:\Users\Minsal\Documents\AlmacenamientoSignosVitales\fsh-generated\resources\ValueSet-Tramos-IsapresVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
+ <div style="border: 1px grey solid; display: none" id="v"></div>
+ <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide.dependency[1].url</b></td><td><b>warning</b></td><td title=""><b>The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>ImplementationGuide.dependency[1].url</b></td><td><b>information</b></td><td title=""><b>The correct canonical URL for this dependency is https://hl7chile.cl/fhir/ig/corecl/ImplementationGuide/hl7.fhir.cl.corecl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>1</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>2</b></td><td><b>warning</b></td><td title=""><b>An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>3</b></td><td><b>warning</b></td><td title=""><b>An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>4</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Bundle-Documento"> </a>
+<h2><a href="Bundle-Documento.html">fsh-generated\resources\Bundle-Documento.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(36)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-CdrDocument.html">Bundle Para Documento Clínico</a></li><li>Bundle.entry[0].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/composition.html">Composition</a> and <i>this.</i><a href="StructureDefinition-CdrComposition.html">Cabecera Para Documento Clínicos</a> (por el elemento meta)</li><li>Bundle.entry[1].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrPatient.html">Paciente Servicio de Salud Araucania Sur</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/patient.html">Patient</a> and <i>this.</i><a href="StructureDefinition-CdrPatient.html">Paciente Servicio de Salud Araucania Sur</a> (por el elemento meta)</li><li>Bundle.entry[2].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>, <i>this.</i><a href="StructureDefinition-CdrPractitioner.html">Prestador de Salud</a> (por el elemento meta) and <i>this.</i><a href="StructureDefinition-CdrPractitioner.html">Prestador de Salud</a></li><li>Bundle.entry[3].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a>, <i>this.</i><a href="StructureDefinition-CdrOrganizationHosp.html">Recinto de Salud Araucania Sur</a> (por el elemento meta) and <i>this.</i><a href="StructureDefinition-CdrOrganizationHosp.html">Recinto de Salud Araucania Sur</a></li><li>Bundle.entry[4].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrPeso.html">Peso</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[5].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrTalla.html">Talla</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[6].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrIMC.html">Indice de Masa Corporal</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[7].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrEstadoNutricional.html">Estado Nutricional</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[8].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrSemanasECO.html">Edad Gestacional en Semanas</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[9].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrAlturaUterina.html">Altura Uterina</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[10].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrRitmoCardiacoFetal.html">Ritmo Cardíaco Fetal</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[11].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrMovimientoFetal.html">Movimiento Fetal</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Bundle-ExampleRecuperacion"> </a>
+<h2><a href="Bundle-ExampleRecuperacion.html">fsh-generated\resources\Bundle-ExampleRecuperacion.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-CdrTransactionRecuperacion.html">Transacción De Recursos(Recuparación)</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Bundle-ExampleRecuperacionBase"> </a>
+<h2><a href="Bundle-ExampleRecuperacionBase.html">fsh-generated\resources\Bundle-ExampleRecuperacionBase.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-CdrTransactionRecuperacion.html">Transacción De Recursos(Recuparación)</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Bundle-ExampleTransaction"> </a>
+<h2><a href="Bundle-ExampleTransaction.html">fsh-generated\resources\Bundle-ExampleTransaction.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(77)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-CdrTransactionPublicacion.html">Transacción De Recursos (Publicación)</a></li><li>Bundle.entry[0].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/composition.html">Composition</a>, <i>this.</i><a href="StructureDefinition-CdrComposition.html">Cabecera Para Documento Clínicos</a> (por el elemento meta) and <i>this.</i><a href="StructureDefinition-CdrComposition.html">Cabecera Para Documento Clínicos</a></li><li>Bundle.entry[1].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrPatient.html">Paciente Servicio de Salud Araucania Sur</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/patient.html">Patient</a> and <i>this.</i><a href="StructureDefinition-CdrPatient.html">Paciente Servicio de Salud Araucania Sur</a> (por el elemento meta)</li><li>Bundle.entry[2].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrPeso.html">Peso</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[3].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrTalla.html">Talla</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[4].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrIMC.html">Indice de Masa Corporal</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[5].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrEstadoNutricional.html">Estado Nutricional</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[6].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrSemanasECO.html">Edad Gestacional en Semanas</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[7].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrAlturaUterina.html">Altura Uterina</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[8].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrRitmoCardiacoFetal.html">Ritmo Cardíaco Fetal</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[9].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrMovimientoFetal.html">Movimiento Fetal</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[10].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>, <i>this.</i><a href="StructureDefinition-CdrPractitioner.html">Prestador de Salud</a> (por el elemento meta) and <i>this.</i><a href="StructureDefinition-CdrPractitioner.html">Prestador de Salud</a></li><li>Bundle.entry[11].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a>, <i>this.</i><a href="StructureDefinition-CdrOrganizationHosp.html">Recinto de Salud Araucania Sur</a> (por el elemento meta) and <i>this.</i><a href="StructureDefinition-CdrOrganizationHosp.html">Recinto de Salud Araucania Sur</a></li><li>Bundle.entry[12].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/bundle.html">Bundle</a>, <i>this.</i><a href="StructureDefinition-CdrDocument.html">Bundle Para Documento Clínico</a> (por el elemento meta) and <i>this.</i><a href="StructureDefinition-CdrDocument.html">Bundle Para Documento Clínico</a></li><li>Bundle.entry[12].resource.entry[0].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/composition.html">Composition</a> and <i>this.</i><a href="StructureDefinition-CdrComposition.html">Cabecera Para Documento Clínicos</a> (por el elemento meta)</li><li>Bundle.entry[12].resource.entry[1].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrPatient.html">Paciente Servicio de Salud Araucania Sur</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/patient.html">Patient</a> and <i>this.</i><a href="StructureDefinition-CdrPatient.html">Paciente Servicio de Salud Araucania Sur</a> (por el elemento meta)</li><li>Bundle.entry[12].resource.entry[2].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>, <i>this.</i><a href="StructureDefinition-CdrPractitioner.html">Prestador de Salud</a> (por el elemento meta) and <i>this.</i><a href="StructureDefinition-CdrPractitioner.html">Prestador de Salud</a></li><li>Bundle.entry[12].resource.entry[3].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a>, <i>this.</i><a href="StructureDefinition-CdrOrganizationHosp.html">Recinto de Salud Araucania Sur</a> (por el elemento meta) and <i>this.</i><a href="StructureDefinition-CdrOrganizationHosp.html">Recinto de Salud Araucania Sur</a></li><li>Bundle.entry[12].resource.entry[4].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrPeso.html">Peso</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[12].resource.entry[5].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrTalla.html">Talla</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[12].resource.entry[6].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrIMC.html">Indice de Masa Corporal</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[12].resource.entry[7].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrEstadoNutricional.html">Estado Nutricional</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[12].resource.entry[8].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrSemanasECO.html">Edad Gestacional en Semanas</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[12].resource.entry[9].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrAlturaUterina.html">Altura Uterina</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[12].resource.entry[10].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrRitmoCardiacoFetal.html">Ritmo Cardíaco Fetal</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[12].resource.entry[11].resource: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a>, <i>this.</i><a href="StructureDefinition-CdrMovimientoFetal.html">Movimiento Fetal</a> (por el elemento meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li><li>Bundle.entry[13].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/provenance.html">Provenance</a> and <i>this.</i><a href="StructureDefinition-CdrProvenance.html">Firma Digital</a> (por el elemento meta)</li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-AseguradoraCS"> </a>
+<h2><a href="CodeSystem-AseguradoraCS.html">fsh-generated\resources\CodeSystem-AseguradoraCS.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EscalaConcienciaCS"> </a>
+<h2><a href="CodeSystem-EscalaConcienciaCS.html">fsh-generated\resources\CodeSystem-EscalaConcienciaCS.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi6"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EscalaMovimientoFetalCS"> </a>
+<h2><a href="CodeSystem-EscalaMovimientoFetalCS.html">fsh-generated\resources\CodeSystem-EscalaMovimientoFetalCS.json</a> <span id="svi7" class="toggle" onclick="toggle('vi7')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi7')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi7"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EscalaNutricionalAdulto"> </a>
+<h2><a href="CodeSystem-EscalaNutricionalAdulto.html">fsh-generated\resources\CodeSystem-EscalaNutricionalAdulto.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EscalaNutricionalEstandar"> </a>
+<h2><a href="CodeSystem-EscalaNutricionalEstandar.html">fsh-generated\resources\CodeSystem-EscalaNutricionalEstandar.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EscalaNutricionalPediatrica"> </a>
+<h2><a href="CodeSystem-EscalaNutricionalPediatrica.html">fsh-generated\resources\CodeSystem-EscalaNutricionalPediatrica.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-EstadoCivilCS"> </a>
+<h2><a href="CodeSystem-EstadoCivilCS.html">fsh-generated\resources\CodeSystem-EstadoCivilCS.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-GenderIdentityCs"> </a>
+<h2><a href="CodeSystem-GenderIdentityCs.html">fsh-generated\resources\CodeSystem-GenderIdentityCs.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-Nivel-InstruccionCS"> </a>
+<h2><a href="CodeSystem-Nivel-InstruccionCS.html">fsh-generated\resources\CodeSystem-Nivel-InstruccionCS.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-Ocupacion-PatientCS"> </a>
+<h2><a href="CodeSystem-Ocupacion-PatientCS.html">fsh-generated\resources\CodeSystem-Ocupacion-PatientCS.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-Pueblos-PueblosOriginariosCS"> </a>
+<h2><a href="CodeSystem-Pueblos-PueblosOriginariosCS.html">fsh-generated\resources\CodeSystem-Pueblos-PueblosOriginariosCS.json</a> <span id="svi15" class="toggle" onclick="toggle('vi15')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi15')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi15"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-Sistema-Prevision"> </a>
+<h2><a href="CodeSystem-Sistema-Prevision.html">fsh-generated\resources\CodeSystem-Sistema-Prevision.json</a> <span id="svi16" class="toggle" onclick="toggle('vi16')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi16')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi16"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-TitulosProfesionalesPrestadoresCS"> </a>
+<h2><a href="CodeSystem-TitulosProfesionalesPrestadoresCS.html">fsh-generated\resources\CodeSystem-TitulosProfesionalesPrestadoresCS.json</a> <span id="svi17" class="toggle" onclick="toggle('vi17')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi17')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi17"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_CodeSystem-Tramos-FONASA"> </a>
+<h2><a href="CodeSystem-Tramos-FONASA.html">fsh-generated\resources\CodeSystem-Tramos-FONASA.json</a> <span id="svi18" class="toggle" onclick="toggle('vi18')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi18')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi18"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Composition-CompositionDocumentExample"> </a>
+<h2><a href="Composition-CompositionDocumentExample.html">fsh-generated\resources\Composition-CompositionDocumentExample.json</a> <span id="svi19" class="toggle" onclick="toggle('vi19')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi19')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi19"><ul style="font-size: 7px"><li>Composition: Validated against <i>this.</i><a href="StructureDefinition-CdrComposition.html">Cabecera Para Documento Clínicos</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ImplementationGuide-hl7.fhir.cl.corecl.ssasur.asv"> </a>
+<h2><a href="ImplementationGuide-hl7.fhir.cl.corecl.ssasur.asv.html">fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.corecl.ssasur.asv.json</a> <span id="svi20" class="toggle" onclick="toggle('vi20')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi20')">(0)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi20"></div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-AlturaEdadInfantilExample"> </a>
+<h2><a href="Observation-AlturaEdadInfantilExample.html">fsh-generated\resources\Observation-AlturaEdadInfantilExample.json</a> <span id="svi21" class="toggle" onclick="toggle('vi21')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi21')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi21"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrAlturaEdadInfantil.html">Diagnóstico Nutricional Infantil Altura/Edad</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-AlturaUterinaExample"> </a>
+<h2><a href="Observation-AlturaUterinaExample.html">fsh-generated\resources\Observation-AlturaUterinaExample.json</a> <span id="svi22" class="toggle" onclick="toggle('vi22')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi22')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi22"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrAlturaUterina.html">Altura Uterina</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-CircunferenciaAbdominalExample"> </a>
+<h2><a href="Observation-CircunferenciaAbdominalExample.html">fsh-generated\resources\Observation-CircunferenciaAbdominalExample.json</a> <span id="svi23" class="toggle" onclick="toggle('vi23')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi23')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi23"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrCircunferenciaAbdominal.html">Circunferencia Abdominal</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-CircunferenciaCinturaExample"> </a>
+<h2><a href="Observation-CircunferenciaCinturaExample.html">fsh-generated\resources\Observation-CircunferenciaCinturaExample.json</a> <span id="svi24" class="toggle" onclick="toggle('vi24')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi24')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi24"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrCircunferenciaCintura.html">Circunferencia Cintura</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-CircunferenciaCraneanaExample"> </a>
+<h2><a href="Observation-CircunferenciaCraneanaExample.html">fsh-generated\resources\Observation-CircunferenciaCraneanaExample.json</a> <span id="svi25" class="toggle" onclick="toggle('vi25')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi25')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi25"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrCircunferenciaCraneana.html">Circunferencia Craneana</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-EscalaDolorExample"> </a>
+<h2><a href="Observation-EscalaDolorExample.html">fsh-generated\resources\Observation-EscalaDolorExample.json</a> <span id="svi26" class="toggle" onclick="toggle('vi26')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi26')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi26"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrEscalaDolor.html">Escala de Dolor</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-EscalaGlasgowExample"> </a>
+<h2><a href="Observation-EscalaGlasgowExample.html">fsh-generated\resources\Observation-EscalaGlasgowExample.json</a> <span id="svi27" class="toggle" onclick="toggle('vi27')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi27')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi27"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrEscalaGlasgow.html">Escala Glasgow</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-EstadoConcienciaExample"> </a>
+<h2><a href="Observation-EstadoConcienciaExample.html">fsh-generated\resources\Observation-EstadoConcienciaExample.json</a> <span id="svi28" class="toggle" onclick="toggle('vi28')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi28')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi28"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrEstadoConciencia.html">Estado de Conciencia</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-EstadoDistresExample"> </a>
+<h2><a href="Observation-EstadoDistresExample.html">fsh-generated\resources\Observation-EstadoDistresExample.json</a> <span id="svi29" class="toggle" onclick="toggle('vi29')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi29')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi29"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrEstadoDistres.html">Estado de Distrés</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-EstadoNutricionalExample"> </a>
+<h2><a href="Observation-EstadoNutricionalExample.html">fsh-generated\resources\Observation-EstadoNutricionalExample.json</a> <span id="svi30" class="toggle" onclick="toggle('vi30')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi30')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi30"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrEstadoNutricional.html">Estado Nutricional</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-GlicemiaExample"> </a>
+<h2><a href="Observation-GlicemiaExample.html">fsh-generated\resources\Observation-GlicemiaExample.json</a> <span id="svi31" class="toggle" onclick="toggle('vi31')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi31')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi31"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrGlicemia.html">Glicemia en Sangre</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-IMCExample"> </a>
+<h2><a href="Observation-IMCExample.html">fsh-generated\resources\Observation-IMCExample.json</a> <span id="svi32" class="toggle" onclick="toggle('vi32')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi32')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi32"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrIMC.html">Indice de Masa Corporal</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-MovimientoFetalExample"> </a>
+<h2><a href="Observation-MovimientoFetalExample.html">fsh-generated\resources\Observation-MovimientoFetalExample.json</a> <span id="svi33" class="toggle" onclick="toggle('vi33')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi33')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi33"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrMovimientoFetal.html">Movimiento Fetal</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-PesoAlturaInfantilExample"> </a>
+<h2><a href="Observation-PesoAlturaInfantilExample.html">fsh-generated\resources\Observation-PesoAlturaInfantilExample.json</a> <span id="svi34" class="toggle" onclick="toggle('vi34')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi34')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi34"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrPesoAlturaInfantil.html">Diagnóstico Nutricional Infantil Peso/Altura</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-PesoEdadInfantilExample"> </a>
+<h2><a href="Observation-PesoEdadInfantilExample.html">fsh-generated\resources\Observation-PesoEdadInfantilExample.json</a> <span id="svi35" class="toggle" onclick="toggle('vi35')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi35')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi35"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrPesoEdadInfantil.html">Diagnóstico Nutricional Infantil Peso/Edad</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-PesoExample"> </a>
+<h2><a href="Observation-PesoExample.html">fsh-generated\resources\Observation-PesoExample.json</a> <span id="svi36" class="toggle" onclick="toggle('vi36')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi36')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi36"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrPeso.html">Peso</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-PrensionSanguineaExample"> </a>
+<h2><a href="Observation-PrensionSanguineaExample.html">fsh-generated\resources\Observation-PrensionSanguineaExample.json</a> <span id="svi37" class="toggle" onclick="toggle('vi37')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi37')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi37"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrPrensionSanguinea.html">Presión Sanguínea</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-RespiracionesExample"> </a>
+<h2><a href="Observation-RespiracionesExample.html">fsh-generated\resources\Observation-RespiracionesExample.json</a> <span id="svi38" class="toggle" onclick="toggle('vi38')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi38')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi38"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrRespiraciones.html">Frecuencia Respiratoria</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-RitmoCardiacaExample"> </a>
+<h2><a href="Observation-RitmoCardiacaExample.html">fsh-generated\resources\Observation-RitmoCardiacaExample.json</a> <span id="svi39" class="toggle" onclick="toggle('vi39')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi39')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi39"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrFrecuenciaCardiaca.html">Frecuencia Cardiaca</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-RitmoCardiacoFetalExample"> </a>
+<h2><a href="Observation-RitmoCardiacoFetalExample.html">fsh-generated\resources\Observation-RitmoCardiacoFetalExample.json</a> <span id="svi40" class="toggle" onclick="toggle('vi40')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi40')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi40"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrRitmoCardiacoFetal.html">Ritmo Cardíaco Fetal</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-SaturacionOxigenoExample"> </a>
+<h2><a href="Observation-SaturacionOxigenoExample.html">fsh-generated\resources\Observation-SaturacionOxigenoExample.json</a> <span id="svi41" class="toggle" onclick="toggle('vi41')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi41')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi41"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrSaturacionOxigeno.html">Saturación Oxígeno</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-SemanasECOExample"> </a>
+<h2><a href="Observation-SemanasECOExample.html">fsh-generated\resources\Observation-SemanasECOExample.json</a> <span id="svi42" class="toggle" onclick="toggle('vi42')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi42')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi42"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrSemanasECO.html">Edad Gestacional en Semanas</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-SemanasFURExample"> </a>
+<h2><a href="Observation-SemanasFURExample.html">fsh-generated\resources\Observation-SemanasFURExample.json</a> <span id="svi43" class="toggle" onclick="toggle('vi43')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi43')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi43"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrSemanasFUR.html">Estimado del Último Período</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-SignosVitalesExample"> </a>
+<h2><a href="Observation-SignosVitalesExample.html">fsh-generated\resources\Observation-SignosVitalesExample.json</a> <span id="svi44" class="toggle" onclick="toggle('vi44')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi44')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi44"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrSignosVitales.html">Signos Vitales de Salud Araucanía Sur</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-TallaExample"> </a>
+<h2><a href="Observation-TallaExample.html">fsh-generated\resources\Observation-TallaExample.json</a> <span id="svi45" class="toggle" onclick="toggle('vi45')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi45')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi45"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrTalla.html">Talla</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-TemperaturaCorporalAxilarExample"> </a>
+<h2><a href="Observation-TemperaturaCorporalAxilarExample.html">fsh-generated\resources\Observation-TemperaturaCorporalAxilarExample.json</a> <span id="svi46" class="toggle" onclick="toggle('vi46')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi46')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi46"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrTemperaturaCorporalAxilar.html">Temperatura Corporal Axilar</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-TemperaturaCorporalBucalExample"> </a>
+<h2><a href="Observation-TemperaturaCorporalBucalExample.html">fsh-generated\resources\Observation-TemperaturaCorporalBucalExample.json</a> <span id="svi47" class="toggle" onclick="toggle('vi47')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi47')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi47"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrTemperaturaCorporalBucal.html">Temperatura Corporal Bucal</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Observation-TemperaturaCorporalRectalExample"> </a>
+<h2><a href="Observation-TemperaturaCorporalRectalExample.html">fsh-generated\resources\Observation-TemperaturaCorporalRectalExample.json</a> <span id="svi48" class="toggle" onclick="toggle('vi48')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi48')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi48"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-CdrTemperaturaCorporalRectal.html">Temperatura Corporal Rectal</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Organization-OrganizationHospital"> </a>
+<h2><a href="Organization-OrganizationHospital.html">fsh-generated\resources\Organization-OrganizationHospital.json</a> <span id="svi49" class="toggle" onclick="toggle('vi49')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi49')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi49"><ul style="font-size: 7px"><li>Organization: Validated against <i>this.</i><a href="StructureDefinition-CdrOrganizationHosp.html">Recinto de Salud Araucania Sur</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Patient-PatientExample"> </a>
+<h2><a href="Patient-PatientExample.html">fsh-generated\resources\Patient-PatientExample.json</a> <span id="svi50" class="toggle" onclick="toggle('vi50')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi50')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi50"><ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-CdrPatient.html">Paciente Servicio de Salud Araucania Sur</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Practitioner-Profesional"> </a>
+<h2><a href="Practitioner-Profesional.html">fsh-generated\resources\Practitioner-Profesional.json</a> <span id="svi51" class="toggle" onclick="toggle('vi51')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi51')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi51"><ul style="font-size: 7px"><li>Practitioner: Validated against <i>this.</i><a href="StructureDefinition-CdrPractitioner.html">Prestador de Salud</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_Provenance-EjemploFirma"> </a>
+<h2><a href="Provenance-EjemploFirma.html">fsh-generated\resources\Provenance-EjemploFirma.json</a> <span id="svi52" class="toggle" onclick="toggle('vi52')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi52')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi52"><ul style="font-size: 7px"><li>Provenance: Validated against <i>this.</i><a href="StructureDefinition-CdrProvenance.html">Firma Digital</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrAlturaEdadInfantil"> </a>
+<h2><a href="StructureDefinition-CdrAlturaEdadInfantil.html">fsh-generated\resources\StructureDefinition-CdrAlturaEdadInfantil.json</a> <span id="svi53" class="toggle" onclick="toggle('vi53')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi53')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi53"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrAlturaUterina"> </a>
+<h2><a href="StructureDefinition-CdrAlturaUterina.html">fsh-generated\resources\StructureDefinition-CdrAlturaUterina.json</a> <span id="svi54" class="toggle" onclick="toggle('vi54')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi54')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi54"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrCircunferenciaAbdominal"> </a>
+<h2><a href="StructureDefinition-CdrCircunferenciaAbdominal.html">fsh-generated\resources\StructureDefinition-CdrCircunferenciaAbdominal.json</a> <span id="svi55" class="toggle" onclick="toggle('vi55')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi55')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi55"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrCircunferenciaCintura"> </a>
+<h2><a href="StructureDefinition-CdrCircunferenciaCintura.html">fsh-generated\resources\StructureDefinition-CdrCircunferenciaCintura.json</a> <span id="svi56" class="toggle" onclick="toggle('vi56')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi56')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi56"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrCircunferenciaCraneana"> </a>
+<h2><a href="StructureDefinition-CdrCircunferenciaCraneana.html">fsh-generated\resources\StructureDefinition-CdrCircunferenciaCraneana.json</a> <span id="svi57" class="toggle" onclick="toggle('vi57')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi57')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi57"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrComposition"> </a>
+<h2><a href="StructureDefinition-CdrComposition.html">fsh-generated\resources\StructureDefinition-CdrComposition.json</a> <span id="svi58" class="toggle" onclick="toggle('vi58')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi58')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi58"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrDocument"> </a>
+<h2><a href="StructureDefinition-CdrDocument.html">fsh-generated\resources\StructureDefinition-CdrDocument.json</a> <span id="svi59" class="toggle" onclick="toggle('vi59')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi59')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi59"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrEscalaDolor"> </a>
+<h2><a href="StructureDefinition-CdrEscalaDolor.html">fsh-generated\resources\StructureDefinition-CdrEscalaDolor.json</a> <span id="svi60" class="toggle" onclick="toggle('vi60')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi60')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi60"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrEscalaGlasgow"> </a>
+<h2><a href="StructureDefinition-CdrEscalaGlasgow.html">fsh-generated\resources\StructureDefinition-CdrEscalaGlasgow.json</a> <span id="svi61" class="toggle" onclick="toggle('vi61')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi61')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi61"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrEstadoConciencia"> </a>
+<h2><a href="StructureDefinition-CdrEstadoConciencia.html">fsh-generated\resources\StructureDefinition-CdrEstadoConciencia.json</a> <span id="svi62" class="toggle" onclick="toggle('vi62')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi62')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi62"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrEstadoDistres"> </a>
+<h2><a href="StructureDefinition-CdrEstadoDistres.html">fsh-generated\resources\StructureDefinition-CdrEstadoDistres.json</a> <span id="svi63" class="toggle" onclick="toggle('vi63')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi63')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi63"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrEstadoNutricional"> </a>
+<h2><a href="StructureDefinition-CdrEstadoNutricional.html">fsh-generated\resources\StructureDefinition-CdrEstadoNutricional.json</a> <span id="svi64" class="toggle" onclick="toggle('vi64')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi64')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi64"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrFrecuenciaCardiaca"> </a>
+<h2><a href="StructureDefinition-CdrFrecuenciaCardiaca.html">fsh-generated\resources\StructureDefinition-CdrFrecuenciaCardiaca.json</a> <span id="svi65" class="toggle" onclick="toggle('vi65')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi65')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi65"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrGlicemia"> </a>
+<h2><a href="StructureDefinition-CdrGlicemia.html">fsh-generated\resources\StructureDefinition-CdrGlicemia.json</a> <span id="svi66" class="toggle" onclick="toggle('vi66')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi66')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi66"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrIMC"> </a>
+<h2><a href="StructureDefinition-CdrIMC.html">fsh-generated\resources\StructureDefinition-CdrIMC.json</a> <span id="svi67" class="toggle" onclick="toggle('vi67')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi67')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi67"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrMovimientoFetal"> </a>
+<h2><a href="StructureDefinition-CdrMovimientoFetal.html">fsh-generated\resources\StructureDefinition-CdrMovimientoFetal.json</a> <span id="svi68" class="toggle" onclick="toggle('vi68')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi68')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi68"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrOrganizationHosp"> </a>
+<h2><a href="StructureDefinition-CdrOrganizationHosp.html">fsh-generated\resources\StructureDefinition-CdrOrganizationHosp.json</a> <span id="svi69" class="toggle" onclick="toggle('vi69')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi69')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi69"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPatient"> </a>
+<h2><a href="StructureDefinition-CdrPatient.html">fsh-generated\resources\StructureDefinition-CdrPatient.json</a> <span id="svi70" class="toggle" onclick="toggle('vi70')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi70')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi70"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPeso"> </a>
+<h2><a href="StructureDefinition-CdrPeso.html">fsh-generated\resources\StructureDefinition-CdrPeso.json</a> <span id="svi71" class="toggle" onclick="toggle('vi71')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi71')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi71"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPesoAlturaInfantil"> </a>
+<h2><a href="StructureDefinition-CdrPesoAlturaInfantil.html">fsh-generated\resources\StructureDefinition-CdrPesoAlturaInfantil.json</a> <span id="svi72" class="toggle" onclick="toggle('vi72')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi72')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi72"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPesoEdadInfantil"> </a>
+<h2><a href="StructureDefinition-CdrPesoEdadInfantil.html">fsh-generated\resources\StructureDefinition-CdrPesoEdadInfantil.json</a> <span id="svi73" class="toggle" onclick="toggle('vi73')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi73')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi73"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPractitioner"> </a>
+<h2><a href="StructureDefinition-CdrPractitioner.html">fsh-generated\resources\StructureDefinition-CdrPractitioner.json</a> <span id="svi74" class="toggle" onclick="toggle('vi74')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi74')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi74"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrPrensionSanguinea"> </a>
+<h2><a href="StructureDefinition-CdrPrensionSanguinea.html">fsh-generated\resources\StructureDefinition-CdrPrensionSanguinea.json</a> <span id="svi75" class="toggle" onclick="toggle('vi75')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi75')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi75"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrProvenance"> </a>
+<h2><a href="StructureDefinition-CdrProvenance.html">fsh-generated\resources\StructureDefinition-CdrProvenance.json</a> <span id="svi76" class="toggle" onclick="toggle('vi76')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi76')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi76"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrRespiraciones"> </a>
+<h2><a href="StructureDefinition-CdrRespiraciones.html">fsh-generated\resources\StructureDefinition-CdrRespiraciones.json</a> <span id="svi77" class="toggle" onclick="toggle('vi77')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi77')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi77"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrRitmoCardiacoFetal"> </a>
+<h2><a href="StructureDefinition-CdrRitmoCardiacoFetal.html">fsh-generated\resources\StructureDefinition-CdrRitmoCardiacoFetal.json</a> <span id="svi78" class="toggle" onclick="toggle('vi78')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi78')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi78"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrSaturacionOxigeno"> </a>
+<h2><a href="StructureDefinition-CdrSaturacionOxigeno.html">fsh-generated\resources\StructureDefinition-CdrSaturacionOxigeno.json</a> <span id="svi79" class="toggle" onclick="toggle('vi79')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi79')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi79"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrSemanasECO"> </a>
+<h2><a href="StructureDefinition-CdrSemanasECO.html">fsh-generated\resources\StructureDefinition-CdrSemanasECO.json</a> <span id="svi80" class="toggle" onclick="toggle('vi80')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi80')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi80"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrSemanasFUR"> </a>
+<h2><a href="StructureDefinition-CdrSemanasFUR.html">fsh-generated\resources\StructureDefinition-CdrSemanasFUR.json</a> <span id="svi81" class="toggle" onclick="toggle('vi81')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi81')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi81"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrSignosVitales"> </a>
+<h2><a href="StructureDefinition-CdrSignosVitales.html">fsh-generated\resources\StructureDefinition-CdrSignosVitales.json</a> <span id="svi82" class="toggle" onclick="toggle('vi82')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi82')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi82"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTalla"> </a>
+<h2><a href="StructureDefinition-CdrTalla.html">fsh-generated\resources\StructureDefinition-CdrTalla.json</a> <span id="svi83" class="toggle" onclick="toggle('vi83')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi83')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi83"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTemperaturaCorporalAxilar"> </a>
+<h2><a href="StructureDefinition-CdrTemperaturaCorporalAxilar.html">fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalAxilar.json</a> <span id="svi84" class="toggle" onclick="toggle('vi84')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi84')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi84"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTemperaturaCorporalBucal"> </a>
+<h2><a href="StructureDefinition-CdrTemperaturaCorporalBucal.html">fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalBucal.json</a> <span id="svi85" class="toggle" onclick="toggle('vi85')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi85')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi85"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTemperaturaCorporalRectal"> </a>
+<h2><a href="StructureDefinition-CdrTemperaturaCorporalRectal.html">fsh-generated\resources\StructureDefinition-CdrTemperaturaCorporalRectal.json</a> <span id="svi86" class="toggle" onclick="toggle('vi86')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi86')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi86"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTransactionPublicacion"> </a>
+<h2><a href="StructureDefinition-CdrTransactionPublicacion.html">fsh-generated\resources\StructureDefinition-CdrTransactionPublicacion.json</a> <span id="svi87" class="toggle" onclick="toggle('vi87')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi87')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi87"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-CdrTransactionRecuperacion"> </a>
+<h2><a href="StructureDefinition-CdrTransactionRecuperacion.html">fsh-generated\resources\StructureDefinition-CdrTransactionRecuperacion.json</a> <span id="svi88" class="toggle" onclick="toggle('vi88')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi88')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi88"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-IdentidadDeGenero"> </a>
+<h2><a href="StructureDefinition-IdentidadDeGenero.html">fsh-generated\resources\StructureDefinition-IdentidadDeGenero.json</a> <span id="svi89" class="toggle" onclick="toggle('vi89')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi89')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi89"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-NivelInstruccion"> </a>
+<h2><a href="StructureDefinition-NivelInstruccion.html">fsh-generated\resources\StructureDefinition-NivelInstruccion.json</a> <span id="svi90" class="toggle" onclick="toggle('vi90')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi90')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi90"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-Ocupacion"> </a>
+<h2><a href="StructureDefinition-Ocupacion.html">fsh-generated\resources\StructureDefinition-Ocupacion.json</a> <span id="svi91" class="toggle" onclick="toggle('vi91')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi91')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi91"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-Prevision"> </a>
+<h2><a href="StructureDefinition-Prevision.html">fsh-generated\resources\StructureDefinition-Prevision.json</a> <span id="svi92" class="toggle" onclick="toggle('vi92')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi92')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi92"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_StructureDefinition-PuebloOriginario"> </a>
+<h2><a href="StructureDefinition-PuebloOriginario.html">fsh-generated\resources\StructureDefinition-PuebloOriginario.json</a> <span id="svi93" class="toggle" onclick="toggle('vi93')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi93')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi93"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-EscalaConcienciaVS"> </a>
+<h2><a href="ValueSet-EscalaConcienciaVS.html">fsh-generated\resources\ValueSet-EscalaConcienciaVS.json</a> <span id="svi94" class="toggle" onclick="toggle('vi94')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi94')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi94"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-EscalaMovimientoFetalVS"> </a>
+<h2><a href="ValueSet-EscalaMovimientoFetalVS.html">fsh-generated\resources\ValueSet-EscalaMovimientoFetalVS.json</a> <span id="svi95" class="toggle" onclick="toggle('vi95')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi95')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi95"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-EscalaNutricionales"> </a>
+<h2><a href="ValueSet-EscalaNutricionales.html">fsh-generated\resources\ValueSet-EscalaNutricionales.json</a> <span id="svi96" class="toggle" onclick="toggle('vi96')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi96')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi96"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-EstadoCivilVS"> </a>
+<h2><a href="ValueSet-EstadoCivilVS.html">fsh-generated\resources\ValueSet-EstadoCivilVS.json</a> <span id="svi97" class="toggle" onclick="toggle('vi97')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi97')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi97"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-GenderIdentityVS"> </a>
+<h2><a href="ValueSet-GenderIdentityVS.html">fsh-generated\resources\ValueSet-GenderIdentityVS.json</a> <span id="svi98" class="toggle" onclick="toggle('vi98')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi98')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi98"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-Nivel-InstruccionVS"> </a>
+<h2><a href="ValueSet-Nivel-InstruccionVS.html">fsh-generated\resources\ValueSet-Nivel-InstruccionVS.json</a> <span id="svi99" class="toggle" onclick="toggle('vi99')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi99')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi99"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-Ocupacion-PatientVS"> </a>
+<h2><a href="ValueSet-Ocupacion-PatientVS.html">fsh-generated\resources\ValueSet-Ocupacion-PatientVS.json</a> <span id="svi100" class="toggle" onclick="toggle('vi100')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi100')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi100"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-Pueblos-PueblosOriginariosVS"> </a>
+<h2><a href="ValueSet-Pueblos-PueblosOriginariosVS.html">fsh-generated\resources\ValueSet-Pueblos-PueblosOriginariosVS.json</a> <span id="svi101" class="toggle" onclick="toggle('vi101')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi101')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi101"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-ResultadosSiNo"> </a>
+<h2><a href="ValueSet-ResultadosSiNo.html">fsh-generated\resources\ValueSet-ResultadosSiNo.json</a> <span id="svi102" class="toggle" onclick="toggle('vi102')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi102')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi102"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-SignosVitalesSsasur"> </a>
+<h2><a href="ValueSet-SignosVitalesSsasur.html">fsh-generated\resources\ValueSet-SignosVitalesSsasur.json</a> <span id="svi103" class="toggle" onclick="toggle('vi103')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi103')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi103"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-Sistema-PrevisionVS"> </a>
+<h2><a href="ValueSet-Sistema-PrevisionVS.html">fsh-generated\resources\ValueSet-Sistema-PrevisionVS.json</a> <span id="svi104" class="toggle" onclick="toggle('vi104')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi104')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi104"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-TitulosProfesionalesPrestadoresVS"> </a>
+<h2><a href="ValueSet-TitulosProfesionalesPrestadoresVS.html">fsh-generated\resources\ValueSet-TitulosProfesionalesPrestadoresVS.json</a> <span id="svi105" class="toggle" onclick="toggle('vi105')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi105')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi105"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Minsal_Documents_AlmacenamientoSignosVitales_fsh-generated_resources_ValueSet-Tramos-IsapresVS"> </a>
+<h2><a href="ValueSet-Tramos-IsapresVS.html">fsh-generated\resources\ValueSet-Tramos-IsapresVS.json</a> <span id="svi106" class="toggle" onclick="toggle('vi106')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi106')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi106"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+</body>
+</html>

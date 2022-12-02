@@ -1,0 +1,188 @@
+{
+  "resourceType" : "Patient",
+  "id" : "PatientExample",
+  "meta" : {
+    "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrPatient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>James Pond (OFFICIAL)</b> male, DoB: 1968-11-03 ( Chile: 15.236.327-k (use: USUAL))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EstadoCivilCS 01}\">SOLTERO(A)</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>id: 158468453 (use: OFFICIAL)</li><li>id: 12345648 (use: SECONDARY)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li><a href=\"mailto:wilCAB12l@wilmermail.com\">wilCAB12l@wilmermail.com</a></li><li>Av Los Chirimoyos, 32, casa 4 null null null (HOME)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ocupación del paciente.\"><a href=\"StructureDefinition-Ocupacion.html\">Ocupación:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Ocupacion-PatientCS 034}\">INGENIERO CIVIL</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Esta extensión incluye códigos de paises de origen\"><a href=\"https://build.fhir.org/ig/HL7Chile/CL-Core//StructureDefinition-CodigoPaises.html\">Codigo de Identificación de países:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {urn:iso:std:iso:3166 222}\">El Salvador</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión para incluir la identidad de género del paciente.\"><a href=\"StructureDefinition-IdentidadDeGenero.html\">Identidad de Género:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/GenderIdentityCs 01}\">Masculino</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Pueblo originario al cual pertenece la persona.\"><a href=\"StructureDefinition-PuebloOriginario.html\">Pueblo Originario:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Pueblos-PueblosOriginariosCS 01}\">MAPUCHE</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Sistema de previsión de salud utilizado por el paciente.\">Previsión del Paciente:</td><td colspan=\"3\"><ul><li>prevision: <a href=\"CodeSystem-Sistema-Prevision.html#Sistema-Prevision-01\">Sistema de Previsión</a> 01: FONASA</li><li>tramoisapre: <a href=\"CodeSystem-Tramos-FONASA.html#Tramos-FONASA-D\">Tramos de FONASA</a> D: Tramo D</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Nivel educacional en la que se encuentra el paciente.\"><a href=\"StructureDefinition-NivelInstruccion.html\">Nivel Instrucción:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Nivel-InstruccionCS 05}\">PROFESIONAL UNIVERSITARIO</span></li></ul></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "urn:iso:std:iso:3166",
+        "code" : "222",
+        "display" : "El Salvador"
+      }]
+    }
+  },
+  {
+    "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/IdentidadDeGenero",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/GenderIdentityCs",
+        "code" : "01",
+        "display" : "Masculino"
+      }]
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "prevision",
+      "valueCoding" : {
+        "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Sistema-Prevision",
+        "code" : "01",
+        "display" : "FONASA"
+      }
+    },
+    {
+      "url" : "tramoisapre",
+      "valueCoding" : {
+        "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Tramos-FONASA",
+        "code" : "D",
+        "display" : "Tramo D"
+      }
+    }],
+    "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/Prevision"
+  },
+  {
+    "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/PuebloOriginario",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Pueblos-PueblosOriginariosCS",
+        "code" : "01",
+        "display" : "MAPUCHE"
+      }]
+    }
+  },
+  {
+    "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/NivelInstruccion",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Nivel-InstruccionCS",
+        "code" : "05",
+        "display" : "PROFESIONAL UNIVERSITARIO"
+      }]
+    }
+  },
+  {
+    "url" : "https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/Ocupacion",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Ocupacion-PatientCS",
+        "code" : "034",
+        "display" : "INGENIERO CIVIL"
+      }]
+    }
+  }],
+  "identifier" : [{
+    "use" : "official",
+    "system" : "http://ssasur.cl/BDUP",
+    "value" : "158468453"
+  },
+  {
+    "use" : "secondary",
+    "value" : "12345648",
+    "assigner" : {
+      "reference" : "Organization/OrganizationHospital"
+    }
+  },
+  {
+    "use" : "usual",
+    "type" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "urn:iso:std:iso:3166",
+            "code" : "152",
+            "display" : "Chile"
+          }]
+        }
+      }],
+      "coding" : [{
+        "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodigoDNI",
+        "code" : "NNCHL",
+        "display" : "Chile"
+      }]
+    },
+    "system" : "https://api.registrocivil.cl/rut",
+    "value" : "15.236.327-k"
+  }],
+  "name" : [{
+    "use" : "official",
+    "family" : "Pond",
+    "_family" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+        "valueString" : "Sandoval"
+      }]
+    },
+    "given" : ["James"]
+  }],
+  "telecom" : [{
+    "system" : "email",
+    "value" : "wilCAB12l@wilmermail.com",
+    "use" : "home"
+  }],
+  "gender" : "male",
+  "birthDate" : "1968-11-03",
+  "address" : [{
+    "use" : "home",
+    "line" : ["Av Los Chirimoyos, 32, casa 4"],
+    "_city" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ComunasCl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodComunasCL",
+            "code" : "15101"
+          }]
+        }
+      }]
+    },
+    "_district" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ProvinciasCl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodProvinciasCL",
+            "code" : "151"
+          }]
+        }
+      }]
+    },
+    "_state" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/RegionesCl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://hl7chile.cl/fhir/ig/corecl/CodeSystem/CSCodRegionCL",
+            "code" : "15",
+            "display" : "Arica y Parinacota"
+          }]
+        }
+      }]
+    },
+    "_country" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "urn:iso:std:iso:3166",
+            "code" : "152"
+          }]
+        }
+      }]
+    }
+  }],
+  "maritalStatus" : {
+    "coding" : [{
+      "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EstadoCivilCS",
+      "code" : "01",
+      "display" : "SOLTERO(A)"
+    }]
+  }
+}

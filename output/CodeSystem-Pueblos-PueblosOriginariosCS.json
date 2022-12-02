@@ -1,0 +1,86 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "Pueblos-PueblosOriginariosCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Pueblos-PueblosOriginariosCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"Pueblos-PueblosOriginariosCS-01\"> </a></td><td>MAPUCHE</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"Pueblos-PueblosOriginariosCS-02\"> </a></td><td>AYMARA</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"Pueblos-PueblosOriginariosCS-03\"> </a></td><td>RAPA NUI (PASCUENSE)</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"Pueblos-PueblosOriginariosCS-04\"> </a></td><td>LICAN ANTAI (ATACAMEÑO)</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"Pueblos-PueblosOriginariosCS-05\"> </a></td><td>QUECHUA</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"Pueblos-PueblosOriginariosCS-06\"> </a></td><td>COLLA</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"Pueblos-PueblosOriginariosCS-07\"> </a></td><td>DIAGUITA</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"Pueblos-PueblosOriginariosCS-08\"> </a></td><td>KAWÉSQAR</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"Pueblos-PueblosOriginariosCS-09\"> </a></td><td>YAGÁN (YÁMANA)</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"Pueblos-PueblosOriginariosCS-10\"> </a></td><td>OTRO (ESPECIFICAR)</td></tr><tr><td style=\"white-space:nowrap\">96<a name=\"Pueblos-PueblosOriginariosCS-96\"> </a></td><td>NINGUNO</td></tr></table></div>"
+  },
+  "url" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Pueblos-PueblosOriginariosCS",
+  "version" : "0.5.3",
+  "name" : "PueblosOriginariosCS",
+  "title" : "Codificación de Pueblos Originarios",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-12-01T14:22:43-03:00",
+  "publisher" : "Servicio de Salud Araucania Sur",
+  "contact" : [{
+    "name" : "Servicio de Salud Araucania Sur",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.araucaniasur.cl/"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloam@redsalud.gob.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Codificación de los pueblos originarios",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 11,
+  "concept" : [{
+    "code" : "01",
+    "display" : "MAPUCHE"
+  },
+  {
+    "code" : "02",
+    "display" : "AYMARA"
+  },
+  {
+    "code" : "03",
+    "display" : "RAPA NUI (PASCUENSE)"
+  },
+  {
+    "code" : "04",
+    "display" : "LICAN ANTAI (ATACAMEÑO)"
+  },
+  {
+    "code" : "05",
+    "display" : "QUECHUA"
+  },
+  {
+    "code" : "06",
+    "display" : "COLLA"
+  },
+  {
+    "code" : "07",
+    "display" : "DIAGUITA"
+  },
+  {
+    "code" : "08",
+    "display" : "KAWÉSQAR"
+  },
+  {
+    "code" : "09",
+    "display" : "YAGÁN (YÁMANA)"
+  },
+  {
+    "code" : "10",
+    "display" : "OTRO (ESPECIFICAR)"
+  },
+  {
+    "code" : "96",
+    "display" : "NINGUNO"
+  }]
+}

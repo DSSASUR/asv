@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="EscalaConcienciaVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-EscalaConcienciaCS.html"><code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaConcienciaCS</code></a></li></ul></div>
+  </text>
+  <url value="https://www.ssasur.cl/fhir/ig/ASV/ValueSet/EscalaConcienciaVS"/>
+  <version value="0.5.3"/>
+  <name value="EscalaConcienciaVS"/>
+  <title value="Estado de Cociencia"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2022-12-01T14:22:43-03:00"/>
+  <publisher value="Servicio de Salud Araucania Sur"/>
+  <contact>
+    <name value="Servicio de Salud Araucania Sur"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.araucaniasur.cl/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Franco Ulloa"/>
+    <telecom>
+      <system value="email"/>
+      <value value="franco.ulloam@redsalud.gob.cl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Posiles resultados del estado de conciencia en que se encuentra un paciente."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaConcienciaCS"/>
+    </include>
+  </compose>
+</ValueSet>

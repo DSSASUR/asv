@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "EscalaNutricionalEstandar",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalEstandar</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">BajoloNormal<a name=\"EscalaNutricionalEstandar-BajoloNormal\"> </a></td><td>Bajo Peso</td></tr><tr><td style=\"white-space:nowrap\">Normal<a name=\"EscalaNutricionalEstandar-Normal\"> </a></td><td>Normal</td></tr><tr><td style=\"white-space:nowrap\">Sobrepeso<a name=\"EscalaNutricionalEstandar-Sobrepeso\"> </a></td><td>Sobrepeso</td></tr><tr><td style=\"white-space:nowrap\">Obesidad<a name=\"EscalaNutricionalEstandar-Obesidad\"> </a></td><td>Obesidad</td></tr></table></div>"
+  },
+  "url" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalEstandar",
+  "version" : "0.5.3",
+  "name" : "EscalaNutricionalEstandar",
+  "title" : "Escala Nutricional",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-12-01T14:22:43-03:00",
+  "publisher" : "Servicio de Salud Araucania Sur",
+  "contact" : [{
+    "name" : "Servicio de Salud Araucania Sur",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.araucaniasur.cl/"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloam@redsalud.gob.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Escala estandar de nutrición para un paciente",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "BajoloNormal",
+    "display" : "Bajo Peso"
+  },
+  {
+    "code" : "Normal",
+    "display" : "Normal"
+  },
+  {
+    "code" : "Sobrepeso",
+    "display" : "Sobrepeso"
+  },
+  {
+    "code" : "Obesidad",
+    "display" : "Obesidad"
+  }]
+}

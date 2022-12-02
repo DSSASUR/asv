@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="Sistema-Prevision"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Sistema-Prevision</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">01<a name="Sistema-Prevision-01"> </a></td><td>FONASA</td></tr><tr><td style="white-space:nowrap">02<a name="Sistema-Prevision-02"> </a></td><td>ISAPRE</td></tr><tr><td style="white-space:nowrap">03<a name="Sistema-Prevision-03"> </a></td><td>CAPREDENA</td></tr><tr><td style="white-space:nowrap">04<a name="Sistema-Prevision-04"> </a></td><td>DIPRECA</td></tr><tr><td style="white-space:nowrap">05<a name="Sistema-Prevision-05"> </a></td><td>SISA</td></tr><tr><td style="white-space:nowrap">96<a name="Sistema-Prevision-96"> </a></td><td>NINGUNA</td></tr><tr><td style="white-space:nowrap">99<a name="Sistema-Prevision-99"> </a></td><td>DESCONOCIDO</td></tr></table></div>
+  </text>
+  <url value="https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Sistema-Prevision"/>
+  <version value="0.5.3"/>
+  <name value="SistemaDePrevisionCS"/>
+  <title value="Sistema de Previsión"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2022-12-01T14:22:43-03:00"/>
+  <publisher value="Servicio de Salud Araucania Sur"/>
+  <contact>
+    <name value="Servicio de Salud Araucania Sur"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.araucaniasur.cl/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Franco Ulloa"/>
+    <telecom>
+      <system value="email"/>
+      <value value="franco.ulloam@redsalud.gob.cl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Códificación de los sistemas de previsión utilizados para financiar la salud de los pacientes"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="01"/>
+    <display value="FONASA"/>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="ISAPRE"/>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="CAPREDENA"/>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="DIPRECA"/>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="SISA"/>
+  </concept>
+  <concept>
+    <code value="96"/>
+    <display value="NINGUNA"/>
+  </concept>
+  <concept>
+    <code value="99"/>
+    <display value="DESCONOCIDO"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,40 @@
+﻿{
+  "package-id": "hl7.fhir.cl.corecl.ssasur.asv",
+  "title": "Almacenamiento de Signos Vitales",
+  "canonical": "https://www.ssasur.cl/fhir/ig/ASV",
+  "introduction": "Esta es una guía para almacenar en el respositorio CDR Fhir del Servicio de Salud Araucanía Sur.",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Versión evolutiva de la guía",
+      "path": "https://build.fhir.org/ig/ASV/",
+      "status": "ci-build",
+      "current": true
+    },
+    {
+      "version": "0.5.3",
+      "desc": "Incluir firma en el documento",
+      "path": "https://www.ssasur.cl/fhir/ig/ASV/0.5.2",
+      "status": "draft",
+      "sequence": "Publications",
+      "current": true,
+      "date": "2022-12-01"
+    },
+    {
+      "version": "0.5.1",
+      "desc": "Incluir Provenance y ID a los recursos",
+      "path": "https://www.ssasur.cl/fhir/ig/ASV/0.5.1",
+      "status": "draft",
+      "sequence": "Publications",
+      "date": "2022-11-29"
+    },
+    {
+      "version": "0.3.6",
+      "desc": "Primera guía formal",
+      "path": "https://www.ssasur.cl/fhir/ig/ASV/",
+      "status": "draft",
+      "sequence": "Publications",
+      "date": "2022-09-11"
+    }
+  ]
+}

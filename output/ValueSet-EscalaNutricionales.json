@@ -1,0 +1,50 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "EscalaNutricionales",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-EscalaNutricionalEstandar.html\"><code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalEstandar</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-EscalaNutricionalPediatrica.html\"><code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalPediatrica</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-EscalaNutricionalAdulto.html\"><code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalAdulto</code></a></li></ul></div>"
+  },
+  "url" : "https://www.ssasur.cl/fhir/ig/ASV/ValueSet/EscalaNutricionales",
+  "version" : "0.5.3",
+  "name" : "EscalasNutricionales",
+  "title" : "Escalas Nutricionales",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-12-01T14:22:43-03:00",
+  "publisher" : "Servicio de Salud Araucania Sur",
+  "contact" : [{
+    "name" : "Servicio de Salud Araucania Sur",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.araucaniasur.cl/"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloam@redsalud.gob.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Las distintas escalas nutricionales utilizadas dentro de los sistemas del servicio de salud",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalEstandar"
+    },
+    {
+      "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalPediatrica"
+    },
+    {
+      "system" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalAdulto"
+    }]
+  }
+}

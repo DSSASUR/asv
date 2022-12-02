@@ -1,0 +1,12 @@
+{
+  "url" : "https://www.ssasur.cl/fhir/ig/ASV/ImplementationGuide/hl7.fhir.cl.corecl.ssasur.asv",
+  "name" : "AlmacenamientoSignosVitales",
+  "package-id" : "hl7.fhir.cl.corecl.ssasur.asv",
+  "ig-ver" : "0.5.3",
+  "date" : "Thu, 01 Dec, 2022 14:22:43 -0300",
+  "errs" : 0,
+  "warnings" : 5,
+  "hints" : 1,
+  "version" : "4.0.1",
+  "tool" : "5.0.0-ballot (3)"
+}

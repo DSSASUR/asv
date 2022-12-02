@@ -1,0 +1,1714 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "Ocupacion-PatientCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Ocupacion-PatientCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"Ocupacion-PatientCS-001\"> </a></td><td>ABOGADO</td></tr><tr><td style=\"white-space:nowrap\">002<a name=\"Ocupacion-PatientCS-002\"> </a></td><td>ADMINISTRADOR PUBLICO</td></tr><tr><td style=\"white-space:nowrap\">003<a name=\"Ocupacion-PatientCS-003\"> </a></td><td>ADMINISTRATIVOS</td></tr><tr><td style=\"white-space:nowrap\">004<a name=\"Ocupacion-PatientCS-004\"> </a></td><td>ANATOMIA PATOLOGICA</td></tr><tr><td style=\"white-space:nowrap\">005<a name=\"Ocupacion-PatientCS-005\"> </a></td><td>ANESTESIA</td></tr><tr><td style=\"white-space:nowrap\">006<a name=\"Ocupacion-PatientCS-006\"> </a></td><td>ANTROPOLOGO</td></tr><tr><td style=\"white-space:nowrap\">007<a name=\"Ocupacion-PatientCS-007\"> </a></td><td>ARQUITECTO</td></tr><tr><td style=\"white-space:nowrap\">008<a name=\"Ocupacion-PatientCS-008\"> </a></td><td>ASISTENTE SOCIAL</td></tr><tr><td style=\"white-space:nowrap\">009<a name=\"Ocupacion-PatientCS-009\"> </a></td><td>AUXILIAR</td></tr><tr><td style=\"white-space:nowrap\">010<a name=\"Ocupacion-PatientCS-010\"> </a></td><td>AUXILIAR PARAMEDICO</td></tr><tr><td style=\"white-space:nowrap\">011<a name=\"Ocupacion-PatientCS-011\"> </a></td><td>BIOQUIMICO</td></tr><tr><td style=\"white-space:nowrap\">012<a name=\"Ocupacion-PatientCS-012\"> </a></td><td>CHOFER</td></tr><tr><td style=\"white-space:nowrap\">013<a name=\"Ocupacion-PatientCS-013\"> </a></td><td>CIRUGIA</td></tr><tr><td style=\"white-space:nowrap\">014<a name=\"Ocupacion-PatientCS-014\"> </a></td><td>CIRUGIA INFANTIL</td></tr><tr><td style=\"white-space:nowrap\">015<a name=\"Ocupacion-PatientCS-015\"> </a></td><td>CONSTRUCTOR CIVIL</td></tr><tr><td style=\"white-space:nowrap\">016<a name=\"Ocupacion-PatientCS-016\"> </a></td><td>CONTADOR</td></tr><tr><td style=\"white-space:nowrap\">017<a name=\"Ocupacion-PatientCS-017\"> </a></td><td>CONTADOR AUDITOR</td></tr><tr><td style=\"white-space:nowrap\">018<a name=\"Ocupacion-PatientCS-018\"> </a></td><td>DENTISTA ATENCION INTEGRAL/DOCENCIA DE SERVICIO</td></tr><tr><td style=\"white-space:nowrap\">019<a name=\"Ocupacion-PatientCS-019\"> </a></td><td>DENTISTA BECARIO DE RETORNO</td></tr><tr><td style=\"white-space:nowrap\">020<a name=\"Ocupacion-PatientCS-020\"> </a></td><td>DENTISTA BECARIO PRIMARIO</td></tr><tr><td style=\"white-space:nowrap\">021<a name=\"Ocupacion-PatientCS-021\"> </a></td><td>DENTISTA GENERAL DE ZONA</td></tr><tr><td style=\"white-space:nowrap\">022<a name=\"Ocupacion-PatientCS-022\"> </a></td><td>DENTISTA PERIODO ASISTENCIAL OBLIGATORIO</td></tr><tr><td style=\"white-space:nowrap\">023<a name=\"Ocupacion-PatientCS-023\"> </a></td><td>DERMATOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">024<a name=\"Ocupacion-PatientCS-024\"> </a></td><td>DISEÑADOR GRAFICO</td></tr><tr><td style=\"white-space:nowrap\">025<a name=\"Ocupacion-PatientCS-025\"> </a></td><td>EDUCADOR SANITARIO</td></tr><tr><td style=\"white-space:nowrap\">026<a name=\"Ocupacion-PatientCS-026\"> </a></td><td>EDUCADORA DE PARVULOS</td></tr><tr><td style=\"white-space:nowrap\">027<a name=\"Ocupacion-PatientCS-027\"> </a></td><td>ENCUESTADOR Y CODIFICADOR DE DATOS</td></tr><tr><td style=\"white-space:nowrap\">028<a name=\"Ocupacion-PatientCS-028\"> </a></td><td>ENFERMERA</td></tr><tr><td style=\"white-space:nowrap\">029<a name=\"Ocupacion-PatientCS-029\"> </a></td><td>ESTADISTICO PROFESIONAL</td></tr><tr><td style=\"white-space:nowrap\">030<a name=\"Ocupacion-PatientCS-030\"> </a></td><td>ESTADISTICO TECNICO</td></tr><tr><td style=\"white-space:nowrap\">031<a name=\"Ocupacion-PatientCS-031\"> </a></td><td>FISIATRIA</td></tr><tr><td style=\"white-space:nowrap\">032<a name=\"Ocupacion-PatientCS-032\"> </a></td><td>FONOAUDIOLOGO</td></tr><tr><td style=\"white-space:nowrap\">033<a name=\"Ocupacion-PatientCS-033\"> </a></td><td>GEOGRAFO</td></tr><tr><td style=\"white-space:nowrap\">034<a name=\"Ocupacion-PatientCS-034\"> </a></td><td>INGENIERO CIVIL</td></tr><tr><td style=\"white-space:nowrap\">035<a name=\"Ocupacion-PatientCS-035\"> </a></td><td>INGENIERO COMERCIAL</td></tr><tr><td style=\"white-space:nowrap\">036<a name=\"Ocupacion-PatientCS-036\"> </a></td><td>INGENIERO DE EJECUCION</td></tr><tr><td style=\"white-space:nowrap\">037<a name=\"Ocupacion-PatientCS-037\"> </a></td><td>INSPECTORES</td></tr><tr><td style=\"white-space:nowrap\">038<a name=\"Ocupacion-PatientCS-038\"> </a></td><td>KINESIOLOGO</td></tr><tr><td style=\"white-space:nowrap\">039<a name=\"Ocupacion-PatientCS-039\"> </a></td><td>LABORATORIO CLINICO</td></tr><tr><td style=\"white-space:nowrap\">040<a name=\"Ocupacion-PatientCS-040\"> </a></td><td>LABORATORISTA DENTAL</td></tr><tr><td style=\"white-space:nowrap\">041<a name=\"Ocupacion-PatientCS-041\"> </a></td><td>MATRONA</td></tr><tr><td style=\"white-space:nowrap\">042<a name=\"Ocupacion-PatientCS-042\"> </a></td><td>MEDICINA FISICA Y REHABILITACION</td></tr><tr><td style=\"white-space:nowrap\">043<a name=\"Ocupacion-PatientCS-043\"> </a></td><td>MEDICINA INTEGRAL</td></tr><tr><td style=\"white-space:nowrap\">044<a name=\"Ocupacion-PatientCS-044\"> </a></td><td>MEDICINA INTERNA</td></tr><tr><td style=\"white-space:nowrap\">045<a name=\"Ocupacion-PatientCS-045\"> </a></td><td>MEDICINA NUCLEAR</td></tr><tr><td style=\"white-space:nowrap\">046<a name=\"Ocupacion-PatientCS-046\"> </a></td><td>MEDICINA SALUD FAMILIAR</td></tr><tr><td style=\"white-space:nowrap\">047<a name=\"Ocupacion-PatientCS-047\"> </a></td><td>MEDICO ATENCION INTEGRAL</td></tr><tr><td style=\"white-space:nowrap\">048<a name=\"Ocupacion-PatientCS-048\"> </a></td><td>MEDICO BECADO DE RETORNO</td></tr><tr><td style=\"white-space:nowrap\">049<a name=\"Ocupacion-PatientCS-049\"> </a></td><td>MEDICO BECADO PRIMARIO</td></tr><tr><td style=\"white-space:nowrap\">050<a name=\"Ocupacion-PatientCS-050\"> </a></td><td>MEDICO PERIODO ASISTENCIAL OBLIGATORIO</td></tr><tr><td style=\"white-space:nowrap\">051<a name=\"Ocupacion-PatientCS-051\"> </a></td><td>MEDICO VETERINARIO</td></tr><tr><td style=\"white-space:nowrap\">052<a name=\"Ocupacion-PatientCS-052\"> </a></td><td>NEUMOTISIOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">053<a name=\"Ocupacion-PatientCS-053\"> </a></td><td>NEUROCIRUGIA</td></tr><tr><td style=\"white-space:nowrap\">054<a name=\"Ocupacion-PatientCS-054\"> </a></td><td>NEUROLOGIA</td></tr><tr><td style=\"white-space:nowrap\">055<a name=\"Ocupacion-PatientCS-055\"> </a></td><td>NEUROPSIQUIATRIA INFANTIL</td></tr><tr><td style=\"white-space:nowrap\">056<a name=\"Ocupacion-PatientCS-056\"> </a></td><td>NUTRICIONISTA</td></tr><tr><td style=\"white-space:nowrap\">057<a name=\"Ocupacion-PatientCS-057\"> </a></td><td>OBSTETRICIA Y GINECOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">058<a name=\"Ocupacion-PatientCS-058\"> </a></td><td>ODONTOLOGO/DENTISTA</td></tr><tr><td style=\"white-space:nowrap\">059<a name=\"Ocupacion-PatientCS-059\"> </a></td><td>OFTALMOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">060<a name=\"Ocupacion-PatientCS-060\"> </a></td><td>ONCOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">061<a name=\"Ocupacion-PatientCS-061\"> </a></td><td>OTORRINOLARINGOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">062<a name=\"Ocupacion-PatientCS-062\"> </a></td><td>OTROS TECNICOS</td></tr><tr><td style=\"white-space:nowrap\">063<a name=\"Ocupacion-PatientCS-063\"> </a></td><td>PEDIATRIA</td></tr><tr><td style=\"white-space:nowrap\">064<a name=\"Ocupacion-PatientCS-064\"> </a></td><td>PERIODISTA</td></tr><tr><td style=\"white-space:nowrap\">065<a name=\"Ocupacion-PatientCS-065\"> </a></td><td>PODOLOGO</td></tr><tr><td style=\"white-space:nowrap\">066<a name=\"Ocupacion-PatientCS-066\"> </a></td><td>PROCESADOR DE DATOS</td></tr><tr><td style=\"white-space:nowrap\">067<a name=\"Ocupacion-PatientCS-067\"> </a></td><td>PROFESOR</td></tr><tr><td style=\"white-space:nowrap\">068<a name=\"Ocupacion-PatientCS-068\"> </a></td><td>PSICOLOGO</td></tr><tr><td style=\"white-space:nowrap\">069<a name=\"Ocupacion-PatientCS-069\"> </a></td><td>PSIQUIATRIA</td></tr><tr><td style=\"white-space:nowrap\">070<a name=\"Ocupacion-PatientCS-070\"> </a></td><td>PSIQUIATRIA INFANTIL</td></tr><tr><td style=\"white-space:nowrap\">071<a name=\"Ocupacion-PatientCS-071\"> </a></td><td>QUIMICO FARMACEUTICO</td></tr><tr><td style=\"white-space:nowrap\">072<a name=\"Ocupacion-PatientCS-072\"> </a></td><td>QUIMICO FARMACEUTICO GENERAL DE ZONA</td></tr><tr><td style=\"white-space:nowrap\">073<a name=\"Ocupacion-PatientCS-073\"> </a></td><td>RADIOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">074<a name=\"Ocupacion-PatientCS-074\"> </a></td><td>RADIOTERAPIA/ ONCOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">075<a name=\"Ocupacion-PatientCS-075\"> </a></td><td>RELACIONADOR PUBLICO</td></tr><tr><td style=\"white-space:nowrap\">076<a name=\"Ocupacion-PatientCS-076\"> </a></td><td>SALUD PUBLICA</td></tr><tr><td style=\"white-space:nowrap\">077<a name=\"Ocupacion-PatientCS-077\"> </a></td><td>SECRETARIO/A</td></tr><tr><td style=\"white-space:nowrap\">078<a name=\"Ocupacion-PatientCS-078\"> </a></td><td>SOCIOLOGO</td></tr><tr><td style=\"white-space:nowrap\">079<a name=\"Ocupacion-PatientCS-079\"> </a></td><td>TECNICO DE NIVEL SUPERIOR (TENS)</td></tr><tr><td style=\"white-space:nowrap\">080<a name=\"Ocupacion-PatientCS-080\"> </a></td><td>TECNICO(A) PARAMEDICO DENTAL</td></tr><tr><td style=\"white-space:nowrap\">081<a name=\"Ocupacion-PatientCS-081\"> </a></td><td>TECNICOS DE NIVEL SUPERIOR ENFERMERIA</td></tr><tr><td style=\"white-space:nowrap\">082<a name=\"Ocupacion-PatientCS-082\"> </a></td><td>TECNOLOGO MEDICO</td></tr><tr><td style=\"white-space:nowrap\">083<a name=\"Ocupacion-PatientCS-083\"> </a></td><td>TERAPEUTA OCUPACIONAL</td></tr><tr><td style=\"white-space:nowrap\">084<a name=\"Ocupacion-PatientCS-084\"> </a></td><td>TRAUMATOLOGIA Y ORTOPEDIA</td></tr><tr><td style=\"white-space:nowrap\">085<a name=\"Ocupacion-PatientCS-085\"> </a></td><td>TRAUMATOLOGIA Y ORTOPEDIA INFANTIL</td></tr><tr><td style=\"white-space:nowrap\">086<a name=\"Ocupacion-PatientCS-086\"> </a></td><td>UROLOGIA</td></tr><tr><td style=\"white-space:nowrap\">088<a name=\"Ocupacion-PatientCS-088\"> </a></td><td>ACOMODADOR DE AUTOS</td></tr><tr><td style=\"white-space:nowrap\">089<a name=\"Ocupacion-PatientCS-089\"> </a></td><td>ACTOR O ACTRIZ</td></tr><tr><td style=\"white-space:nowrap\">090<a name=\"Ocupacion-PatientCS-090\"> </a></td><td>ACUICULTOR</td></tr><tr><td style=\"white-space:nowrap\">091<a name=\"Ocupacion-PatientCS-091\"> </a></td><td>ADMINISTRADOR</td></tr><tr><td style=\"white-space:nowrap\">092<a name=\"Ocupacion-PatientCS-092\"> </a></td><td>AGENTE</td></tr><tr><td style=\"white-space:nowrap\">093<a name=\"Ocupacion-PatientCS-093\"> </a></td><td>AGRICULTOR</td></tr><tr><td style=\"white-space:nowrap\">094<a name=\"Ocupacion-PatientCS-094\"> </a></td><td>AGRONOMO(A)</td></tr><tr><td style=\"white-space:nowrap\">095<a name=\"Ocupacion-PatientCS-095\"> </a></td><td>ALBAÑIL</td></tr><tr><td style=\"white-space:nowrap\">096<a name=\"Ocupacion-PatientCS-096\"> </a></td><td>ALMACENERO</td></tr><tr><td style=\"white-space:nowrap\">097<a name=\"Ocupacion-PatientCS-097\"> </a></td><td>AMASADOR(A)</td></tr><tr><td style=\"white-space:nowrap\">098<a name=\"Ocupacion-PatientCS-098\"> </a></td><td>ANALISTA</td></tr><tr><td style=\"white-space:nowrap\">099<a name=\"Ocupacion-PatientCS-099\"> </a></td><td>APICULTOR(A)</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"Ocupacion-PatientCS-100\"> </a></td><td>ARSENALERA</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"Ocupacion-PatientCS-101\"> </a></td><td>ARSENALERA PABELLON</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"Ocupacion-PatientCS-102\"> </a></td><td>ARTESANA</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"Ocupacion-PatientCS-103\"> </a></td><td>ARTISTA</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"Ocupacion-PatientCS-104\"> </a></td><td>ASEO Y ORNATO</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"Ocupacion-PatientCS-105\"> </a></td><td>ASESOR</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"Ocupacion-PatientCS-106\"> </a></td><td>ASESORA DEL HOGAR</td></tr><tr><td style=\"white-space:nowrap\">107<a name=\"Ocupacion-PatientCS-107\"> </a></td><td>ASISTENTE</td></tr><tr><td style=\"white-space:nowrap\">108<a name=\"Ocupacion-PatientCS-108\"> </a></td><td>ATENCION DE PUBLICO</td></tr><tr><td style=\"white-space:nowrap\">109<a name=\"Ocupacion-PatientCS-109\"> </a></td><td>AUDIOPROTESISTA</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"Ocupacion-PatientCS-110\"> </a></td><td>AUDIOVISUALISTAS</td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"Ocupacion-PatientCS-111\"> </a></td><td>AUDITOR</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"Ocupacion-PatientCS-112\"> </a></td><td>AYUDANTE</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"Ocupacion-PatientCS-113\"> </a></td><td>BABYSITTER</td></tr><tr><td style=\"white-space:nowrap\">114<a name=\"Ocupacion-PatientCS-114\"> </a></td><td>BAILARINA</td></tr><tr><td style=\"white-space:nowrap\">115<a name=\"Ocupacion-PatientCS-115\"> </a></td><td>BANQUETERO</td></tr><tr><td style=\"white-space:nowrap\">116<a name=\"Ocupacion-PatientCS-116\"> </a></td><td>BARMAN (WOMAN)</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"Ocupacion-PatientCS-117\"> </a></td><td>BIBLIOTECARIO(A)</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"Ocupacion-PatientCS-118\"> </a></td><td>BODEGUERO(A)</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"Ocupacion-PatientCS-119\"> </a></td><td>BOMBERO DE BENCINERA</td></tr><tr><td style=\"white-space:nowrap\">120<a name=\"Ocupacion-PatientCS-120\"> </a></td><td>BOMBERO(A)</td></tr><tr><td style=\"white-space:nowrap\">121<a name=\"Ocupacion-PatientCS-121\"> </a></td><td>BOTERO</td></tr><tr><td style=\"white-space:nowrap\">122<a name=\"Ocupacion-PatientCS-122\"> </a></td><td>BOTONES</td></tr><tr><td style=\"white-space:nowrap\">123<a name=\"Ocupacion-PatientCS-123\"> </a></td><td>BRIGADISTA</td></tr><tr><td style=\"white-space:nowrap\">124<a name=\"Ocupacion-PatientCS-124\"> </a></td><td>BRIGADISTA FORESTAL</td></tr><tr><td style=\"white-space:nowrap\">125<a name=\"Ocupacion-PatientCS-125\"> </a></td><td>BUZO</td></tr><tr><td style=\"white-space:nowrap\">126<a name=\"Ocupacion-PatientCS-126\"> </a></td><td>BUZO MARISCADOR</td></tr><tr><td style=\"white-space:nowrap\">127<a name=\"Ocupacion-PatientCS-127\"> </a></td><td>CARABINERO DE CHILE</td></tr><tr><td style=\"white-space:nowrap\">128<a name=\"Ocupacion-PatientCS-128\"> </a></td><td>CAJERA</td></tr><tr><td style=\"white-space:nowrap\">129<a name=\"Ocupacion-PatientCS-129\"> </a></td><td>CALCULISTA</td></tr><tr><td style=\"white-space:nowrap\">130<a name=\"Ocupacion-PatientCS-130\"> </a></td><td>CALDERERO</td></tr><tr><td style=\"white-space:nowrap\">131<a name=\"Ocupacion-PatientCS-131\"> </a></td><td>CALICHERO</td></tr><tr><td style=\"white-space:nowrap\">132<a name=\"Ocupacion-PatientCS-132\"> </a></td><td>CALIFICADOR</td></tr><tr><td style=\"white-space:nowrap\">133<a name=\"Ocupacion-PatientCS-133\"> </a></td><td>CAMARERA(O)</td></tr><tr><td style=\"white-space:nowrap\">134<a name=\"Ocupacion-PatientCS-134\"> </a></td><td>CAMINERO(A)</td></tr><tr><td style=\"white-space:nowrap\">135<a name=\"Ocupacion-PatientCS-135\"> </a></td><td>CANTANTE</td></tr><tr><td style=\"white-space:nowrap\">136<a name=\"Ocupacion-PatientCS-136\"> </a></td><td>CAPACITADOR CULTURAL</td></tr><tr><td style=\"white-space:nowrap\">137<a name=\"Ocupacion-PatientCS-137\"> </a></td><td>CAPATAZ</td></tr><tr><td style=\"white-space:nowrap\">138<a name=\"Ocupacion-PatientCS-138\"> </a></td><td>CARGADOR</td></tr><tr><td style=\"white-space:nowrap\">139<a name=\"Ocupacion-PatientCS-139\"> </a></td><td>CARNICERO</td></tr><tr><td style=\"white-space:nowrap\">140<a name=\"Ocupacion-PatientCS-140\"> </a></td><td>CARPINTERO</td></tr><tr><td style=\"white-space:nowrap\">141<a name=\"Ocupacion-PatientCS-141\"> </a></td><td>CARTERO</td></tr><tr><td style=\"white-space:nowrap\">142<a name=\"Ocupacion-PatientCS-142\"> </a></td><td>CECINERO</td></tr><tr><td style=\"white-space:nowrap\">143<a name=\"Ocupacion-PatientCS-143\"> </a></td><td>CERRAJERO</td></tr><tr><td style=\"white-space:nowrap\">144<a name=\"Ocupacion-PatientCS-144\"> </a></td><td>CERVEZERO</td></tr><tr><td style=\"white-space:nowrap\">145<a name=\"Ocupacion-PatientCS-145\"> </a></td><td>CESANTE</td></tr><tr><td style=\"white-space:nowrap\">146<a name=\"Ocupacion-PatientCS-146\"> </a></td><td>CHEF</td></tr><tr><td style=\"white-space:nowrap\">147<a name=\"Ocupacion-PatientCS-147\"> </a></td><td>CIENTIFICO NUCLEAR</td></tr><tr><td style=\"white-space:nowrap\">148<a name=\"Ocupacion-PatientCS-148\"> </a></td><td>CIENTISTA POLITICO</td></tr><tr><td style=\"white-space:nowrap\">149<a name=\"Ocupacion-PatientCS-149\"> </a></td><td>CIRCENSE</td></tr><tr><td style=\"white-space:nowrap\">150<a name=\"Ocupacion-PatientCS-150\"> </a></td><td>COBRADOR</td></tr><tr><td style=\"white-space:nowrap\">151<a name=\"Ocupacion-PatientCS-151\"> </a></td><td>COCINERA(O)</td></tr><tr><td style=\"white-space:nowrap\">152<a name=\"Ocupacion-PatientCS-152\"> </a></td><td>COCTELERA(O)</td></tr><tr><td style=\"white-space:nowrap\">153<a name=\"Ocupacion-PatientCS-153\"> </a></td><td>COLECTIVERO</td></tr><tr><td style=\"white-space:nowrap\">154<a name=\"Ocupacion-PatientCS-154\"> </a></td><td>COMERCIANTE</td></tr><tr><td style=\"white-space:nowrap\">155<a name=\"Ocupacion-PatientCS-155\"> </a></td><td>COMERCIANTE AMBULANTE</td></tr><tr><td style=\"white-space:nowrap\">156<a name=\"Ocupacion-PatientCS-156\"> </a></td><td>COMUNICADOR AUDIO VISUAL</td></tr><tr><td style=\"white-space:nowrap\">157<a name=\"Ocupacion-PatientCS-157\"> </a></td><td>CONCEJAL</td></tr><tr><td style=\"white-space:nowrap\">158<a name=\"Ocupacion-PatientCS-158\"> </a></td><td>CONCERJE</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"Ocupacion-PatientCS-159\"> </a></td><td>CONSTRUCCION</td></tr><tr><td style=\"white-space:nowrap\">160<a name=\"Ocupacion-PatientCS-160\"> </a></td><td>CONSULTOR(A)</td></tr><tr><td style=\"white-space:nowrap\">161<a name=\"Ocupacion-PatientCS-161\"> </a></td><td>CONTRATISTA</td></tr><tr><td style=\"white-space:nowrap\">162<a name=\"Ocupacion-PatientCS-162\"> </a></td><td>CONTROLADOR(A)</td></tr><tr><td style=\"white-space:nowrap\">163<a name=\"Ocupacion-PatientCS-163\"> </a></td><td>COORDINADOR(A)</td></tr><tr><td style=\"white-space:nowrap\">164<a name=\"Ocupacion-PatientCS-164\"> </a></td><td>COPERA(O)</td></tr><tr><td style=\"white-space:nowrap\">165<a name=\"Ocupacion-PatientCS-165\"> </a></td><td>CORRALERO ARREGLADOR DE C.</td></tr><tr><td style=\"white-space:nowrap\">166<a name=\"Ocupacion-PatientCS-166\"> </a></td><td>CORREDOR DE PROPIEDADES</td></tr><tr><td style=\"white-space:nowrap\">167<a name=\"Ocupacion-PatientCS-167\"> </a></td><td>CORREDOR DE SEGURO</td></tr><tr><td style=\"white-space:nowrap\">168<a name=\"Ocupacion-PatientCS-168\"> </a></td><td>CORRETAJE</td></tr><tr><td style=\"white-space:nowrap\">169<a name=\"Ocupacion-PatientCS-169\"> </a></td><td>CORRETAJE DE GANADO</td></tr><tr><td style=\"white-space:nowrap\">170<a name=\"Ocupacion-PatientCS-170\"> </a></td><td>CORTE Y CONFECCION</td></tr><tr><td style=\"white-space:nowrap\">171<a name=\"Ocupacion-PatientCS-171\"> </a></td><td>COSMETOLOGA</td></tr><tr><td style=\"white-space:nowrap\">172<a name=\"Ocupacion-PatientCS-172\"> </a></td><td>COSMETOLOGIA Y ESTETICA</td></tr><tr><td style=\"white-space:nowrap\">173<a name=\"Ocupacion-PatientCS-173\"> </a></td><td>COSTURA</td></tr><tr><td style=\"white-space:nowrap\">174<a name=\"Ocupacion-PatientCS-174\"> </a></td><td>CUARTELERO</td></tr><tr><td style=\"white-space:nowrap\">175<a name=\"Ocupacion-PatientCS-175\"> </a></td><td>CUIDA A ADULTO MAYOR</td></tr><tr><td style=\"white-space:nowrap\">176<a name=\"Ocupacion-PatientCS-176\"> </a></td><td>CUIDA DISCAPACITADO</td></tr><tr><td style=\"white-space:nowrap\">177<a name=\"Ocupacion-PatientCS-177\"> </a></td><td>CUIDA ENFERMOS</td></tr><tr><td style=\"white-space:nowrap\">178<a name=\"Ocupacion-PatientCS-178\"> </a></td><td>CUIDA NIÑOS</td></tr><tr><td style=\"white-space:nowrap\">179<a name=\"Ocupacion-PatientCS-179\"> </a></td><td>CUIDADOR</td></tr><tr><td style=\"white-space:nowrap\">180<a name=\"Ocupacion-PatientCS-180\"> </a></td><td>CUIDA MASCOTAS</td></tr><tr><td style=\"white-space:nowrap\">181<a name=\"Ocupacion-PatientCS-181\"> </a></td><td>DEPILADORA</td></tr><tr><td style=\"white-space:nowrap\">182<a name=\"Ocupacion-PatientCS-182\"> </a></td><td>DEPORTISTA DE ALTO RENDIMIENTO</td></tr><tr><td style=\"white-space:nowrap\">183<a name=\"Ocupacion-PatientCS-183\"> </a></td><td>DESABOLLADOR Y PINTURA</td></tr><tr><td style=\"white-space:nowrap\">184<a name=\"Ocupacion-PatientCS-184\"> </a></td><td>DETENIDO</td></tr><tr><td style=\"white-space:nowrap\">185<a name=\"Ocupacion-PatientCS-185\"> </a></td><td>DIACONO</td></tr><tr><td style=\"white-space:nowrap\">186<a name=\"Ocupacion-PatientCS-186\"> </a></td><td>DIARISTA</td></tr><tr><td style=\"white-space:nowrap\">187<a name=\"Ocupacion-PatientCS-187\"> </a></td><td>DIBUJANTE</td></tr><tr><td style=\"white-space:nowrap\">188<a name=\"Ocupacion-PatientCS-188\"> </a></td><td>DIBUJANTE TECNICO</td></tr><tr><td style=\"white-space:nowrap\">189<a name=\"Ocupacion-PatientCS-189\"> </a></td><td>DIGITADOR(A)</td></tr><tr><td style=\"white-space:nowrap\">190<a name=\"Ocupacion-PatientCS-190\"> </a></td><td>DIRIGENTE SOCIAL</td></tr><tr><td style=\"white-space:nowrap\">191<a name=\"Ocupacion-PatientCS-191\"> </a></td><td>EJECUTIVA</td></tr><tr><td style=\"white-space:nowrap\">192<a name=\"Ocupacion-PatientCS-192\"> </a></td><td>EJERCITO DE CHILE</td></tr><tr><td style=\"white-space:nowrap\">193<a name=\"Ocupacion-PatientCS-193\"> </a></td><td>ELECTRICISTA</td></tr><tr><td style=\"white-space:nowrap\">194<a name=\"Ocupacion-PatientCS-194\"> </a></td><td>ELECTRICO AUTOMOTRIZ</td></tr><tr><td style=\"white-space:nowrap\">195<a name=\"Ocupacion-PatientCS-195\"> </a></td><td>ELECTRICO MECANICO</td></tr><tr><td style=\"white-space:nowrap\">196<a name=\"Ocupacion-PatientCS-196\"> </a></td><td>EMBALADOR</td></tr><tr><td style=\"white-space:nowrap\">197<a name=\"Ocupacion-PatientCS-197\"> </a></td><td>EMBASADOR</td></tr><tr><td style=\"white-space:nowrap\">198<a name=\"Ocupacion-PatientCS-198\"> </a></td><td>EMPALILLADOR</td></tr><tr><td style=\"white-space:nowrap\">199<a name=\"Ocupacion-PatientCS-199\"> </a></td><td>EMPAQUE</td></tr><tr><td style=\"white-space:nowrap\">200<a name=\"Ocupacion-PatientCS-200\"> </a></td><td>EMPLEADO(A)</td></tr><tr><td style=\"white-space:nowrap\">201<a name=\"Ocupacion-PatientCS-201\"> </a></td><td>EMPLEADO PUBLICO</td></tr><tr><td style=\"white-space:nowrap\">202<a name=\"Ocupacion-PatientCS-202\"> </a></td><td>ENFIERRADOR</td></tr><tr><td style=\"white-space:nowrap\">203<a name=\"Ocupacion-PatientCS-203\"> </a></td><td>ENGRASADOR DE VEHICULOS</td></tr><tr><td style=\"white-space:nowrap\">204<a name=\"Ocupacion-PatientCS-204\"> </a></td><td>ENMARCADOR</td></tr><tr><td style=\"white-space:nowrap\">205<a name=\"Ocupacion-PatientCS-205\"> </a></td><td>ENSAMBLADOR</td></tr><tr><td style=\"white-space:nowrap\">206<a name=\"Ocupacion-PatientCS-206\"> </a></td><td>ENTRENADOR DEPORTIVO</td></tr><tr><td style=\"white-space:nowrap\">207<a name=\"Ocupacion-PatientCS-207\"> </a></td><td>ENVASADOR</td></tr><tr><td style=\"white-space:nowrap\">208<a name=\"Ocupacion-PatientCS-208\"> </a></td><td>ENZUNCHADOR</td></tr><tr><td style=\"white-space:nowrap\">209<a name=\"Ocupacion-PatientCS-209\"> </a></td><td>ESCRITOR</td></tr><tr><td style=\"white-space:nowrap\">210<a name=\"Ocupacion-PatientCS-210\"> </a></td><td>ESTAFETA</td></tr><tr><td style=\"white-space:nowrap\">211<a name=\"Ocupacion-PatientCS-211\"> </a></td><td>ESTAQUERO</td></tr><tr><td style=\"white-space:nowrap\">212<a name=\"Ocupacion-PatientCS-212\"> </a></td><td>ESTETICISTA</td></tr><tr><td style=\"white-space:nowrap\">213<a name=\"Ocupacion-PatientCS-213\"> </a></td><td>ESTIBADOR</td></tr><tr><td style=\"white-space:nowrap\">214<a name=\"Ocupacion-PatientCS-214\"> </a></td><td>ESTILISTA</td></tr><tr><td style=\"white-space:nowrap\">215<a name=\"Ocupacion-PatientCS-215\"> </a></td><td>ESTUDIANTE</td></tr><tr><td style=\"white-space:nowrap\">216<a name=\"Ocupacion-PatientCS-216\"> </a></td><td>EVENTOS</td></tr><tr><td style=\"white-space:nowrap\">217<a name=\"Ocupacion-PatientCS-217\"> </a></td><td>FABRICA DE QUESO</td></tr><tr><td style=\"white-space:nowrap\">218<a name=\"Ocupacion-PatientCS-218\"> </a></td><td>FABRICA DE MUEBLES</td></tr><tr><td style=\"white-space:nowrap\">219<a name=\"Ocupacion-PatientCS-219\"> </a></td><td>FABRICA DE VIDRIOS</td></tr><tr><td style=\"white-space:nowrap\">220<a name=\"Ocupacion-PatientCS-220\"> </a></td><td>FABRICA DE ZUECOS</td></tr><tr><td style=\"white-space:nowrap\">221<a name=\"Ocupacion-PatientCS-221\"> </a></td><td>FABRICA HOJALATERIA</td></tr><tr><td style=\"white-space:nowrap\">222<a name=\"Ocupacion-PatientCS-222\"> </a></td><td>FABRICA TEJIDOS</td></tr><tr><td style=\"white-space:nowrap\">223<a name=\"Ocupacion-PatientCS-223\"> </a></td><td>FABRICADOR DE COCINA</td></tr><tr><td style=\"white-space:nowrap\">224<a name=\"Ocupacion-PatientCS-224\"> </a></td><td>FABRICANTE DE VENTANA</td></tr><tr><td style=\"white-space:nowrap\">225<a name=\"Ocupacion-PatientCS-225\"> </a></td><td>FACILITADOR INTERCULTURAL</td></tr><tr><td style=\"white-space:nowrap\">226<a name=\"Ocupacion-PatientCS-226\"> </a></td><td>FAENA</td></tr><tr><td style=\"white-space:nowrap\">227<a name=\"Ocupacion-PatientCS-227\"> </a></td><td>FAENA AGRICOLA FORESTAL</td></tr><tr><td style=\"white-space:nowrap\">228<a name=\"Ocupacion-PatientCS-228\"> </a></td><td>FERIANTE</td></tr><tr><td style=\"white-space:nowrap\">229<a name=\"Ocupacion-PatientCS-229\"> </a></td><td>FERRETERO</td></tr><tr><td style=\"white-space:nowrap\">230<a name=\"Ocupacion-PatientCS-230\"> </a></td><td>FISCALIZADOR(A)</td></tr><tr><td style=\"white-space:nowrap\">231<a name=\"Ocupacion-PatientCS-231\"> </a></td><td>FISICO</td></tr><tr><td style=\"white-space:nowrap\">232<a name=\"Ocupacion-PatientCS-232\"> </a></td><td>FISICA NUCLEAR</td></tr><tr><td style=\"white-space:nowrap\">233<a name=\"Ocupacion-PatientCS-233\"> </a></td><td>FLETES</td></tr><tr><td style=\"white-space:nowrap\">234<a name=\"Ocupacion-PatientCS-234\"> </a></td><td>FLORISTA</td></tr><tr><td style=\"white-space:nowrap\">235<a name=\"Ocupacion-PatientCS-235\"> </a></td><td>FOTOGRAFO(A)</td></tr><tr><td style=\"white-space:nowrap\">236<a name=\"Ocupacion-PatientCS-236\"> </a></td><td>FUNCIONARIO MUNICIPAL.</td></tr><tr><td style=\"white-space:nowrap\">237<a name=\"Ocupacion-PatientCS-237\"> </a></td><td>FUNCIONARIO PUBLICO</td></tr><tr><td style=\"white-space:nowrap\">238<a name=\"Ocupacion-PatientCS-238\"> </a></td><td>FUNDIDOR</td></tr><tr><td style=\"white-space:nowrap\">239<a name=\"Ocupacion-PatientCS-239\"> </a></td><td>FUTBOLISTA</td></tr><tr><td style=\"white-space:nowrap\">240<a name=\"Ocupacion-PatientCS-240\"> </a></td><td>GARZON(A)</td></tr><tr><td style=\"white-space:nowrap\">241<a name=\"Ocupacion-PatientCS-241\"> </a></td><td>GASFITER</td></tr><tr><td style=\"white-space:nowrap\">242<a name=\"Ocupacion-PatientCS-242\"> </a></td><td>GASTRONOMO(A)</td></tr><tr><td style=\"white-space:nowrap\">243<a name=\"Ocupacion-PatientCS-243\"> </a></td><td>GEOGRAFO</td></tr><tr><td style=\"white-space:nowrap\">244<a name=\"Ocupacion-PatientCS-244\"> </a></td><td>GERDARME</td></tr><tr><td style=\"white-space:nowrap\">245<a name=\"Ocupacion-PatientCS-245\"> </a></td><td>GERENTE(A)</td></tr><tr><td style=\"white-space:nowrap\">246<a name=\"Ocupacion-PatientCS-246\"> </a></td><td>GINETE</td></tr><tr><td style=\"white-space:nowrap\">247<a name=\"Ocupacion-PatientCS-247\"> </a></td><td>GROUPIER</td></tr><tr><td style=\"white-space:nowrap\">248<a name=\"Ocupacion-PatientCS-248\"> </a></td><td>GUARDA BOSQUE</td></tr><tr><td style=\"white-space:nowrap\">249<a name=\"Ocupacion-PatientCS-249\"> </a></td><td>GUARDA PARQUE</td></tr><tr><td style=\"white-space:nowrap\">250<a name=\"Ocupacion-PatientCS-250\"> </a></td><td>GUARDADORA</td></tr><tr><td style=\"white-space:nowrap\">251<a name=\"Ocupacion-PatientCS-251\"> </a></td><td>GUARDIA</td></tr><tr><td style=\"white-space:nowrap\">252<a name=\"Ocupacion-PatientCS-252\"> </a></td><td>GUIA</td></tr><tr><td style=\"white-space:nowrap\">253<a name=\"Ocupacion-PatientCS-253\"> </a></td><td>GUIA DE MONTAñA</td></tr><tr><td style=\"white-space:nowrap\">254<a name=\"Ocupacion-PatientCS-254\"> </a></td><td>GUIA INTERCULTURAL.</td></tr><tr><td style=\"white-space:nowrap\">255<a name=\"Ocupacion-PatientCS-255\"> </a></td><td>GUIA TURISTICO</td></tr><tr><td style=\"white-space:nowrap\">256<a name=\"Ocupacion-PatientCS-256\"> </a></td><td>HERRERO</td></tr><tr><td style=\"white-space:nowrap\">257<a name=\"Ocupacion-PatientCS-257\"> </a></td><td>HIGENISTA DENTAL</td></tr><tr><td style=\"white-space:nowrap\">258<a name=\"Ocupacion-PatientCS-258\"> </a></td><td>HOJALATERO</td></tr><tr><td style=\"white-space:nowrap\">259<a name=\"Ocupacion-PatientCS-259\"> </a></td><td>HORTELANA</td></tr><tr><td style=\"white-space:nowrap\">260<a name=\"Ocupacion-PatientCS-260\"> </a></td><td>INDEPENDIENTE</td></tr><tr><td style=\"white-space:nowrap\">261<a name=\"Ocupacion-PatientCS-261\"> </a></td><td>IMPREGNADOR</td></tr><tr><td style=\"white-space:nowrap\">262<a name=\"Ocupacion-PatientCS-262\"> </a></td><td>INSTALADOR(A)</td></tr><tr><td style=\"white-space:nowrap\">263<a name=\"Ocupacion-PatientCS-263\"> </a></td><td>INSTRUCTOR(A)</td></tr><tr><td style=\"white-space:nowrap\">264<a name=\"Ocupacion-PatientCS-264\"> </a></td><td>INSTRUCTOR KARETE</td></tr><tr><td style=\"white-space:nowrap\">265<a name=\"Ocupacion-PatientCS-265\"> </a></td><td>INSTRUCTORA DE ZUMBA</td></tr><tr><td style=\"white-space:nowrap\">266<a name=\"Ocupacion-PatientCS-266\"> </a></td><td>INTENDENTE</td></tr><tr><td style=\"white-space:nowrap\">267<a name=\"Ocupacion-PatientCS-267\"> </a></td><td>INTERNADO DE ESTUDIOS SUPERIORES</td></tr><tr><td style=\"white-space:nowrap\">268<a name=\"Ocupacion-PatientCS-268\"> </a></td><td>INTERNO(A) CARCEL</td></tr><tr><td style=\"white-space:nowrap\">269<a name=\"Ocupacion-PatientCS-269\"> </a></td><td>INTERPRETE LEGUAS</td></tr><tr><td style=\"white-space:nowrap\">270<a name=\"Ocupacion-PatientCS-270\"> </a></td><td>INVALIDEZ</td></tr><tr><td style=\"white-space:nowrap\">271<a name=\"Ocupacion-PatientCS-271\"> </a></td><td>JARDINERO(A)</td></tr><tr><td style=\"white-space:nowrap\">272<a name=\"Ocupacion-PatientCS-272\"> </a></td><td>JEFE(A)</td></tr><tr><td style=\"white-space:nowrap\">273<a name=\"Ocupacion-PatientCS-273\"> </a></td><td>JORNALERO</td></tr><tr><td style=\"white-space:nowrap\">274<a name=\"Ocupacion-PatientCS-274\"> </a></td><td>JOYERO(A)</td></tr><tr><td style=\"white-space:nowrap\">275<a name=\"Ocupacion-PatientCS-275\"> </a></td><td>JUBILADO</td></tr><tr><td style=\"white-space:nowrap\">276<a name=\"Ocupacion-PatientCS-276\"> </a></td><td>JUNIOR</td></tr><tr><td style=\"white-space:nowrap\">277<a name=\"Ocupacion-PatientCS-277\"> </a></td><td>LABORATORISTA</td></tr><tr><td style=\"white-space:nowrap\">278<a name=\"Ocupacion-PatientCS-278\"> </a></td><td>LACTANTE</td></tr><tr><td style=\"white-space:nowrap\">279<a name=\"Ocupacion-PatientCS-279\"> </a></td><td>LECHERO</td></tr><tr><td style=\"white-space:nowrap\">280<a name=\"Ocupacion-PatientCS-280\"> </a></td><td>LECTOR</td></tr><tr><td style=\"white-space:nowrap\">281<a name=\"Ocupacion-PatientCS-281\"> </a></td><td>LECTOR DE LUZ</td></tr><tr><td style=\"white-space:nowrap\">282<a name=\"Ocupacion-PatientCS-282\"> </a></td><td>LEÑADOR</td></tr><tr><td style=\"white-space:nowrap\">283<a name=\"Ocupacion-PatientCS-283\"> </a></td><td>LOCUTOR(A)</td></tr><tr><td style=\"white-space:nowrap\">284<a name=\"Ocupacion-PatientCS-284\"> </a></td><td>LUSTRA BOTAS</td></tr><tr><td style=\"white-space:nowrap\">285<a name=\"Ocupacion-PatientCS-285\"> </a></td><td>MACHI</td></tr><tr><td style=\"white-space:nowrap\">286<a name=\"Ocupacion-PatientCS-286\"> </a></td><td>MADERERO</td></tr><tr><td style=\"white-space:nowrap\">287<a name=\"Ocupacion-PatientCS-287\"> </a></td><td>MAESTRO(A) DE COCINA</td></tr><tr><td style=\"white-space:nowrap\">288<a name=\"Ocupacion-PatientCS-288\"> </a></td><td>MAESTRO(A) PASTELERO(A)</td></tr><tr><td style=\"white-space:nowrap\">289<a name=\"Ocupacion-PatientCS-289\"> </a></td><td>MAESTRO</td></tr><tr><td style=\"white-space:nowrap\">290<a name=\"Ocupacion-PatientCS-290\"> </a></td><td>MALABARISTA</td></tr><tr><td style=\"white-space:nowrap\">291<a name=\"Ocupacion-PatientCS-291\"> </a></td><td>MANEJA MAQUINA PESADA</td></tr><tr><td style=\"white-space:nowrap\">292<a name=\"Ocupacion-PatientCS-292\"> </a></td><td>MANICURISTA</td></tr><tr><td style=\"white-space:nowrap\">293<a name=\"Ocupacion-PatientCS-293\"> </a></td><td>MANIPULADOR(A) DE ALIMENTOS</td></tr><tr><td style=\"white-space:nowrap\">294<a name=\"Ocupacion-PatientCS-294\"> </a></td><td>MANIPULADORA</td></tr><tr><td style=\"white-space:nowrap\">295<a name=\"Ocupacion-PatientCS-295\"> </a></td><td>MARINO MERCANTE</td></tr><tr><td style=\"white-space:nowrap\">296<a name=\"Ocupacion-PatientCS-296\"> </a></td><td>MARISCADOR</td></tr><tr><td style=\"white-space:nowrap\">297<a name=\"Ocupacion-PatientCS-297\"> </a></td><td>MASAJISTA</td></tr><tr><td style=\"white-space:nowrap\">298<a name=\"Ocupacion-PatientCS-298\"> </a></td><td>MASOTERAPEUTA</td></tr><tr><td style=\"white-space:nowrap\">299<a name=\"Ocupacion-PatientCS-299\"> </a></td><td>MAYORDOMO</td></tr><tr><td style=\"white-space:nowrap\">300<a name=\"Ocupacion-PatientCS-300\"> </a></td><td>MECANICO</td></tr><tr><td style=\"white-space:nowrap\">301<a name=\"Ocupacion-PatientCS-301\"> </a></td><td>MECANICO AUTOMOTRIZ</td></tr><tr><td style=\"white-space:nowrap\">302<a name=\"Ocupacion-PatientCS-302\"> </a></td><td>MECANICO INDUSTRIAL</td></tr><tr><td style=\"white-space:nowrap\">303<a name=\"Ocupacion-PatientCS-303\"> </a></td><td>MEDIADORA FAMILIAR</td></tr><tr><td style=\"white-space:nowrap\">304<a name=\"Ocupacion-PatientCS-304\"> </a></td><td>MESERA(O)</td></tr><tr><td style=\"white-space:nowrap\">305<a name=\"Ocupacion-PatientCS-305\"> </a></td><td>MICROEMPRESARIO(A)</td></tr><tr><td style=\"white-space:nowrap\">306<a name=\"Ocupacion-PatientCS-306\"> </a></td><td>MINERO</td></tr><tr><td style=\"white-space:nowrap\">307<a name=\"Ocupacion-PatientCS-307\"> </a></td><td>MISIONERO(A)</td></tr><tr><td style=\"white-space:nowrap\">308<a name=\"Ocupacion-PatientCS-308\"> </a></td><td>MODISTA</td></tr><tr><td style=\"white-space:nowrap\">309<a name=\"Ocupacion-PatientCS-309\"> </a></td><td>MOLINERO</td></tr><tr><td style=\"white-space:nowrap\">310<a name=\"Ocupacion-PatientCS-310\"> </a></td><td>MONITOR(A)</td></tr><tr><td style=\"white-space:nowrap\">311<a name=\"Ocupacion-PatientCS-311\"> </a></td><td>MONJA</td></tr><tr><td style=\"white-space:nowrap\">312<a name=\"Ocupacion-PatientCS-312\"> </a></td><td>MONTAJE EQUIPOS</td></tr><tr><td style=\"white-space:nowrap\">313<a name=\"Ocupacion-PatientCS-313\"> </a></td><td>MONTAJE</td></tr><tr><td style=\"white-space:nowrap\">314<a name=\"Ocupacion-PatientCS-314\"> </a></td><td>MOTOSIERRISTA</td></tr><tr><td style=\"white-space:nowrap\">315<a name=\"Ocupacion-PatientCS-315\"> </a></td><td>MOZO</td></tr><tr><td style=\"white-space:nowrap\">316<a name=\"Ocupacion-PatientCS-316\"> </a></td><td>MR</td></tr><tr><td style=\"white-space:nowrap\">317<a name=\"Ocupacion-PatientCS-317\"> </a></td><td>MUCAMA</td></tr><tr><td style=\"white-space:nowrap\">318<a name=\"Ocupacion-PatientCS-318\"> </a></td><td>MUEBLISTA</td></tr><tr><td style=\"white-space:nowrap\">319<a name=\"Ocupacion-PatientCS-319\"> </a></td><td>MUSICO</td></tr><tr><td style=\"white-space:nowrap\">320<a name=\"Ocupacion-PatientCS-320\"> </a></td><td>NO APLICA</td></tr><tr><td style=\"white-space:nowrap\">321<a name=\"Ocupacion-PatientCS-321\"> </a></td><td>NO INFORMADO</td></tr><tr><td style=\"white-space:nowrap\">322<a name=\"Ocupacion-PatientCS-322\"> </a></td><td>NOCHERO</td></tr><tr><td style=\"white-space:nowrap\">323<a name=\"Ocupacion-PatientCS-323\"> </a></td><td>OBRERO(A)</td></tr><tr><td style=\"white-space:nowrap\">324<a name=\"Ocupacion-PatientCS-324\"> </a></td><td>OBRERO AGRICOLA</td></tr><tr><td style=\"white-space:nowrap\">325<a name=\"Ocupacion-PatientCS-325\"> </a></td><td>OBRERO CONSTRUCCION</td></tr><tr><td style=\"white-space:nowrap\">326<a name=\"Ocupacion-PatientCS-326\"> </a></td><td>OBRERO FORESTAL</td></tr><tr><td style=\"white-space:nowrap\">327<a name=\"Ocupacion-PatientCS-327\"> </a></td><td>OPERADOR(A)</td></tr><tr><td style=\"white-space:nowrap\">328<a name=\"Ocupacion-PatientCS-328\"> </a></td><td>ORFEBRE</td></tr><tr><td style=\"white-space:nowrap\">329<a name=\"Ocupacion-PatientCS-329\"> </a></td><td>ORGANILLERA</td></tr><tr><td style=\"white-space:nowrap\">330<a name=\"Ocupacion-PatientCS-330\"> </a></td><td>ORGANIZADOR DE EVENTOS</td></tr><tr><td style=\"white-space:nowrap\">331<a name=\"Ocupacion-PatientCS-331\"> </a></td><td>ORIENTADORA</td></tr><tr><td style=\"white-space:nowrap\">332<a name=\"Ocupacion-PatientCS-332\"> </a></td><td>ORQUILLERO</td></tr><tr><td style=\"white-space:nowrap\">333<a name=\"Ocupacion-PatientCS-333\"> </a></td><td>PAISAJISTA</td></tr><tr><td style=\"white-space:nowrap\">334<a name=\"Ocupacion-PatientCS-334\"> </a></td><td>PANADERO</td></tr><tr><td style=\"white-space:nowrap\">335<a name=\"Ocupacion-PatientCS-335\"> </a></td><td>PLANIFICADOR</td></tr><tr><td style=\"white-space:nowrap\">336<a name=\"Ocupacion-PatientCS-336\"> </a></td><td>PARQUIMETRO</td></tr><tr><td style=\"white-space:nowrap\">337<a name=\"Ocupacion-PatientCS-337\"> </a></td><td>PASTELERA(O)</td></tr><tr><td style=\"white-space:nowrap\">338<a name=\"Ocupacion-PatientCS-338\"> </a></td><td>PASTOR</td></tr><tr><td style=\"white-space:nowrap\">339<a name=\"Ocupacion-PatientCS-339\"> </a></td><td>PELUQUERO(A)</td></tr><tr><td style=\"white-space:nowrap\">340<a name=\"Ocupacion-PatientCS-340\"> </a></td><td>PENSIONADO(A)</td></tr><tr><td style=\"white-space:nowrap\">341<a name=\"Ocupacion-PatientCS-341\"> </a></td><td>PERSONAL DE ASEO</td></tr><tr><td style=\"white-space:nowrap\">342<a name=\"Ocupacion-PatientCS-342\"> </a></td><td>PESCADOR ARTESANAL</td></tr><tr><td style=\"white-space:nowrap\">343<a name=\"Ocupacion-PatientCS-343\"> </a></td><td>PETICERO</td></tr><tr><td style=\"white-space:nowrap\">344<a name=\"Ocupacion-PatientCS-344\"> </a></td><td>PICADOR DE LEñA</td></tr><tr><td style=\"white-space:nowrap\">345<a name=\"Ocupacion-PatientCS-345\"> </a></td><td>PINTOR</td></tr><tr><td style=\"white-space:nowrap\">346<a name=\"Ocupacion-PatientCS-346\"> </a></td><td>PINTOR AUTOMOTRIZ</td></tr><tr><td style=\"white-space:nowrap\">347<a name=\"Ocupacion-PatientCS-347\"> </a></td><td>PIONETA</td></tr><tr><td style=\"white-space:nowrap\">348<a name=\"Ocupacion-PatientCS-348\"> </a></td><td>PLATERO</td></tr><tr><td style=\"white-space:nowrap\">349<a name=\"Ocupacion-PatientCS-349\"> </a></td><td>PODADOR</td></tr><tr><td style=\"white-space:nowrap\">350<a name=\"Ocupacion-PatientCS-350\"> </a></td><td>PORTERO</td></tr><tr><td style=\"white-space:nowrap\">351<a name=\"Ocupacion-PatientCS-351\"> </a></td><td>PRENSISTA</td></tr><tr><td style=\"white-space:nowrap\">352<a name=\"Ocupacion-PatientCS-352\"> </a></td><td>PREPARADOR</td></tr><tr><td style=\"white-space:nowrap\">353<a name=\"Ocupacion-PatientCS-353\"> </a></td><td>PREPARADOR  FISICO</td></tr><tr><td style=\"white-space:nowrap\">354<a name=\"Ocupacion-PatientCS-354\"> </a></td><td>PREPARADOR DE CABALLOS</td></tr><tr><td style=\"white-space:nowrap\">355<a name=\"Ocupacion-PatientCS-355\"> </a></td><td>PRESTADOR DE SERVICIOS</td></tr><tr><td style=\"white-space:nowrap\">356<a name=\"Ocupacion-PatientCS-356\"> </a></td><td>PREVENCIONISTA DE RIESGO</td></tr><tr><td style=\"white-space:nowrap\">357<a name=\"Ocupacion-PatientCS-357\"> </a></td><td>PROCURADOR</td></tr><tr><td style=\"white-space:nowrap\">358<a name=\"Ocupacion-PatientCS-358\"> </a></td><td>PROMOTOR(A)</td></tr><tr><td style=\"white-space:nowrap\">359<a name=\"Ocupacion-PatientCS-359\"> </a></td><td>PSICOPEDAGOGA</td></tr><tr><td style=\"white-space:nowrap\">360<a name=\"Ocupacion-PatientCS-360\"> </a></td><td>PUBLICISTA</td></tr><tr><td style=\"white-space:nowrap\">361<a name=\"Ocupacion-PatientCS-361\"> </a></td><td>RADIO OPERADOR</td></tr><tr><td style=\"white-space:nowrap\">362<a name=\"Ocupacion-PatientCS-362\"> </a></td><td>RECAUDADOR(A)</td></tr><tr><td style=\"white-space:nowrap\">363<a name=\"Ocupacion-PatientCS-363\"> </a></td><td>RECEPCIONISTA</td></tr><tr><td style=\"white-space:nowrap\">364<a name=\"Ocupacion-PatientCS-364\"> </a></td><td>RECLUSO</td></tr><tr><td style=\"white-space:nowrap\">365<a name=\"Ocupacion-PatientCS-365\"> </a></td><td>RECOLECTOR</td></tr><tr><td style=\"white-space:nowrap\">366<a name=\"Ocupacion-PatientCS-366\"> </a></td><td>RELIGIOSA</td></tr><tr><td style=\"white-space:nowrap\">367<a name=\"Ocupacion-PatientCS-367\"> </a></td><td>REPARADOR BICICLETAS</td></tr><tr><td style=\"white-space:nowrap\">368<a name=\"Ocupacion-PatientCS-368\"> </a></td><td>REPARADOR DE CALZADO</td></tr><tr><td style=\"white-space:nowrap\">369<a name=\"Ocupacion-PatientCS-369\"> </a></td><td>REPARTIDOR</td></tr><tr><td style=\"white-space:nowrap\">370<a name=\"Ocupacion-PatientCS-370\"> </a></td><td>REPONEDOR(A)</td></tr><tr><td style=\"white-space:nowrap\">371<a name=\"Ocupacion-PatientCS-371\"> </a></td><td>REPOSTERA</td></tr><tr><td style=\"white-space:nowrap\">372<a name=\"Ocupacion-PatientCS-372\"> </a></td><td>RONDIN</td></tr><tr><td style=\"white-space:nowrap\">373<a name=\"Ocupacion-PatientCS-373\"> </a></td><td>SACERDOTE</td></tr><tr><td style=\"white-space:nowrap\">374<a name=\"Ocupacion-PatientCS-374\"> </a></td><td>SALVAVIDAS</td></tr><tr><td style=\"white-space:nowrap\">375<a name=\"Ocupacion-PatientCS-375\"> </a></td><td>SERVICIO DOMESTICO</td></tr><tr><td style=\"white-space:nowrap\">376<a name=\"Ocupacion-PatientCS-376\"> </a></td><td>SERVICIO SEXUAL</td></tr><tr><td style=\"white-space:nowrap\">377<a name=\"Ocupacion-PatientCS-377\"> </a></td><td>SIN OCUPACION</td></tr><tr><td style=\"white-space:nowrap\">378<a name=\"Ocupacion-PatientCS-378\"> </a></td><td>SOLDADOR</td></tr><tr><td style=\"white-space:nowrap\">379<a name=\"Ocupacion-PatientCS-379\"> </a></td><td>SONIDISTA</td></tr><tr><td style=\"white-space:nowrap\">380<a name=\"Ocupacion-PatientCS-380\"> </a></td><td>SOSTENEDOR</td></tr><tr><td style=\"white-space:nowrap\">381<a name=\"Ocupacion-PatientCS-381\"> </a></td><td>SUBCOMISARIO DE INVESTIGACIONES</td></tr><tr><td style=\"white-space:nowrap\">382<a name=\"Ocupacion-PatientCS-382\"> </a></td><td>SUBDIRECTOR ADMINISTRATIVO</td></tr><tr><td style=\"white-space:nowrap\">383<a name=\"Ocupacion-PatientCS-383\"> </a></td><td>SUPERVISOR(A)</td></tr><tr><td style=\"white-space:nowrap\">384<a name=\"Ocupacion-PatientCS-384\"> </a></td><td>SUPLEMENTERO(A)</td></tr><tr><td style=\"white-space:nowrap\">385<a name=\"Ocupacion-PatientCS-385\"> </a></td><td>TAPICERO</td></tr><tr><td style=\"white-space:nowrap\">386<a name=\"Ocupacion-PatientCS-386\"> </a></td><td>TATUADOR(A)</td></tr><tr><td style=\"white-space:nowrap\">387<a name=\"Ocupacion-PatientCS-387\"> </a></td><td>TAXISTA</td></tr><tr><td style=\"white-space:nowrap\">388<a name=\"Ocupacion-PatientCS-388\"> </a></td><td>TECNICO</td></tr><tr><td style=\"white-space:nowrap\">389<a name=\"Ocupacion-PatientCS-389\"> </a></td><td>TEMPORERA</td></tr><tr><td style=\"white-space:nowrap\">390<a name=\"Ocupacion-PatientCS-390\"> </a></td><td>TOPOGRAFO</td></tr><tr><td style=\"white-space:nowrap\">391<a name=\"Ocupacion-PatientCS-391\"> </a></td><td>TORNERO</td></tr><tr><td style=\"white-space:nowrap\">392<a name=\"Ocupacion-PatientCS-392\"> </a></td><td>TRABAJOS ESPORADICOS</td></tr><tr><td style=\"white-space:nowrap\">393<a name=\"Ocupacion-PatientCS-393\"> </a></td><td>TRACTORISTA</td></tr><tr><td style=\"white-space:nowrap\">394<a name=\"Ocupacion-PatientCS-394\"> </a></td><td>TRADUCTOR(A)</td></tr><tr><td style=\"white-space:nowrap\">395<a name=\"Ocupacion-PatientCS-395\"> </a></td><td>TRAMITES DE PENSION</td></tr><tr><td style=\"white-space:nowrap\">396<a name=\"Ocupacion-PatientCS-396\"> </a></td><td>TRANSPORTE</td></tr><tr><td style=\"white-space:nowrap\">397<a name=\"Ocupacion-PatientCS-397\"> </a></td><td>TRANSPORTE ESCOLAR</td></tr><tr><td style=\"white-space:nowrap\">398<a name=\"Ocupacion-PatientCS-398\"> </a></td><td>TRANSPORTISTA</td></tr><tr><td style=\"white-space:nowrap\">399<a name=\"Ocupacion-PatientCS-399\"> </a></td><td>TRASADOR</td></tr><tr><td style=\"white-space:nowrap\">400<a name=\"Ocupacion-PatientCS-400\"> </a></td><td>TRASPORTE DE PASAJEROS</td></tr><tr><td style=\"white-space:nowrap\">401<a name=\"Ocupacion-PatientCS-401\"> </a></td><td>TRATERO</td></tr><tr><td style=\"white-space:nowrap\">402<a name=\"Ocupacion-PatientCS-402\"> </a></td><td>TURISMO</td></tr><tr><td style=\"white-space:nowrap\">403<a name=\"Ocupacion-PatientCS-403\"> </a></td><td>TUTORA DE SENAME</td></tr><tr><td style=\"white-space:nowrap\">404<a name=\"Ocupacion-PatientCS-404\"> </a></td><td>URBANIZADOR</td></tr><tr><td style=\"white-space:nowrap\">405<a name=\"Ocupacion-PatientCS-405\"> </a></td><td>VAJILLERA</td></tr><tr><td style=\"white-space:nowrap\">406<a name=\"Ocupacion-PatientCS-406\"> </a></td><td>VENDEDOR(A)</td></tr><tr><td style=\"white-space:nowrap\">407<a name=\"Ocupacion-PatientCS-407\"> </a></td><td>VIDRIERO</td></tr><tr><td style=\"white-space:nowrap\">408<a name=\"Ocupacion-PatientCS-408\"> </a></td><td>VIGILANTE</td></tr><tr><td style=\"white-space:nowrap\">409<a name=\"Ocupacion-PatientCS-409\"> </a></td><td>VISITADOR MEDICO</td></tr><tr><td style=\"white-space:nowrap\">410<a name=\"Ocupacion-PatientCS-410\"> </a></td><td>VITRINISTA</td></tr><tr><td style=\"white-space:nowrap\">411<a name=\"Ocupacion-PatientCS-411\"> </a></td><td>VULCANIZADOR</td></tr><tr><td style=\"white-space:nowrap\">412<a name=\"Ocupacion-PatientCS-412\"> </a></td><td>YERBATERA</td></tr><tr><td style=\"white-space:nowrap\">413<a name=\"Ocupacion-PatientCS-413\"> </a></td><td>ZAPATERO</td></tr><tr><td style=\"white-space:nowrap\">414<a name=\"Ocupacion-PatientCS-414\"> </a></td><td>DUEÑA DE CASA</td></tr><tr><td style=\"white-space:nowrap\">000<a name=\"Ocupacion-PatientCS-000\"> </a></td><td>SIN INFORMACION</td></tr><tr><td style=\"white-space:nowrap\">416<a name=\"Ocupacion-PatientCS-416\"> </a></td><td>INCAPACITADO(A) PERMANENTE PARA TRABAJAR</td></tr><tr><td style=\"white-space:nowrap\">417<a name=\"Ocupacion-PatientCS-417\"> </a></td><td>REMUNERADOR INDEPENDIENTE</td></tr><tr><td style=\"white-space:nowrap\">418<a name=\"Ocupacion-PatientCS-418\"> </a></td><td>REMUNERADOR DEPENDIENTE</td></tr><tr><td style=\"white-space:nowrap\">419<a name=\"Ocupacion-PatientCS-419\"> </a></td><td>RENTISTA</td></tr></table></div>"
+  },
+  "url" : "https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/Ocupacion-PatientCS",
+  "version" : "0.5.3",
+  "name" : "OcupacionCS",
+  "title" : "Ocupación",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-12-01T14:22:43-03:00",
+  "publisher" : "Servicio de Salud Araucania Sur",
+  "contact" : [{
+    "name" : "Servicio de Salud Araucania Sur",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.araucaniasur.cl/"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloam@redsalud.gob.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Codificación de la ocupación que puede tener el paciente, dado la terminología",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 418,
+  "concept" : [{
+    "code" : "001",
+    "display" : "ABOGADO"
+  },
+  {
+    "code" : "002",
+    "display" : "ADMINISTRADOR PUBLICO"
+  },
+  {
+    "code" : "003",
+    "display" : "ADMINISTRATIVOS"
+  },
+  {
+    "code" : "004",
+    "display" : "ANATOMIA PATOLOGICA"
+  },
+  {
+    "code" : "005",
+    "display" : "ANESTESIA"
+  },
+  {
+    "code" : "006",
+    "display" : "ANTROPOLOGO"
+  },
+  {
+    "code" : "007",
+    "display" : "ARQUITECTO"
+  },
+  {
+    "code" : "008",
+    "display" : "ASISTENTE SOCIAL"
+  },
+  {
+    "code" : "009",
+    "display" : "AUXILIAR"
+  },
+  {
+    "code" : "010",
+    "display" : "AUXILIAR PARAMEDICO"
+  },
+  {
+    "code" : "011",
+    "display" : "BIOQUIMICO"
+  },
+  {
+    "code" : "012",
+    "display" : "CHOFER"
+  },
+  {
+    "code" : "013",
+    "display" : "CIRUGIA"
+  },
+  {
+    "code" : "014",
+    "display" : "CIRUGIA INFANTIL"
+  },
+  {
+    "code" : "015",
+    "display" : "CONSTRUCTOR CIVIL"
+  },
+  {
+    "code" : "016",
+    "display" : "CONTADOR"
+  },
+  {
+    "code" : "017",
+    "display" : "CONTADOR AUDITOR"
+  },
+  {
+    "code" : "018",
+    "display" : "DENTISTA ATENCION INTEGRAL/DOCENCIA DE SERVICIO"
+  },
+  {
+    "code" : "019",
+    "display" : "DENTISTA BECARIO DE RETORNO"
+  },
+  {
+    "code" : "020",
+    "display" : "DENTISTA BECARIO PRIMARIO"
+  },
+  {
+    "code" : "021",
+    "display" : "DENTISTA GENERAL DE ZONA"
+  },
+  {
+    "code" : "022",
+    "display" : "DENTISTA PERIODO ASISTENCIAL OBLIGATORIO"
+  },
+  {
+    "code" : "023",
+    "display" : "DERMATOLOGIA"
+  },
+  {
+    "code" : "024",
+    "display" : "DISEÑADOR GRAFICO"
+  },
+  {
+    "code" : "025",
+    "display" : "EDUCADOR SANITARIO"
+  },
+  {
+    "code" : "026",
+    "display" : "EDUCADORA DE PARVULOS"
+  },
+  {
+    "code" : "027",
+    "display" : "ENCUESTADOR Y CODIFICADOR DE DATOS"
+  },
+  {
+    "code" : "028",
+    "display" : "ENFERMERA"
+  },
+  {
+    "code" : "029",
+    "display" : "ESTADISTICO PROFESIONAL"
+  },
+  {
+    "code" : "030",
+    "display" : "ESTADISTICO TECNICO"
+  },
+  {
+    "code" : "031",
+    "display" : "FISIATRIA"
+  },
+  {
+    "code" : "032",
+    "display" : "FONOAUDIOLOGO"
+  },
+  {
+    "code" : "033",
+    "display" : "GEOGRAFO"
+  },
+  {
+    "code" : "034",
+    "display" : "INGENIERO CIVIL"
+  },
+  {
+    "code" : "035",
+    "display" : "INGENIERO COMERCIAL"
+  },
+  {
+    "code" : "036",
+    "display" : "INGENIERO DE EJECUCION"
+  },
+  {
+    "code" : "037",
+    "display" : "INSPECTORES"
+  },
+  {
+    "code" : "038",
+    "display" : "KINESIOLOGO"
+  },
+  {
+    "code" : "039",
+    "display" : "LABORATORIO CLINICO"
+  },
+  {
+    "code" : "040",
+    "display" : "LABORATORISTA DENTAL"
+  },
+  {
+    "code" : "041",
+    "display" : "MATRONA"
+  },
+  {
+    "code" : "042",
+    "display" : "MEDICINA FISICA Y REHABILITACION"
+  },
+  {
+    "code" : "043",
+    "display" : "MEDICINA INTEGRAL"
+  },
+  {
+    "code" : "044",
+    "display" : "MEDICINA INTERNA"
+  },
+  {
+    "code" : "045",
+    "display" : "MEDICINA NUCLEAR"
+  },
+  {
+    "code" : "046",
+    "display" : "MEDICINA SALUD FAMILIAR"
+  },
+  {
+    "code" : "047",
+    "display" : "MEDICO ATENCION INTEGRAL"
+  },
+  {
+    "code" : "048",
+    "display" : "MEDICO BECADO DE RETORNO"
+  },
+  {
+    "code" : "049",
+    "display" : "MEDICO BECADO PRIMARIO"
+  },
+  {
+    "code" : "050",
+    "display" : "MEDICO PERIODO ASISTENCIAL OBLIGATORIO"
+  },
+  {
+    "code" : "051",
+    "display" : "MEDICO VETERINARIO"
+  },
+  {
+    "code" : "052",
+    "display" : "NEUMOTISIOLOGIA"
+  },
+  {
+    "code" : "053",
+    "display" : "NEUROCIRUGIA"
+  },
+  {
+    "code" : "054",
+    "display" : "NEUROLOGIA"
+  },
+  {
+    "code" : "055",
+    "display" : "NEUROPSIQUIATRIA INFANTIL"
+  },
+  {
+    "code" : "056",
+    "display" : "NUTRICIONISTA"
+  },
+  {
+    "code" : "057",
+    "display" : "OBSTETRICIA Y GINECOLOGIA"
+  },
+  {
+    "code" : "058",
+    "display" : "ODONTOLOGO/DENTISTA"
+  },
+  {
+    "code" : "059",
+    "display" : "OFTALMOLOGIA"
+  },
+  {
+    "code" : "060",
+    "display" : "ONCOLOGIA"
+  },
+  {
+    "code" : "061",
+    "display" : "OTORRINOLARINGOLOGIA"
+  },
+  {
+    "code" : "062",
+    "display" : "OTROS TECNICOS"
+  },
+  {
+    "code" : "063",
+    "display" : "PEDIATRIA"
+  },
+  {
+    "code" : "064",
+    "display" : "PERIODISTA"
+  },
+  {
+    "code" : "065",
+    "display" : "PODOLOGO"
+  },
+  {
+    "code" : "066",
+    "display" : "PROCESADOR DE DATOS"
+  },
+  {
+    "code" : "067",
+    "display" : "PROFESOR"
+  },
+  {
+    "code" : "068",
+    "display" : "PSICOLOGO"
+  },
+  {
+    "code" : "069",
+    "display" : "PSIQUIATRIA"
+  },
+  {
+    "code" : "070",
+    "display" : "PSIQUIATRIA INFANTIL"
+  },
+  {
+    "code" : "071",
+    "display" : "QUIMICO FARMACEUTICO"
+  },
+  {
+    "code" : "072",
+    "display" : "QUIMICO FARMACEUTICO GENERAL DE ZONA"
+  },
+  {
+    "code" : "073",
+    "display" : "RADIOLOGIA"
+  },
+  {
+    "code" : "074",
+    "display" : "RADIOTERAPIA/ ONCOLOGIA"
+  },
+  {
+    "code" : "075",
+    "display" : "RELACIONADOR PUBLICO"
+  },
+  {
+    "code" : "076",
+    "display" : "SALUD PUBLICA"
+  },
+  {
+    "code" : "077",
+    "display" : "SECRETARIO/A"
+  },
+  {
+    "code" : "078",
+    "display" : "SOCIOLOGO"
+  },
+  {
+    "code" : "079",
+    "display" : "TECNICO DE NIVEL SUPERIOR (TENS)"
+  },
+  {
+    "code" : "080",
+    "display" : "TECNICO(A) PARAMEDICO DENTAL"
+  },
+  {
+    "code" : "081",
+    "display" : "TECNICOS DE NIVEL SUPERIOR ENFERMERIA"
+  },
+  {
+    "code" : "082",
+    "display" : "TECNOLOGO MEDICO"
+  },
+  {
+    "code" : "083",
+    "display" : "TERAPEUTA OCUPACIONAL"
+  },
+  {
+    "code" : "084",
+    "display" : "TRAUMATOLOGIA Y ORTOPEDIA"
+  },
+  {
+    "code" : "085",
+    "display" : "TRAUMATOLOGIA Y ORTOPEDIA INFANTIL"
+  },
+  {
+    "code" : "086",
+    "display" : "UROLOGIA"
+  },
+  {
+    "code" : "088",
+    "display" : "ACOMODADOR DE AUTOS"
+  },
+  {
+    "code" : "089",
+    "display" : "ACTOR O ACTRIZ"
+  },
+  {
+    "code" : "090",
+    "display" : "ACUICULTOR"
+  },
+  {
+    "code" : "091",
+    "display" : "ADMINISTRADOR"
+  },
+  {
+    "code" : "092",
+    "display" : "AGENTE"
+  },
+  {
+    "code" : "093",
+    "display" : "AGRICULTOR"
+  },
+  {
+    "code" : "094",
+    "display" : "AGRONOMO(A)"
+  },
+  {
+    "code" : "095",
+    "display" : "ALBAÑIL"
+  },
+  {
+    "code" : "096",
+    "display" : "ALMACENERO"
+  },
+  {
+    "code" : "097",
+    "display" : "AMASADOR(A)"
+  },
+  {
+    "code" : "098",
+    "display" : "ANALISTA"
+  },
+  {
+    "code" : "099",
+    "display" : "APICULTOR(A)"
+  },
+  {
+    "code" : "100",
+    "display" : "ARSENALERA"
+  },
+  {
+    "code" : "101",
+    "display" : "ARSENALERA PABELLON"
+  },
+  {
+    "code" : "102",
+    "display" : "ARTESANA"
+  },
+  {
+    "code" : "103",
+    "display" : "ARTISTA"
+  },
+  {
+    "code" : "104",
+    "display" : "ASEO Y ORNATO"
+  },
+  {
+    "code" : "105",
+    "display" : "ASESOR"
+  },
+  {
+    "code" : "106",
+    "display" : "ASESORA DEL HOGAR"
+  },
+  {
+    "code" : "107",
+    "display" : "ASISTENTE"
+  },
+  {
+    "code" : "108",
+    "display" : "ATENCION DE PUBLICO"
+  },
+  {
+    "code" : "109",
+    "display" : "AUDIOPROTESISTA"
+  },
+  {
+    "code" : "110",
+    "display" : "AUDIOVISUALISTAS"
+  },
+  {
+    "code" : "111",
+    "display" : "AUDITOR"
+  },
+  {
+    "code" : "112",
+    "display" : "AYUDANTE"
+  },
+  {
+    "code" : "113",
+    "display" : "BABYSITTER"
+  },
+  {
+    "code" : "114",
+    "display" : "BAILARINA"
+  },
+  {
+    "code" : "115",
+    "display" : "BANQUETERO"
+  },
+  {
+    "code" : "116",
+    "display" : "BARMAN (WOMAN)"
+  },
+  {
+    "code" : "117",
+    "display" : "BIBLIOTECARIO(A)"
+  },
+  {
+    "code" : "118",
+    "display" : "BODEGUERO(A)"
+  },
+  {
+    "code" : "119",
+    "display" : "BOMBERO DE BENCINERA"
+  },
+  {
+    "code" : "120",
+    "display" : "BOMBERO(A)"
+  },
+  {
+    "code" : "121",
+    "display" : "BOTERO"
+  },
+  {
+    "code" : "122",
+    "display" : "BOTONES"
+  },
+  {
+    "code" : "123",
+    "display" : "BRIGADISTA"
+  },
+  {
+    "code" : "124",
+    "display" : "BRIGADISTA FORESTAL"
+  },
+  {
+    "code" : "125",
+    "display" : "BUZO"
+  },
+  {
+    "code" : "126",
+    "display" : "BUZO MARISCADOR"
+  },
+  {
+    "code" : "127",
+    "display" : "CARABINERO DE CHILE"
+  },
+  {
+    "code" : "128",
+    "display" : "CAJERA"
+  },
+  {
+    "code" : "129",
+    "display" : "CALCULISTA"
+  },
+  {
+    "code" : "130",
+    "display" : "CALDERERO"
+  },
+  {
+    "code" : "131",
+    "display" : "CALICHERO"
+  },
+  {
+    "code" : "132",
+    "display" : "CALIFICADOR"
+  },
+  {
+    "code" : "133",
+    "display" : "CAMARERA(O)"
+  },
+  {
+    "code" : "134",
+    "display" : "CAMINERO(A)"
+  },
+  {
+    "code" : "135",
+    "display" : "CANTANTE"
+  },
+  {
+    "code" : "136",
+    "display" : "CAPACITADOR CULTURAL"
+  },
+  {
+    "code" : "137",
+    "display" : "CAPATAZ"
+  },
+  {
+    "code" : "138",
+    "display" : "CARGADOR"
+  },
+  {
+    "code" : "139",
+    "display" : "CARNICERO"
+  },
+  {
+    "code" : "140",
+    "display" : "CARPINTERO"
+  },
+  {
+    "code" : "141",
+    "display" : "CARTERO"
+  },
+  {
+    "code" : "142",
+    "display" : "CECINERO"
+  },
+  {
+    "code" : "143",
+    "display" : "CERRAJERO"
+  },
+  {
+    "code" : "144",
+    "display" : "CERVEZERO"
+  },
+  {
+    "code" : "145",
+    "display" : "CESANTE"
+  },
+  {
+    "code" : "146",
+    "display" : "CHEF"
+  },
+  {
+    "code" : "147",
+    "display" : "CIENTIFICO NUCLEAR"
+  },
+  {
+    "code" : "148",
+    "display" : "CIENTISTA POLITICO"
+  },
+  {
+    "code" : "149",
+    "display" : "CIRCENSE"
+  },
+  {
+    "code" : "150",
+    "display" : "COBRADOR"
+  },
+  {
+    "code" : "151",
+    "display" : "COCINERA(O)"
+  },
+  {
+    "code" : "152",
+    "display" : "COCTELERA(O)"
+  },
+  {
+    "code" : "153",
+    "display" : "COLECTIVERO"
+  },
+  {
+    "code" : "154",
+    "display" : "COMERCIANTE"
+  },
+  {
+    "code" : "155",
+    "display" : "COMERCIANTE AMBULANTE"
+  },
+  {
+    "code" : "156",
+    "display" : "COMUNICADOR AUDIO VISUAL"
+  },
+  {
+    "code" : "157",
+    "display" : "CONCEJAL"
+  },
+  {
+    "code" : "158",
+    "display" : "CONCERJE"
+  },
+  {
+    "code" : "159",
+    "display" : "CONSTRUCCION"
+  },
+  {
+    "code" : "160",
+    "display" : "CONSULTOR(A)"
+  },
+  {
+    "code" : "161",
+    "display" : "CONTRATISTA"
+  },
+  {
+    "code" : "162",
+    "display" : "CONTROLADOR(A)"
+  },
+  {
+    "code" : "163",
+    "display" : "COORDINADOR(A)"
+  },
+  {
+    "code" : "164",
+    "display" : "COPERA(O)"
+  },
+  {
+    "code" : "165",
+    "display" : "CORRALERO ARREGLADOR DE C."
+  },
+  {
+    "code" : "166",
+    "display" : "CORREDOR DE PROPIEDADES"
+  },
+  {
+    "code" : "167",
+    "display" : "CORREDOR DE SEGURO"
+  },
+  {
+    "code" : "168",
+    "display" : "CORRETAJE"
+  },
+  {
+    "code" : "169",
+    "display" : "CORRETAJE DE GANADO"
+  },
+  {
+    "code" : "170",
+    "display" : "CORTE Y CONFECCION"
+  },
+  {
+    "code" : "171",
+    "display" : "COSMETOLOGA"
+  },
+  {
+    "code" : "172",
+    "display" : "COSMETOLOGIA Y ESTETICA"
+  },
+  {
+    "code" : "173",
+    "display" : "COSTURA"
+  },
+  {
+    "code" : "174",
+    "display" : "CUARTELERO"
+  },
+  {
+    "code" : "175",
+    "display" : "CUIDA A ADULTO MAYOR"
+  },
+  {
+    "code" : "176",
+    "display" : "CUIDA DISCAPACITADO"
+  },
+  {
+    "code" : "177",
+    "display" : "CUIDA ENFERMOS"
+  },
+  {
+    "code" : "178",
+    "display" : "CUIDA NIÑOS"
+  },
+  {
+    "code" : "179",
+    "display" : "CUIDADOR"
+  },
+  {
+    "code" : "180",
+    "display" : "CUIDA MASCOTAS"
+  },
+  {
+    "code" : "181",
+    "display" : "DEPILADORA"
+  },
+  {
+    "code" : "182",
+    "display" : "DEPORTISTA DE ALTO RENDIMIENTO"
+  },
+  {
+    "code" : "183",
+    "display" : "DESABOLLADOR Y PINTURA"
+  },
+  {
+    "code" : "184",
+    "display" : "DETENIDO"
+  },
+  {
+    "code" : "185",
+    "display" : "DIACONO"
+  },
+  {
+    "code" : "186",
+    "display" : "DIARISTA"
+  },
+  {
+    "code" : "187",
+    "display" : "DIBUJANTE"
+  },
+  {
+    "code" : "188",
+    "display" : "DIBUJANTE TECNICO"
+  },
+  {
+    "code" : "189",
+    "display" : "DIGITADOR(A)"
+  },
+  {
+    "code" : "190",
+    "display" : "DIRIGENTE SOCIAL"
+  },
+  {
+    "code" : "191",
+    "display" : "EJECUTIVA"
+  },
+  {
+    "code" : "192",
+    "display" : "EJERCITO DE CHILE"
+  },
+  {
+    "code" : "193",
+    "display" : "ELECTRICISTA"
+  },
+  {
+    "code" : "194",
+    "display" : "ELECTRICO AUTOMOTRIZ"
+  },
+  {
+    "code" : "195",
+    "display" : "ELECTRICO MECANICO"
+  },
+  {
+    "code" : "196",
+    "display" : "EMBALADOR"
+  },
+  {
+    "code" : "197",
+    "display" : "EMBASADOR"
+  },
+  {
+    "code" : "198",
+    "display" : "EMPALILLADOR"
+  },
+  {
+    "code" : "199",
+    "display" : "EMPAQUE"
+  },
+  {
+    "code" : "200",
+    "display" : "EMPLEADO(A)"
+  },
+  {
+    "code" : "201",
+    "display" : "EMPLEADO PUBLICO"
+  },
+  {
+    "code" : "202",
+    "display" : "ENFIERRADOR"
+  },
+  {
+    "code" : "203",
+    "display" : "ENGRASADOR DE VEHICULOS"
+  },
+  {
+    "code" : "204",
+    "display" : "ENMARCADOR"
+  },
+  {
+    "code" : "205",
+    "display" : "ENSAMBLADOR"
+  },
+  {
+    "code" : "206",
+    "display" : "ENTRENADOR DEPORTIVO"
+  },
+  {
+    "code" : "207",
+    "display" : "ENVASADOR"
+  },
+  {
+    "code" : "208",
+    "display" : "ENZUNCHADOR"
+  },
+  {
+    "code" : "209",
+    "display" : "ESCRITOR"
+  },
+  {
+    "code" : "210",
+    "display" : "ESTAFETA"
+  },
+  {
+    "code" : "211",
+    "display" : "ESTAQUERO"
+  },
+  {
+    "code" : "212",
+    "display" : "ESTETICISTA"
+  },
+  {
+    "code" : "213",
+    "display" : "ESTIBADOR"
+  },
+  {
+    "code" : "214",
+    "display" : "ESTILISTA"
+  },
+  {
+    "code" : "215",
+    "display" : "ESTUDIANTE"
+  },
+  {
+    "code" : "216",
+    "display" : "EVENTOS"
+  },
+  {
+    "code" : "217",
+    "display" : "FABRICA DE QUESO"
+  },
+  {
+    "code" : "218",
+    "display" : "FABRICA DE MUEBLES"
+  },
+  {
+    "code" : "219",
+    "display" : "FABRICA DE VIDRIOS"
+  },
+  {
+    "code" : "220",
+    "display" : "FABRICA DE ZUECOS"
+  },
+  {
+    "code" : "221",
+    "display" : "FABRICA HOJALATERIA"
+  },
+  {
+    "code" : "222",
+    "display" : "FABRICA TEJIDOS"
+  },
+  {
+    "code" : "223",
+    "display" : "FABRICADOR DE COCINA"
+  },
+  {
+    "code" : "224",
+    "display" : "FABRICANTE DE VENTANA"
+  },
+  {
+    "code" : "225",
+    "display" : "FACILITADOR INTERCULTURAL"
+  },
+  {
+    "code" : "226",
+    "display" : "FAENA"
+  },
+  {
+    "code" : "227",
+    "display" : "FAENA AGRICOLA FORESTAL"
+  },
+  {
+    "code" : "228",
+    "display" : "FERIANTE"
+  },
+  {
+    "code" : "229",
+    "display" : "FERRETERO"
+  },
+  {
+    "code" : "230",
+    "display" : "FISCALIZADOR(A)"
+  },
+  {
+    "code" : "231",
+    "display" : "FISICO"
+  },
+  {
+    "code" : "232",
+    "display" : "FISICA NUCLEAR"
+  },
+  {
+    "code" : "233",
+    "display" : "FLETES"
+  },
+  {
+    "code" : "234",
+    "display" : "FLORISTA"
+  },
+  {
+    "code" : "235",
+    "display" : "FOTOGRAFO(A)"
+  },
+  {
+    "code" : "236",
+    "display" : "FUNCIONARIO MUNICIPAL."
+  },
+  {
+    "code" : "237",
+    "display" : "FUNCIONARIO PUBLICO"
+  },
+  {
+    "code" : "238",
+    "display" : "FUNDIDOR"
+  },
+  {
+    "code" : "239",
+    "display" : "FUTBOLISTA"
+  },
+  {
+    "code" : "240",
+    "display" : "GARZON(A)"
+  },
+  {
+    "code" : "241",
+    "display" : "GASFITER"
+  },
+  {
+    "code" : "242",
+    "display" : "GASTRONOMO(A)"
+  },
+  {
+    "code" : "243",
+    "display" : "GEOGRAFO"
+  },
+  {
+    "code" : "244",
+    "display" : "GERDARME"
+  },
+  {
+    "code" : "245",
+    "display" : "GERENTE(A)"
+  },
+  {
+    "code" : "246",
+    "display" : "GINETE"
+  },
+  {
+    "code" : "247",
+    "display" : "GROUPIER"
+  },
+  {
+    "code" : "248",
+    "display" : "GUARDA BOSQUE"
+  },
+  {
+    "code" : "249",
+    "display" : "GUARDA PARQUE"
+  },
+  {
+    "code" : "250",
+    "display" : "GUARDADORA"
+  },
+  {
+    "code" : "251",
+    "display" : "GUARDIA"
+  },
+  {
+    "code" : "252",
+    "display" : "GUIA"
+  },
+  {
+    "code" : "253",
+    "display" : "GUIA DE MONTAñA"
+  },
+  {
+    "code" : "254",
+    "display" : "GUIA INTERCULTURAL."
+  },
+  {
+    "code" : "255",
+    "display" : "GUIA TURISTICO"
+  },
+  {
+    "code" : "256",
+    "display" : "HERRERO"
+  },
+  {
+    "code" : "257",
+    "display" : "HIGENISTA DENTAL"
+  },
+  {
+    "code" : "258",
+    "display" : "HOJALATERO"
+  },
+  {
+    "code" : "259",
+    "display" : "HORTELANA"
+  },
+  {
+    "code" : "260",
+    "display" : "INDEPENDIENTE"
+  },
+  {
+    "code" : "261",
+    "display" : "IMPREGNADOR"
+  },
+  {
+    "code" : "262",
+    "display" : "INSTALADOR(A)"
+  },
+  {
+    "code" : "263",
+    "display" : "INSTRUCTOR(A)"
+  },
+  {
+    "code" : "264",
+    "display" : "INSTRUCTOR KARETE"
+  },
+  {
+    "code" : "265",
+    "display" : "INSTRUCTORA DE ZUMBA"
+  },
+  {
+    "code" : "266",
+    "display" : "INTENDENTE"
+  },
+  {
+    "code" : "267",
+    "display" : "INTERNADO DE ESTUDIOS SUPERIORES"
+  },
+  {
+    "code" : "268",
+    "display" : "INTERNO(A) CARCEL"
+  },
+  {
+    "code" : "269",
+    "display" : "INTERPRETE LEGUAS"
+  },
+  {
+    "code" : "270",
+    "display" : "INVALIDEZ"
+  },
+  {
+    "code" : "271",
+    "display" : "JARDINERO(A)"
+  },
+  {
+    "code" : "272",
+    "display" : "JEFE(A)"
+  },
+  {
+    "code" : "273",
+    "display" : "JORNALERO"
+  },
+  {
+    "code" : "274",
+    "display" : "JOYERO(A)"
+  },
+  {
+    "code" : "275",
+    "display" : "JUBILADO"
+  },
+  {
+    "code" : "276",
+    "display" : "JUNIOR"
+  },
+  {
+    "code" : "277",
+    "display" : "LABORATORISTA"
+  },
+  {
+    "code" : "278",
+    "display" : "LACTANTE"
+  },
+  {
+    "code" : "279",
+    "display" : "LECHERO"
+  },
+  {
+    "code" : "280",
+    "display" : "LECTOR"
+  },
+  {
+    "code" : "281",
+    "display" : "LECTOR DE LUZ"
+  },
+  {
+    "code" : "282",
+    "display" : "LEÑADOR"
+  },
+  {
+    "code" : "283",
+    "display" : "LOCUTOR(A)"
+  },
+  {
+    "code" : "284",
+    "display" : "LUSTRA BOTAS"
+  },
+  {
+    "code" : "285",
+    "display" : "MACHI"
+  },
+  {
+    "code" : "286",
+    "display" : "MADERERO"
+  },
+  {
+    "code" : "287",
+    "display" : "MAESTRO(A) DE COCINA"
+  },
+  {
+    "code" : "288",
+    "display" : "MAESTRO(A) PASTELERO(A)"
+  },
+  {
+    "code" : "289",
+    "display" : "MAESTRO"
+  },
+  {
+    "code" : "290",
+    "display" : "MALABARISTA"
+  },
+  {
+    "code" : "291",
+    "display" : "MANEJA MAQUINA PESADA"
+  },
+  {
+    "code" : "292",
+    "display" : "MANICURISTA"
+  },
+  {
+    "code" : "293",
+    "display" : "MANIPULADOR(A) DE ALIMENTOS"
+  },
+  {
+    "code" : "294",
+    "display" : "MANIPULADORA"
+  },
+  {
+    "code" : "295",
+    "display" : "MARINO MERCANTE"
+  },
+  {
+    "code" : "296",
+    "display" : "MARISCADOR"
+  },
+  {
+    "code" : "297",
+    "display" : "MASAJISTA"
+  },
+  {
+    "code" : "298",
+    "display" : "MASOTERAPEUTA"
+  },
+  {
+    "code" : "299",
+    "display" : "MAYORDOMO"
+  },
+  {
+    "code" : "300",
+    "display" : "MECANICO"
+  },
+  {
+    "code" : "301",
+    "display" : "MECANICO AUTOMOTRIZ"
+  },
+  {
+    "code" : "302",
+    "display" : "MECANICO INDUSTRIAL"
+  },
+  {
+    "code" : "303",
+    "display" : "MEDIADORA FAMILIAR"
+  },
+  {
+    "code" : "304",
+    "display" : "MESERA(O)"
+  },
+  {
+    "code" : "305",
+    "display" : "MICROEMPRESARIO(A)"
+  },
+  {
+    "code" : "306",
+    "display" : "MINERO"
+  },
+  {
+    "code" : "307",
+    "display" : "MISIONERO(A)"
+  },
+  {
+    "code" : "308",
+    "display" : "MODISTA"
+  },
+  {
+    "code" : "309",
+    "display" : "MOLINERO"
+  },
+  {
+    "code" : "310",
+    "display" : "MONITOR(A)"
+  },
+  {
+    "code" : "311",
+    "display" : "MONJA"
+  },
+  {
+    "code" : "312",
+    "display" : "MONTAJE EQUIPOS"
+  },
+  {
+    "code" : "313",
+    "display" : "MONTAJE"
+  },
+  {
+    "code" : "314",
+    "display" : "MOTOSIERRISTA"
+  },
+  {
+    "code" : "315",
+    "display" : "MOZO"
+  },
+  {
+    "code" : "316",
+    "display" : "MR"
+  },
+  {
+    "code" : "317",
+    "display" : "MUCAMA"
+  },
+  {
+    "code" : "318",
+    "display" : "MUEBLISTA"
+  },
+  {
+    "code" : "319",
+    "display" : "MUSICO"
+  },
+  {
+    "code" : "320",
+    "display" : "NO APLICA"
+  },
+  {
+    "code" : "321",
+    "display" : "NO INFORMADO"
+  },
+  {
+    "code" : "322",
+    "display" : "NOCHERO"
+  },
+  {
+    "code" : "323",
+    "display" : "OBRERO(A)"
+  },
+  {
+    "code" : "324",
+    "display" : "OBRERO AGRICOLA"
+  },
+  {
+    "code" : "325",
+    "display" : "OBRERO CONSTRUCCION"
+  },
+  {
+    "code" : "326",
+    "display" : "OBRERO FORESTAL"
+  },
+  {
+    "code" : "327",
+    "display" : "OPERADOR(A)"
+  },
+  {
+    "code" : "328",
+    "display" : "ORFEBRE"
+  },
+  {
+    "code" : "329",
+    "display" : "ORGANILLERA"
+  },
+  {
+    "code" : "330",
+    "display" : "ORGANIZADOR DE EVENTOS"
+  },
+  {
+    "code" : "331",
+    "display" : "ORIENTADORA"
+  },
+  {
+    "code" : "332",
+    "display" : "ORQUILLERO"
+  },
+  {
+    "code" : "333",
+    "display" : "PAISAJISTA"
+  },
+  {
+    "code" : "334",
+    "display" : "PANADERO"
+  },
+  {
+    "code" : "335",
+    "display" : "PLANIFICADOR"
+  },
+  {
+    "code" : "336",
+    "display" : "PARQUIMETRO"
+  },
+  {
+    "code" : "337",
+    "display" : "PASTELERA(O)"
+  },
+  {
+    "code" : "338",
+    "display" : "PASTOR"
+  },
+  {
+    "code" : "339",
+    "display" : "PELUQUERO(A)"
+  },
+  {
+    "code" : "340",
+    "display" : "PENSIONADO(A)"
+  },
+  {
+    "code" : "341",
+    "display" : "PERSONAL DE ASEO"
+  },
+  {
+    "code" : "342",
+    "display" : "PESCADOR ARTESANAL"
+  },
+  {
+    "code" : "343",
+    "display" : "PETICERO"
+  },
+  {
+    "code" : "344",
+    "display" : "PICADOR DE LEñA"
+  },
+  {
+    "code" : "345",
+    "display" : "PINTOR"
+  },
+  {
+    "code" : "346",
+    "display" : "PINTOR AUTOMOTRIZ"
+  },
+  {
+    "code" : "347",
+    "display" : "PIONETA"
+  },
+  {
+    "code" : "348",
+    "display" : "PLATERO"
+  },
+  {
+    "code" : "349",
+    "display" : "PODADOR"
+  },
+  {
+    "code" : "350",
+    "display" : "PORTERO"
+  },
+  {
+    "code" : "351",
+    "display" : "PRENSISTA"
+  },
+  {
+    "code" : "352",
+    "display" : "PREPARADOR"
+  },
+  {
+    "code" : "353",
+    "display" : "PREPARADOR  FISICO"
+  },
+  {
+    "code" : "354",
+    "display" : "PREPARADOR DE CABALLOS"
+  },
+  {
+    "code" : "355",
+    "display" : "PRESTADOR DE SERVICIOS"
+  },
+  {
+    "code" : "356",
+    "display" : "PREVENCIONISTA DE RIESGO"
+  },
+  {
+    "code" : "357",
+    "display" : "PROCURADOR"
+  },
+  {
+    "code" : "358",
+    "display" : "PROMOTOR(A)"
+  },
+  {
+    "code" : "359",
+    "display" : "PSICOPEDAGOGA"
+  },
+  {
+    "code" : "360",
+    "display" : "PUBLICISTA"
+  },
+  {
+    "code" : "361",
+    "display" : "RADIO OPERADOR"
+  },
+  {
+    "code" : "362",
+    "display" : "RECAUDADOR(A)"
+  },
+  {
+    "code" : "363",
+    "display" : "RECEPCIONISTA"
+  },
+  {
+    "code" : "364",
+    "display" : "RECLUSO"
+  },
+  {
+    "code" : "365",
+    "display" : "RECOLECTOR"
+  },
+  {
+    "code" : "366",
+    "display" : "RELIGIOSA"
+  },
+  {
+    "code" : "367",
+    "display" : "REPARADOR BICICLETAS"
+  },
+  {
+    "code" : "368",
+    "display" : "REPARADOR DE CALZADO"
+  },
+  {
+    "code" : "369",
+    "display" : "REPARTIDOR"
+  },
+  {
+    "code" : "370",
+    "display" : "REPONEDOR(A)"
+  },
+  {
+    "code" : "371",
+    "display" : "REPOSTERA"
+  },
+  {
+    "code" : "372",
+    "display" : "RONDIN"
+  },
+  {
+    "code" : "373",
+    "display" : "SACERDOTE"
+  },
+  {
+    "code" : "374",
+    "display" : "SALVAVIDAS"
+  },
+  {
+    "code" : "375",
+    "display" : "SERVICIO DOMESTICO"
+  },
+  {
+    "code" : "376",
+    "display" : "SERVICIO SEXUAL"
+  },
+  {
+    "code" : "377",
+    "display" : "SIN OCUPACION"
+  },
+  {
+    "code" : "378",
+    "display" : "SOLDADOR"
+  },
+  {
+    "code" : "379",
+    "display" : "SONIDISTA"
+  },
+  {
+    "code" : "380",
+    "display" : "SOSTENEDOR"
+  },
+  {
+    "code" : "381",
+    "display" : "SUBCOMISARIO DE INVESTIGACIONES"
+  },
+  {
+    "code" : "382",
+    "display" : "SUBDIRECTOR ADMINISTRATIVO"
+  },
+  {
+    "code" : "383",
+    "display" : "SUPERVISOR(A)"
+  },
+  {
+    "code" : "384",
+    "display" : "SUPLEMENTERO(A)"
+  },
+  {
+    "code" : "385",
+    "display" : "TAPICERO"
+  },
+  {
+    "code" : "386",
+    "display" : "TATUADOR(A)"
+  },
+  {
+    "code" : "387",
+    "display" : "TAXISTA"
+  },
+  {
+    "code" : "388",
+    "display" : "TECNICO"
+  },
+  {
+    "code" : "389",
+    "display" : "TEMPORERA"
+  },
+  {
+    "code" : "390",
+    "display" : "TOPOGRAFO"
+  },
+  {
+    "code" : "391",
+    "display" : "TORNERO"
+  },
+  {
+    "code" : "392",
+    "display" : "TRABAJOS ESPORADICOS"
+  },
+  {
+    "code" : "393",
+    "display" : "TRACTORISTA"
+  },
+  {
+    "code" : "394",
+    "display" : "TRADUCTOR(A)"
+  },
+  {
+    "code" : "395",
+    "display" : "TRAMITES DE PENSION"
+  },
+  {
+    "code" : "396",
+    "display" : "TRANSPORTE"
+  },
+  {
+    "code" : "397",
+    "display" : "TRANSPORTE ESCOLAR"
+  },
+  {
+    "code" : "398",
+    "display" : "TRANSPORTISTA"
+  },
+  {
+    "code" : "399",
+    "display" : "TRASADOR"
+  },
+  {
+    "code" : "400",
+    "display" : "TRASPORTE DE PASAJEROS"
+  },
+  {
+    "code" : "401",
+    "display" : "TRATERO"
+  },
+  {
+    "code" : "402",
+    "display" : "TURISMO"
+  },
+  {
+    "code" : "403",
+    "display" : "TUTORA DE SENAME"
+  },
+  {
+    "code" : "404",
+    "display" : "URBANIZADOR"
+  },
+  {
+    "code" : "405",
+    "display" : "VAJILLERA"
+  },
+  {
+    "code" : "406",
+    "display" : "VENDEDOR(A)"
+  },
+  {
+    "code" : "407",
+    "display" : "VIDRIERO"
+  },
+  {
+    "code" : "408",
+    "display" : "VIGILANTE"
+  },
+  {
+    "code" : "409",
+    "display" : "VISITADOR MEDICO"
+  },
+  {
+    "code" : "410",
+    "display" : "VITRINISTA"
+  },
+  {
+    "code" : "411",
+    "display" : "VULCANIZADOR"
+  },
+  {
+    "code" : "412",
+    "display" : "YERBATERA"
+  },
+  {
+    "code" : "413",
+    "display" : "ZAPATERO"
+  },
+  {
+    "code" : "414",
+    "display" : "DUEÑA DE CASA"
+  },
+  {
+    "code" : "000",
+    "display" : "SIN INFORMACION"
+  },
+  {
+    "code" : "416",
+    "display" : "INCAPACITADO(A) PERMANENTE PARA TRABAJAR"
+  },
+  {
+    "code" : "417",
+    "display" : "REMUNERADOR INDEPENDIENTE"
+  },
+  {
+    "code" : "418",
+    "display" : "REMUNERADOR DEPENDIENTE"
+  },
+  {
+    "code" : "419",
+    "display" : "RENTISTA"
+  }]
+}

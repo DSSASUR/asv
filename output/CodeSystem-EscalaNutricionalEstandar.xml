@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="EscalaNutricionalEstandar"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalEstandar</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">BajoloNormal<a name="EscalaNutricionalEstandar-BajoloNormal"> </a></td><td>Bajo Peso</td></tr><tr><td style="white-space:nowrap">Normal<a name="EscalaNutricionalEstandar-Normal"> </a></td><td>Normal</td></tr><tr><td style="white-space:nowrap">Sobrepeso<a name="EscalaNutricionalEstandar-Sobrepeso"> </a></td><td>Sobrepeso</td></tr><tr><td style="white-space:nowrap">Obesidad<a name="EscalaNutricionalEstandar-Obesidad"> </a></td><td>Obesidad</td></tr></table></div>
+  </text>
+  <url value="https://www.ssasur.cl/fhir/ig/ASV/CodeSystem/EscalaNutricionalEstandar"/>
+  <version value="0.5.3"/>
+  <name value="EscalaNutricionalEstandar"/>
+  <title value="Escala Nutricional"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2022-12-01T14:22:43-03:00"/>
+  <publisher value="Servicio de Salud Araucania Sur"/>
+  <contact>
+    <name value="Servicio de Salud Araucania Sur"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.araucaniasur.cl/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Franco Ulloa"/>
+    <telecom>
+      <system value="email"/>
+      <value value="franco.ulloam@redsalud.gob.cl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Escala estandar de nutrición para un paciente"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="BajoloNormal"/>
+    <display value="Bajo Peso"/>
+  </concept>
+  <concept>
+    <code value="Normal"/>
+    <display value="Normal"/>
+  </concept>
+  <concept>
+    <code value="Sobrepeso"/>
+    <display value="Sobrepeso"/>
+  </concept>
+  <concept>
+    <code value="Obesidad"/>
+    <display value="Obesidad"/>
+  </concept>
+</CodeSystem>

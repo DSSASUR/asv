@@ -1,0 +1,84 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "ExampleRecuperacion",
+  "meta" : {
+    "profile" : ["https://www.ssasur.cl/fhir/ig/ASV/StructureDefinition/CdrTransactionRecuperacion"]
+  },
+  "identifier" : {
+    "value" : "6fc2e782-fd56-415e-bc85-f6dcdwrewerwe"
+  },
+  "type" : "transaction",
+  "timestamp" : "2022-07-07T12:00:01-04:00",
+  "entry" : [{
+    "request" : {
+      "method" : "GET",
+      "url" : "Composition/4745debb-35e6-42f5-8094-65f9b47dcc94"
+    }
+  },
+  {
+    "request" : {
+      "method" : "GET",
+      "url" : "Patient/56851b4b-9867-4b72-9a2c-3a1c8c1cbddf"
+    }
+  },
+  {
+    "request" : {
+      "method" : "GET",
+      "url" : "Practitioner/03e6e7e2-7b2f-40c9-bf4d-6e222a71ee50"
+    }
+  },
+  {
+    "request" : {
+      "method" : "GET",
+      "url" : "Organization/30561296-f509-40d1-878a-1d4f9e71365d"
+    }
+  },
+  {
+    "request" : {
+      "method" : "GET",
+      "url" : "Observation/30561296-f509-40d1-878a-1d42432ffd0a"
+    }
+  },
+  {
+    "request" : {
+      "method" : "GET",
+      "url" : "Observation/84f42b61-d690-45e6-87f8-0672432ffd0a"
+    }
+  },
+  {
+    "request" : {
+      "method" : "GET",
+      "url" : "Observation/13d97bbc-7a58-49e9-bf12-4add450b605a"
+    }
+  },
+  {
+    "request" : {
+      "method" : "GET",
+      "url" : "Observation/0b06f501-5465-4b31-b106-56f73cc0ef99"
+    }
+  },
+  {
+    "request" : {
+      "method" : "GET",
+      "url" : "Observation/df1a8537-56a2-4aec-aa6c-f6f537e874e7"
+    }
+  },
+  {
+    "request" : {
+      "method" : "GET",
+      "url" : "Observation/432b12d6-5a42-47ca-8024-495309843029"
+    }
+  },
+  {
+    "request" : {
+      "method" : "GET",
+      "url" : "Observation/4bb12bcf-44f1-4af0-9deb-5688de0f0230"
+    }
+  },
+  {
+    "request" : {
+      "method" : "GET",
+      "url" : "Observation/0549e5ba-54da-4dc8-8217-73f4ab458787"
+    }
+  }]
+}
