@@ -6,6 +6,5 @@
   * [Organization](StructureDefinition-CdrOrganizationHosp.html)
   * [Observation](StructureDefinition-CdrSignosVitales.html)
 
-* Tambien puede ser útilizado para recuperar otros recurso disponibles dentro del servidor. 
 
 

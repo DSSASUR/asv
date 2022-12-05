@@ -9,7 +9,7 @@ name: AlmacenamientoSignosVitales
 title: Almacenamiento de Signos Vitales
 description: Guía de implementación para describir los recursos utilizados de los signos vitales para un registro clínico de los pacientes.
 status: draft # draft | active | retired | unknown
-version: 0.5.3
+version: 0.5.4
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2022+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
