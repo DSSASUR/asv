@@ -1,5 +1,5 @@
 Profile:     CdrTransactionPublicacion
-Parent:      ClBundle
+Parent:      BundleCL
 Id:          CdrTransactionPublicacion
 Title:       "Transacción De Recursos (Publicación)"
 Description: "Este recurso permite realizar transacciones con el servidor. Todos los fullURL creadas por este recurso deben ser urn:uidd"

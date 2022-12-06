@@ -1,5 +1,5 @@
 Profile:     CdrPractitioner
-Parent:      ClPrestador
+Parent:      PrestadorCL
 Id:          CdrPractitioner
 Title:       "Prestador de Salud"
 Description: "Este recurso nace del proyecto de laboratorio del servicio de salud Araucanía sur y la guía core de HL7 Chile."
@@ -87,13 +87,13 @@ Description: "Este recurso nace del proyecto de laboratorio del servicio de salu
 * address.use from AddressUse
 * address.line ^short = "Calle o avenida, numero y casa o depto."
 * address.city ^short = "Campo para Comuna de residencia."
-* address.city from VSCodigosComunaCL (required)
+// * address.city from VSCodigosComunaCL (required)
 * address.district ^short = "Campo para Provincia de Residencia."
-* address.district from VSCodigosProvinciasCL (required)
+// * address.district from VSCodigosProvinciasCL (required)
 * address.state ^short = "Campo para Provincia de Región."
-* address.state from VSCodigosRegionesCL (required)
+// * address.state from VSCodigosRegionesCL (required)
 * address.country ^short = "Campo para País de Residencia."
-* address.country from CodPais (required)
+// * address.country from CodPais (required)
 
 * gender 1..1 MS
 * gender ^short = "male | female | other | unknown (requerido)"

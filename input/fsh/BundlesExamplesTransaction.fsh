@@ -191,7 +191,7 @@ Usage:      #inline
 * address.state.extension[RegionesCl] = region
 * address.country.extension[CodigoPaises] = pais
 * maritalStatus = EstadoCivilCS#01 "SOLTERO(A)"
-* contact.extension[IdContacto].url = "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/IdContacto"
+* contact.extension[IdContacto].url = "https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/IdContacto"
 * contact.extension[IdContacto].extension[tutId].url = "tutId"
 * contact.extension[IdContacto].extension[tutId].valueIdentifier.type = $CodigosDNI#NNCHL "Chile"
 * contact.extension[IdContacto].extension[tutId].valueIdentifier.system = "https://api.registrocivil.cl/rut"

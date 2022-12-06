@@ -1,5 +1,5 @@
 Profile:     CdrOrganizationHosp
-Parent:      ClOrganization
+Parent:      OrganizacionCL
 Id:          CdrOrganizationHosp
 Title:       "Recinto de Salud Araucania Sur"
 Description: "Recinto que entrega prestaciones de salud."

@@ -1,5 +1,5 @@
 Profile:     CdrTransactionRecuperacion
-Parent:      ClBundle
+Parent:      BundleCL
 Id:          CdrTransactionRecuperacion
 Title:       "Transacción De Recursos(Recuparación)"
 Description: "Este recursos permite realizar transacciones con el servidor para recuperar todos los recursos necesarios para crear el documento."

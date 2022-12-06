@@ -3,13 +3,13 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.cl.corecl.ssasur.asv
+id: hl7.fhir.cl.ssasur.asv
 canonical: https://www.ssasur.cl/fhir/ig/ASV
 name: AlmacenamientoSignosVitales
 title: Almacenamiento de Signos Vitales
 description: Guía de implementación para describir los recursos utilizados de los signos vitales para un registro clínico de los pacientes.
 status: draft # draft | active | retired | unknown
-version: 0.5.4
+version: 0.6.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2022+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -19,10 +19,8 @@ publisher:
   name: Servicio de Salud Araucania Sur
   url: https://www.araucaniasur.cl/
 dependencies:
-  hl7.fhir.cl.corecl: 
-    id: CoreCLDEV
-    uri: https://build.fhir.org/ig/HL7Chile/CL-Core/
-    version: dev
+  hl7.fhir.cl.corecl: 1.7.0
+    
   
 
 # The dependencies property corresponds to IG.dependsOn. The key is the

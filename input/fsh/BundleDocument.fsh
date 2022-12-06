@@ -1,5 +1,5 @@
 Profile:     CdrDocument
-Parent:      ClBundle
+Parent:      BundleCL
 Id:          CdrDocument
 Title:       "Bundle Para Documento Clínico"
 Description: "Documento en el cual se almacena los signos vitales del paciente previo o durante su consulta."

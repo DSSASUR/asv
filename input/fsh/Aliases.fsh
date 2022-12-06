@@ -10,23 +10,23 @@ RuleSet: RuleSetMeta
 //Extensiones
 Alias:   SegundoApellido = http://hl7.org/fhir/StructureDefinition/humanname-mothers-family
 Alias:   GenderIdentity = http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
-Alias:   CodigoPaises = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises
-Alias:   IdContacto = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/IdContacto
-Alias:   ComunasCl = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ComunasCl
-Alias:   ProvinciasCl = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ProvinciasCl
-Alias:   RegionesCl = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/RegionesCl
+Alias:   CodigoPaises = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/CodigoPaises
+Alias:   IdContacto = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/IdContacto
+Alias:   ComunasCl = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/ComunasCl
+Alias:   ProvinciasCl = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/ProvinciasCl
+Alias:   RegionesCl = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/RegionesCl
 Alias:  VersionNumber = http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber
 
 //Perfiles
-Alias:  CLPatient = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CorePacienteCl
-Alias:  ClOrganization = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CoreOrganizacionCl
-Alias:  ClPrestador = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CorePrestadorCl
-Alias:  ClLocation = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CoreLocalizacionCl
-Alias:  ClBundle = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/BundleCl
-Alias:  DocumentoCl = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/DocumentoCl
-Alias:  ClEspecialidad = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CoreEspecialidadCl
+Alias:  CLPatient = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/CorePacienteCl
+Alias:  ClOrganization = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/CoreOrganizacionCl
+Alias:  ClPrestador = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/CorePrestadorCl
+Alias:  ClLocation = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/CoreLocalizacionCl
+Alias:  ClBundle = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/BundleCl
+// Alias:  DocumentoCl = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/DocumentoCl
+Alias:  ClEspecialidad = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/CoreEspecialidadCl
 Alias:  ObservationSignalVital = http://hl7.org/fhir/StructureDefinition/vitalsigns
-Alias:  ClProvenance = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ProvenanceCl
+Alias:  ClProvenance = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/ProvenanceCl
 
 //Data-Type
-Alias: ClAddress = https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/cl-address
+// Alias: ClAddress = https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/cl-address

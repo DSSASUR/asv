@@ -1,5 +1,5 @@
 Profile:     CdrProvenance
-Parent:      ClProvenance
+Parent:      ProvenanceCL
 Id:          CdrProvenance
 Title:       "Firma Digital"
 Description: "Este recurso permite guardar la firma de los documentos de signos vitales."

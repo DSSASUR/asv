@@ -1,5 +1,5 @@
 Profile:     CdrPatient
-Parent:      CLPatient
+Parent:      PacienteCl
 Id:          CdrPatient
 Title:       "Paciente Servicio de Salud Araucania Sur"
 Description: "Este recurso paciente utiliza la información mínima requerida según la guía core y el servicio de salud Araucanía sur"
@@ -9,7 +9,7 @@ Description: "Este recurso paciente utiliza la información mínima requerida se
 
 * extension[CodigoPaises] 1..1 MS
 * extension[CodigoPaises] ^short = "Nacionalidad del Paciente."
-* extension[CodigoPaises].valueCodeableConcept from CodPais
+// * extension[CodigoPaises].valueCodeableConcept from CodPais
 
 * extension contains IdentidadDeGenero named IdentidadDeGenero 0..1 MS
 * extension[IdentidadDeGenero] ^short = "Identidad de género del Paciente."
@@ -269,13 +269,13 @@ Description: "Paciente de Prueba."
 // Una sola dirección
 * address.use = #home
 * address.line = "Av Los Chirimoyos, 32, casa 4"
-* address.city.extension[ComunasCl].url = "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ComunasCl"
+* address.city.extension[ComunasCl].url = "https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/ComunasCl"
 * address.city.extension[ComunasCl].valueCodeableConcept.coding = CSCodigosComunaCL#15101
-* address.district.extension[ProvinciasCl].url = "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/ProvinciasCl"
+* address.district.extension[ProvinciasCl].url = "https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/ProvinciasCl"
 * address.district.extension[ProvinciasCl].valueCodeableConcept.coding = CSCodigosProvinciasCL#151
-* address.state.extension[RegionesCl].url = "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/RegionesCl"
+* address.state.extension[RegionesCl].url = "https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/RegionesCl"
 * address.state.extension[RegionesCl].valueCodeableConcept.coding = CSCodigosRegionesCL#15 "Arica y Parinacota"
-* address.country.extension[CodigoPaises].url = "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/CodigoPaises"
+* address.country.extension[CodigoPaises].url = "https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/CodigoPaises"
 * address.country.extension[CodigoPaises].valueCodeableConcept.coding = urn:iso:std:iso:3166#152
 
 //Estado Civil
